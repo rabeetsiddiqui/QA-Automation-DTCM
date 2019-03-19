@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ExcelLogin,Chrome 72.0.3626.121,,2019-03-15 16:01:19,2019-03-15 16:03:06,1m - 47.039s,ERROR
+,,,,,,
+Test Cases/DTCM/Login and logout/DataExtractingFromExcel,Chrome 72.0.3626.121,,2019-03-15 16:01:19,2019-03-15 16:01:40,20.574s,ERROR
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-15 16:01:20,2019-03-15 16:01:39,19.830s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-15 16:01:39,2019-03-15 16:01:39,0.009s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-15 16:01:39,2019-03-15 16:01:39,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-15 16:01:39,2019-03-15 16:01:39,0.096s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-15 16:01:39,2019-03-15 16:01:39,0.000s,PASSED
+"username = ""muhammad.saad@ovrlod.com""",Chrome 72.0.3626.121,,2019-03-15 16:01:39,2019-03-15 16:01:39,0.001s,PASSED
+"password = ""Qwerty##1244""",Chrome 72.0.3626.121,,2019-03-15 16:01:39,2019-03-15 16:01:39,0.001s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-15 16:01:39,2019-03-15 16:01:40,0.302s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-15 16:01:40,2019-03-15 16:01:40,0.073s,ERROR
+,,,,,,
+Test Cases/DTCM/Login and logout/DataExtractingFromExcel,Chrome 72.0.3626.121,,2019-03-15 16:01:40,2019-03-15 16:01:54,14.198s,ERROR
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-15 16:01:40,2019-03-15 16:01:53,13.554s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-15 16:01:53,2019-03-15 16:01:53,0.000s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-15 16:01:53,2019-03-15 16:01:53,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-15 16:01:53,2019-03-15 16:01:53,0.014s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-15 16:01:53,2019-03-15 16:01:53,0.001s,PASSED
+"username = ""muhammad.saad@ovrlod.com""",Chrome 72.0.3626.121,,2019-03-15 16:01:53,2019-03-15 16:01:53,0.000s,PASSED
+"password = ""Qwerty##1244""",Chrome 72.0.3626.121,,2019-03-15 16:01:53,2019-03-15 16:01:53,0.000s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-15 16:01:53,2019-03-15 16:01:54,0.581s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-15 16:01:54,2019-03-15 16:01:54,0.033s,ERROR
+,,,,,,
+Test Cases/DTCM/Login and logout/DataExtractingFromExcel,Chrome 72.0.3626.121,,2019-03-15 16:01:54,2019-03-15 16:02:15,20.506s,ERROR
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-15 16:01:54,2019-03-15 16:02:14,20.232s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-15 16:02:14,2019-03-15 16:02:14,0.000s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-15 16:02:14,2019-03-15 16:02:14,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-15 16:02:14,2019-03-15 16:02:14,0.015s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-15 16:02:14,2019-03-15 16:02:14,0.000s,PASSED
+"username = ""muhammad.saad@ovrlod.com""",Chrome 72.0.3626.121,,2019-03-15 16:02:14,2019-03-15 16:02:14,0.000s,PASSED
+"password = ""Qwerty##1244""",Chrome 72.0.3626.121,,2019-03-15 16:02:14,2019-03-15 16:02:14,0.000s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-15 16:02:14,2019-03-15 16:02:15,0.208s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-15 16:02:15,2019-03-15 16:02:15,0.033s,ERROR
+,,,,,,
+Test Cases/DTCM/Login and logout/DataExtractingFromExcel,Chrome 72.0.3626.121,,2019-03-15 16:02:15,2019-03-15 16:02:42,27.492s,ERROR
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-15 16:02:15,2019-03-15 16:02:42,27.166s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:02:42,0.000s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:02:42,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:02:42,0.018s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:02:42,0.000s,PASSED
+"username = ""muhammad.saad@ovrlod.com""",Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:02:42,0.000s,PASSED
+"password = ""Qwerty##1244""",Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:02:42,0.000s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:02:42,0.265s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:02:42,0.030s,ERROR
+,,,,,,
+Test Cases/DTCM/Login and logout/DataExtractingFromExcel,Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:03:06,23.430s,ERROR
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-15 16:02:42,2019-03-15 16:03:05,23.080s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-15 16:03:05,2019-03-15 16:03:05,0.000s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-15 16:03:05,2019-03-15 16:03:05,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-15 16:03:05,2019-03-15 16:03:05,0.019s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-15 16:03:05,2019-03-15 16:03:05,0.000s,PASSED
+"username = ""muhammad.saad@ovrlod.com""",Chrome 72.0.3626.121,,2019-03-15 16:03:05,2019-03-15 16:03:05,0.000s,PASSED
+"password = ""Qwerty##1244""",Chrome 72.0.3626.121,,2019-03-15 16:03:05,2019-03-15 16:03:05,0.000s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-15 16:03:05,2019-03-15 16:03:05,0.289s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-15 16:03:05,2019-03-15 16:03:06,0.030s,ERROR

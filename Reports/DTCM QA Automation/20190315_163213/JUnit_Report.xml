@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DTCM QA Automation" time="162" tests="5" failures="0" errors="0">
+   <testsuite name="DTCM QA Automation" tests="5" failures="0" errors="0" time="162" timestamp="2019-03-15 16:32:14" hostname="rabeet - SQA-02-004.ovrlod.pk" id="Test Suites/DTCM QA Automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\DTCM QA Automation\\20190315_163213"/>
+         <property name="logFiles" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\DTCM QA Automation\\20190315_163213\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rabeet - SQA-02-004.ovrlod.pk"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="90.90.90.96"/>
+         <property name="sessionId" value="afb270404fd3824808c951062b79972a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario" classname="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario" status="PASSED">
+         <system-out><![CDATA[2019-03-15 16:32:14 - [TEST_CASE][PASSED] - Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario: Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario
+
+2019-03-15 16:32:14 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-03-15 16:32:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-15 16:32:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-15 16:32:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-03-15 16:32:20 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-15 16:32:20 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2019-03-15 16:32:20 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-15 16:32:20 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-03-15 16:32:21 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-03-15 16:32:21 - [TEST_STEP][PASSED] - username = "muhammad.saad@ovrlod.com": null
+
+2019-03-15 16:32:21 - [TEST_STEP][PASSED] - password = "Qwerty##1244": null
+
+2019-03-15 16:32:21 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-03-15 16:32:33 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null
+
+2019-03-15 16:32:33 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-15 16:32:35 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", username): null
+
+2019-03-15 16:32:35 - [TEST_STEP][PASSED] - selenium.type("id=tbPassword", password): null
+
+2019-03-15 16:32:35 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-15 16:32:36 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-15 16:32:37 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:32:37 - [TEST_STEP][PASSED] - locationNow = location: null
+
+2019-03-15 16:32:37 - [TEST_STEP][PASSED] - if (CurrentURL == locationNow): null
+
+2019-03-15 16:32:37 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Forget Password/Forget Login Info" classname="Test Cases/DTCM/Forget Password/Forget Login Info" status="PASSED">
+         <system-out><![CDATA[2019-03-15 16:32:37 - [TEST_CASE][PASSED] - Test Cases/DTCM/Forget Password/Forget Login Info: Test Cases/DTCM/Forget Password/Forget Login Info
+
+2019-03-15 16:32:38 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-03-15 16:32:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-15 16:32:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-15 16:32:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-03-15 16:32:43 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-15 16:32:43 - [TEST_STEP][PASSED] - base = driver.getWindowHandle(): null
+
+2019-03-15 16:32:43 - [TEST_STEP][PASSED] - StartPoint = "https://www.google.com/": null
+
+2019-03-15 16:32:43 - [TEST_STEP][PASSED] - email = "muhammad.saad@ovrlod.com": null
+
+2019-03-15 16:32:43 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, StartPoint): null
+
+2019-03-15 16:32:43 - [TEST_STEP][PASSED] - selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789"): null
+
+2019-03-15 16:32:52 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-03-15 16:32:57 - [TEST_STEP][PASSED] - selenium.click("link=exact:Forgot login info?"): null
+
+2019-03-15 16:33:00 - [TEST_STEP][PASSED] - selenium.click("id=txtResetPasswordEmail"): null
+
+2019-03-15 16:33:00 - [TEST_STEP][PASSED] - selenium.type("id=txtResetPasswordEmail", email): null
+
+2019-03-15 16:33:00 - [TEST_STEP][PASSED] - selenium.click("id=resetpassworddiv"): null
+
+2019-03-15 16:33:00 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_btnSendAccountReset"): null
+
+2019-03-15 16:33:00 - [TEST_STEP][PASSED] - Thread.sleep(20000): null
+
+2019-03-15 16:33:20 - [TEST_STEP][PASSED] - js = driver: null
+
+2019-03-15 16:33:20 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:33:20 - [TEST_STEP][PASSED] - CreateAccountUrl = "https://qacd2.testvisitdubai.com/en/account/create-account?UT=" + email: null
+
+2019-03-15 16:33:20 - [TEST_STEP][PASSED] - command = "window.open('" + CreateAccountUrl + "');": null
+
+2019-03-15 16:33:20 - [TEST_STEP][PASSED] - out.println(command): null
+
+2019-03-15 16:33:21 - [TEST_STEP][PASSED] - js.executeScript(command): null
+
+2019-03-15 16:33:21 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-03-15 16:33:24 - [TEST_STEP][PASSED] - tabs = new java.util.ArrayList(driver.getWindowHandles()): null
+
+2019-03-15 16:33:24 - [TEST_STEP][PASSED] - out.println(tabs.size()): null
+
+2019-03-15 16:33:24 - [TEST_STEP][PASSED] - switchTo().window(tabs.get(1)): null
+
+2019-03-15 16:33:24 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-03-15 16:33:29 - [TEST_STEP][PASSED] - ParentElement = driver.findElement(By.id("divHomeWrap")): null
+
+2019-03-15 16:33:30 - [TEST_STEP][PASSED] - htmlstring = ParentElement.getText(): null
+
+2019-03-15 16:33:30 - [TEST_STEP][PASSED] - out.println(htmlstring): null
+
+2019-03-15 16:33:30 - [TEST_STEP][PASSED] - ChildList = ParentElement.findElements(By.tagName("h2")): null
+
+2019-03-15 16:33:30 - [TEST_STEP][PASSED] - otp = ChildList.get(0): null
+
+2019-03-15 16:33:30 - [TEST_STEP][PASSED] - value = otp.getText(): null
+
+2019-03-15 16:33:30 - [TEST_STEP][PASSED] - out.println(value): null
+
+2019-03-15 16:33:30 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+2019-03-15 16:33:32 - [TEST_STEP][PASSED] - switchTo().window(base): null
+
+2019-03-15 16:33:32 - [TEST_STEP][PASSED] - selenium.click("id=txtToken"): null
+
+2019-03-15 16:33:32 - [TEST_STEP][PASSED] - selenium.type("id=txtToken", value): null
+
+2019-03-15 16:33:32 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_btnVerifyToken"): null
+
+2019-03-15 16:33:33 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+2019-03-15 16:33:35 - [TEST_STEP][PASSED] - selenium.click("id=password"): null
+
+2019-03-15 16:33:35 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:33:36 - [TEST_STEP][PASSED] - selenium.type("id=password", "Qwerty#1"): null
+
+2019-03-15 16:33:36 - [TEST_STEP][PASSED] - selenium.click("id=confirmPassword"): null
+
+2019-03-15 16:33:36 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:33:36 - [TEST_STEP][PASSED] - selenium.type("id=confirmPassword", "Qwerty#1"): null
+
+2019-03-15 16:33:36 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-15 16:33:40 - [TEST_STEP][PASSED] - Thread.sleep(2500): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario" classname="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario" status="PASSED">
+         <system-out><![CDATA[2019-03-15 16:33:43 - [TEST_CASE][PASSED] - Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario: Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario
+
+2019-03-15 16:33:43 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-03-15 16:33:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-15 16:33:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-15 16:33:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-03-15 16:33:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-15 16:33:47 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2019-03-15 16:33:47 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-15 16:33:47 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-03-15 16:33:49 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-03-15 16:33:49 - [TEST_STEP][PASSED] - username = "muhammad.saad@ovrlod.com": null
+
+2019-03-15 16:33:49 - [TEST_STEP][PASSED] - password = "Qwerty##1244": null
+
+2019-03-15 16:33:49 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-03-15 16:33:53 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null
+
+2019-03-15 16:33:53 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-15 16:33:55 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", username): null
+
+2019-03-15 16:33:55 - [TEST_STEP][PASSED] - selenium.type("id=tbPassword", password): null
+
+2019-03-15 16:33:55 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-15 16:33:57 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-15 16:34:00 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:34:00 - [TEST_STEP][PASSED] - locationNow = location: null
+
+2019-03-15 16:34:00 - [TEST_STEP][PASSED] - if (CurrentURL == locationNow): null
+
+2019-03-15 16:34:00 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Login and logout/LoginFormValidation" classname="Test Cases/DTCM/Login and logout/LoginFormValidation" status="PASSED">
+         <system-out><![CDATA[2019-03-15 16:34:00 - [TEST_CASE][PASSED] - Test Cases/DTCM/Login and logout/LoginFormValidation: Test Cases/DTCM/Login and logout/LoginFormValidation
+
+2019-03-15 16:34:01 - [TEST_STEP][PASSED] - openBrowser("https://qacd2.testvisitdubai.com/en/account/login?v=78798789"): Browser is opened with url: 'https://qacd2.testvisitdubai.com/en/account/login?v=78798789'
+
+2019-03-15 16:34:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-15 16:34:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-15 16:34:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qacd2.testvisitdubai.com/en/account/login?v=78798789'
+
+2019-03-15 16:34:12 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-15 16:34:12 - [TEST_STEP][PASSED] - baseUrl = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-03-15 16:34:12 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-15 16:34:12 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-03-15 16:34:13 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+2019-03-15 16:34:15 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", "muhammad.saad@ovrlod.com"): null
+
+2019-03-15 16:34:15 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-15 16:34:17 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-15 16:34:18 - [TEST_STEP][PASSED] - emailFieldErrorDisplay = id("plhcontent_0_rfvEmail")).getCssValue("display"): null
+
+2019-03-15 16:34:18 - [TEST_STEP][PASSED] - passFieldErrorDisplay = id("plhcontent_0_rfvPassword")).getCssValue("display"): null
+
+2019-03-15 16:34:18 - [TEST_STEP][PASSED] - if (passFieldErrorDisplay != "none"): null
+
+2019-03-15 16:34:18 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/SignUp/Create Account" classname="Test Cases/DTCM/SignUp/Create Account" status="PASSED">
+         <system-out><![CDATA[2019-03-15 16:34:18 - [TEST_CASE][PASSED] - Test Cases/DTCM/SignUp/Create Account: Test Cases/DTCM/SignUp/Create Account
+
+2019-03-15 16:34:18 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-03-15 16:34:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-15 16:34:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-15 16:34:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-03-15 16:34:24 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-15 16:34:24 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-03-15 16:34:24 - [TEST_STEP][PASSED] - email = "rabeet.siddiqui@ovrlod.com": null
+
+2019-03-15 16:34:24 - [TEST_STEP][PASSED] - password = "Qwerty#1": null
+
+2019-03-15 16:34:24 - [TEST_STEP][PASSED] - name = "Rabeet": null
+
+2019-03-15 16:34:24 - [TEST_STEP][PASSED] - lastname = "Siddiqui": null
+
+2019-03-15 16:34:24 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-15 16:34:24 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-03-15 16:34:25 - [TEST_STEP][PASSED] - selenium.open("https://qacd2.testvisitdubai.com/en/account/create-account"): null
+
+2019-03-15 16:34:33 - [TEST_STEP][PASSED] - selenium.click("id=firstName"): null
+
+2019-03-15 16:34:33 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:34:34 - [TEST_STEP][PASSED] - selenium.type("id=firstName", name): null
+
+2019-03-15 16:34:34 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:34:34 - [TEST_STEP][PASSED] - selenium.type("id=lastName", lastname): null
+
+2019-03-15 16:34:34 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:34:35 - [TEST_STEP][PASSED] - selenium.type("id=password", password): null
+
+2019-03-15 16:34:35 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:34:35 - [TEST_STEP][PASSED] - selenium.type("id=confirmPassword", password): null
+
+2019-03-15 16:34:35 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:34:36 - [TEST_STEP][PASSED] - selenium.type("id=email", email): null
+
+2019-03-15 16:34:36 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:34:36 - [TEST_STEP][PASSED] - selenium.click("link=Country/Region"): null
+
+2019-03-15 16:34:36 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:34:37 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Country/Region'])[4]/following::label[1]"): null
+
+2019-03-15 16:34:37 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-15 16:34:38 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/following::label[1]"): null
+
+2019-03-15 16:34:38 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-15 16:34:39 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-15 16:34:44 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-15 16:34:45 - [TEST_STEP][PASSED] - selenium.open("https://qacd2.testvisitdubai.com/en/account/create-account?UT=" + email): null
+
+2019-03-15 16:34:47 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-03-15 16:34:50 - [TEST_STEP][PASSED] - ParentElement = driver.findElement(By.id("divHomeWrap")): null
+
+2019-03-15 16:34:50 - [TEST_STEP][PASSED] - ChildList = ParentElement.findElements(By.tagName("h2")): null
+
+2019-03-15 16:34:50 - [TEST_STEP][PASSED] - otp = ChildList.get(0): null
+
+2019-03-15 16:34:50 - [TEST_STEP][PASSED] - value = otp.getText(): null
+
+2019-03-15 16:34:50 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+2019-03-15 16:34:53 - [TEST_STEP][PASSED] - stringurl = "https://qacd2.testvisitdubai.com/en/account/token-verification?register=1&token=" + value: null
+
+2019-03-15 16:34:53 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-15 16:34:54 - [TEST_STEP][PASSED] - selenium.open(stringurl): null
+
+2019-03-15 16:34:55 - [TEST_STEP][PASSED] - Thread.sleep(1500): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-15 16:32:14 - [TEST_SUITE][PASSED] - DTCM QA Automation: Test Cases/DTCM/SignUp/Create Account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

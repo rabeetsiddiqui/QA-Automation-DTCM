@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+practice,Chrome 72.0.3626.121,,2019-03-18 16:20:39,2019-03-18 16:21:14,35.324s,FAILED
+,,,,,,
+Test Cases/Practice Test Cases/record,Chrome 72.0.3626.121,,2019-03-18 16:20:39,2019-03-18 16:21:14,34.551s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-18 16:20:39,2019-03-18 16:20:42,3.101s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login on Twitter/input_Log in_sessionusername_or_email""), ""rabeet.sijdi"")",Chrome 72.0.3626.121,,2019-03-18 16:20:42,2019-03-18 16:21:14,31.248s,FAILED

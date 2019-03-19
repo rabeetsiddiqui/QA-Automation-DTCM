@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ExcelLogin" time="117" tests="5" failures="0" errors="0">
+   <testsuite name="ExcelLogin" tests="5" failures="0" errors="0" time="117" timestamp="2019-03-14 17:50:08" hostname="rabeet - SQA-02-004.ovrlod.pk" id="Test Suites/ExcelLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\ExcelLogin\\20190314_175007"/>
+         <property name="logFiles" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\ExcelLogin\\20190314_175007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rabeet - SQA-02-004.ovrlod.pk"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="90.90.90.94"/>
+         <property name="sessionId" value="c6f9e9e304bd6185cad7b53723d0e52f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" classname="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" status="PASSED">
+         <system-out><![CDATA[2019-03-14 17:50:08 - [TEST_CASE][PASSED] - Test Cases/DTCM/Login and logout/DataExtractingFromExcel: Test Cases/DTCM/Login and logout/DataExtractingFromExcel
+
+2019-03-14 17:50:08 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:50:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 17:50:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-14 17:50:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:50:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-14 17:50:18 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-03-14 17:50:18 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-14 17:50:18 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-03-14 17:50:18 - [TEST_STEP][PASSED] - username = "muhammad.saad@ovrlod.com": null
+
+2019-03-14 17:50:18 - [TEST_STEP][PASSED] - password = "Qwerty##1244": null
+
+2019-03-14 17:50:18 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-03-14 17:50:29 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null
+
+2019-03-14 17:50:29 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:50:31 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", username): null
+
+2019-03-14 17:50:31 - [TEST_STEP][PASSED] - selenium.type("id=tbPassword", password): null
+
+2019-03-14 17:50:31 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:50:32 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-14 17:50:37 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-14 17:50:37 - [TEST_STEP][PASSED] - locationNow = location: null
+
+2019-03-14 17:50:37 - [TEST_STEP][PASSED] - if (CurrentURL == locationNow): null
+
+2019-03-14 17:50:37 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" classname="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" status="PASSED">
+         <system-out><![CDATA[2019-03-14 17:50:37 - [TEST_CASE][PASSED] - Test Cases/DTCM/Login and logout/DataExtractingFromExcel: Test Cases/DTCM/Login and logout/DataExtractingFromExcel
+
+2019-03-14 17:50:37 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:50:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 17:50:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 17:50:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:50:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-14 17:50:48 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-03-14 17:50:48 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-14 17:50:48 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-03-14 17:50:48 - [TEST_STEP][PASSED] - username = "muhammad.saad@ovrlod.com": null
+
+2019-03-14 17:50:48 - [TEST_STEP][PASSED] - password = "Qwerty##1244": null
+
+2019-03-14 17:50:48 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-03-14 17:50:53 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null
+
+2019-03-14 17:50:53 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:50:54 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", username): null
+
+2019-03-14 17:50:54 - [TEST_STEP][PASSED] - selenium.type("id=tbPassword", password): null
+
+2019-03-14 17:50:54 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:50:56 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-14 17:50:58 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-14 17:50:59 - [TEST_STEP][PASSED] - locationNow = location: null
+
+2019-03-14 17:50:59 - [TEST_STEP][PASSED] - if (CurrentURL == locationNow): null
+
+2019-03-14 17:50:59 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" classname="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" status="PASSED">
+         <system-out><![CDATA[2019-03-14 17:50:59 - [TEST_CASE][PASSED] - Test Cases/DTCM/Login and logout/DataExtractingFromExcel: Test Cases/DTCM/Login and logout/DataExtractingFromExcel
+
+2019-03-14 17:50:59 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:50:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 17:51:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 17:51:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:51:10 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-14 17:51:10 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-03-14 17:51:10 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-14 17:51:10 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-03-14 17:51:10 - [TEST_STEP][PASSED] - username = "muhammad.saad@ovrlod.com": null
+
+2019-03-14 17:51:10 - [TEST_STEP][PASSED] - password = "Qwerty##1244": null
+
+2019-03-14 17:51:10 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-03-14 17:51:14 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null
+
+2019-03-14 17:51:14 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:51:16 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", username): null
+
+2019-03-14 17:51:16 - [TEST_STEP][PASSED] - selenium.type("id=tbPassword", password): null
+
+2019-03-14 17:51:16 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:51:17 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-14 17:51:20 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-14 17:51:20 - [TEST_STEP][PASSED] - locationNow = location: null
+
+2019-03-14 17:51:20 - [TEST_STEP][PASSED] - if (CurrentURL == locationNow): null
+
+2019-03-14 17:51:20 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" classname="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" status="PASSED">
+         <system-out><![CDATA[2019-03-14 17:51:20 - [TEST_CASE][PASSED] - Test Cases/DTCM/Login and logout/DataExtractingFromExcel: Test Cases/DTCM/Login and logout/DataExtractingFromExcel
+
+2019-03-14 17:51:20 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:51:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 17:51:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 17:51:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:51:30 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-14 17:51:30 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-03-14 17:51:30 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-14 17:51:30 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-03-14 17:51:30 - [TEST_STEP][PASSED] - username = "muhammad.saad@ovrlod.com": null
+
+2019-03-14 17:51:30 - [TEST_STEP][PASSED] - password = "Qwerty##1244": null
+
+2019-03-14 17:51:30 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-03-14 17:51:36 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null
+
+2019-03-14 17:51:36 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:51:38 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", username): null
+
+2019-03-14 17:51:38 - [TEST_STEP][PASSED] - selenium.type("id=tbPassword", password): null
+
+2019-03-14 17:51:38 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:51:40 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-14 17:51:43 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-14 17:51:44 - [TEST_STEP][PASSED] - locationNow = location: null
+
+2019-03-14 17:51:44 - [TEST_STEP][PASSED] - if (CurrentURL == locationNow): null
+
+2019-03-14 17:51:44 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" classname="Test Cases/DTCM/Login and logout/DataExtractingFromExcel" status="PASSED">
+         <system-out><![CDATA[2019-03-14 17:51:44 - [TEST_CASE][PASSED] - Test Cases/DTCM/Login and logout/DataExtractingFromExcel: Test Cases/DTCM/Login and logout/DataExtractingFromExcel
+
+2019-03-14 17:51:44 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:51:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-14 17:51:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 17:51:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-14 17:51:53 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-14 17:51:53 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-03-14 17:51:53 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-14 17:51:53 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-03-14 17:51:53 - [TEST_STEP][PASSED] - username = "muhammad.saad@ovrlod.com": null
+
+2019-03-14 17:51:53 - [TEST_STEP][PASSED] - password = "Qwerty##1244": null
+
+2019-03-14 17:51:53 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-03-14 17:51:58 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null
+
+2019-03-14 17:51:58 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:52:00 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", username): null
+
+2019-03-14 17:52:00 - [TEST_STEP][PASSED] - selenium.type("id=tbPassword", password): null
+
+2019-03-14 17:52:00 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-14 17:52:01 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-14 17:52:04 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-14 17:52:04 - [TEST_STEP][PASSED] - locationNow = location: null
+
+2019-03-14 17:52:04 - [TEST_STEP][PASSED] - if (CurrentURL == locationNow): null
+
+2019-03-14 17:52:04 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-14 17:50:08 - [TEST_SUITE][PASSED] - ExcelLogin: Test Cases/DTCM/Login and logout/DataExtractingFromExcel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

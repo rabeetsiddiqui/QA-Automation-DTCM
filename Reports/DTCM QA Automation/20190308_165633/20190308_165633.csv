@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DTCM QA Automation,Chrome 72.0.3626.121,,2019-03-08 16:56:35,2019-03-08 16:56:40,5.307s,ERROR
+,,,,,,
+Test Cases/Login and logout/DTCM Invalid Login Scenario,Chrome 72.0.3626.121,,2019-03-08 16:56:35,2019-03-08 16:56:40,5.015s,ERROR
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-08 16:56:35,2019-03-08 16:56:40,4.354s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-08 16:56:40,2019-03-08 16:56:40,0.010s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-08 16:56:40,2019-03-08 16:56:40,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-08 16:56:40,2019-03-08 16:56:40,0.078s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-08 16:56:40,2019-03-08 16:56:40,0.001s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-08 16:56:40,2019-03-08 16:56:40,0.224s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-08 16:56:40,2019-03-08 16:56:40,0.069s,ERROR

@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ExcelLogin,Chrome 72.0.3626.121,,2019-03-14 12:36:47,2019-03-14 12:38:32,1m - 44.526s,PASSED
+,,,,,,
+Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario,Chrome 72.0.3626.121,,2019-03-14 12:36:48,2019-03-14 12:37:08,20.237s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-14 12:36:48,2019-03-14 12:36:58,10.375s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-14 12:36:58,2019-03-14 12:36:58,0.010s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-14 12:36:58,2019-03-14 12:36:58,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-14 12:36:58,2019-03-14 12:36:58,0.082s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-14 12:36:58,2019-03-14 12:36:58,0.001s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-14 12:36:58,2019-03-14 12:37:04,5.550s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-14 12:37:04,2019-03-14 12:37:04,0.085s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:37:04,2019-03-14 12:37:06,1.505s,PASSED
+"selenium.type(""id=tbUsername"", username)",Chrome 72.0.3626.121,,2019-03-14 12:37:06,2019-03-14 12:37:06,0.052s,PASSED
+"selenium.type(""id=tbPassword"", password)",Chrome 72.0.3626.121,,2019-03-14 12:37:06,2019-03-14 12:37:06,0.065s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:37:06,2019-03-14 12:37:07,1.502s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-14 12:37:07,2019-03-14 12:37:07,0.203s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-14 12:37:07,2019-03-14 12:37:08,0.502s,PASSED
+locationNow = location,Chrome 72.0.3626.121,,2019-03-14 12:37:08,2019-03-14 12:37:08,0.019s,PASSED
+if (CurrentURL == locationNow),Chrome 72.0.3626.121,,2019-03-14 12:37:08,2019-03-14 12:37:08,0.013s,PASSED
+,,,,,,
+Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario,Chrome 72.0.3626.121,,2019-03-14 12:37:08,2019-03-14 12:37:26,18.580s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-14 12:37:08,2019-03-14 12:37:18,9.694s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-14 12:37:18,2019-03-14 12:37:18,0.001s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-14 12:37:18,2019-03-14 12:37:18,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-14 12:37:18,2019-03-14 12:37:18,0.013s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-14 12:37:18,2019-03-14 12:37:18,0.000s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-14 12:37:18,2019-03-14 12:37:23,4.958s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-14 12:37:23,2019-03-14 12:37:23,0.080s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:37:23,2019-03-14 12:37:24,1.502s,PASSED
+"selenium.type(""id=tbUsername"", username)",Chrome 72.0.3626.121,,2019-03-14 12:37:24,2019-03-14 12:37:24,0.056s,PASSED
+"selenium.type(""id=tbPassword"", password)",Chrome 72.0.3626.121,,2019-03-14 12:37:24,2019-03-14 12:37:24,0.060s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:37:24,2019-03-14 12:37:26,1.501s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-14 12:37:26,2019-03-14 12:37:26,0.191s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-14 12:37:26,2019-03-14 12:37:26,0.501s,PASSED
+locationNow = location,Chrome 72.0.3626.121,,2019-03-14 12:37:26,2019-03-14 12:37:26,0.008s,PASSED
+if (CurrentURL == locationNow),Chrome 72.0.3626.121,,2019-03-14 12:37:26,2019-03-14 12:37:26,0.001s,PASSED
+,,,,,,
+Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario,Chrome 72.0.3626.121,,2019-03-14 12:37:26,2019-03-14 12:37:45,18.865s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-14 12:37:26,2019-03-14 12:37:36,9.315s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-14 12:37:36,2019-03-14 12:37:36,0.000s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-14 12:37:36,2019-03-14 12:37:36,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-14 12:37:36,2019-03-14 12:37:36,0.016s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-14 12:37:36,2019-03-14 12:37:36,0.001s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-14 12:37:36,2019-03-14 12:37:41,5.584s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-14 12:37:41,2019-03-14 12:37:42,0.083s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:37:42,2019-03-14 12:37:43,1.501s,PASSED
+"selenium.type(""id=tbUsername"", username)",Chrome 72.0.3626.121,,2019-03-14 12:37:43,2019-03-14 12:37:43,0.044s,PASSED
+"selenium.type(""id=tbPassword"", password)",Chrome 72.0.3626.121,,2019-03-14 12:37:43,2019-03-14 12:37:43,0.055s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:37:43,2019-03-14 12:37:45,1.501s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-14 12:37:45,2019-03-14 12:37:45,0.232s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-14 12:37:45,2019-03-14 12:37:45,0.502s,PASSED
+locationNow = location,Chrome 72.0.3626.121,,2019-03-14 12:37:45,2019-03-14 12:37:45,0.014s,PASSED
+if (CurrentURL == locationNow),Chrome 72.0.3626.121,,2019-03-14 12:37:45,2019-03-14 12:37:45,0.002s,PASSED
+,,,,,,
+Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario,Chrome 72.0.3626.121,,2019-03-14 12:37:45,2019-03-14 12:38:05,19.926s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-14 12:37:45,2019-03-14 12:37:55,10.131s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-14 12:37:55,2019-03-14 12:37:55,0.000s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-14 12:37:55,2019-03-14 12:37:56,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-14 12:37:56,2019-03-14 12:37:56,0.017s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-14 12:37:56,2019-03-14 12:37:56,0.000s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-14 12:37:56,2019-03-14 12:38:01,5.219s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-14 12:38:01,2019-03-14 12:38:01,0.078s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:38:01,2019-03-14 12:38:02,1.501s,PASSED
+"selenium.type(""id=tbUsername"", username)",Chrome 72.0.3626.121,,2019-03-14 12:38:02,2019-03-14 12:38:02,0.062s,PASSED
+"selenium.type(""id=tbPassword"", password)",Chrome 72.0.3626.121,,2019-03-14 12:38:02,2019-03-14 12:38:02,0.048s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:38:02,2019-03-14 12:38:04,1.501s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-14 12:38:04,2019-03-14 12:38:05,0.848s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-14 12:38:05,2019-03-14 12:38:05,0.501s,PASSED
+locationNow = location,Chrome 72.0.3626.121,,2019-03-14 12:38:05,2019-03-14 12:38:05,0.006s,PASSED
+if (CurrentURL == locationNow),Chrome 72.0.3626.121,,2019-03-14 12:38:05,2019-03-14 12:38:05,0.000s,PASSED
+,,,,,,
+Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario,Chrome 72.0.3626.121,,2019-03-14 12:38:05,2019-03-14 12:38:31,26.080s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-14 12:38:05,2019-03-14 12:38:15,9.987s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-14 12:38:15,2019-03-14 12:38:15,0.000s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-14 12:38:15,2019-03-14 12:38:15,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-14 12:38:15,2019-03-14 12:38:15,0.014s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-14 12:38:15,2019-03-14 12:38:15,0.000s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-14 12:38:15,2019-03-14 12:38:21,6.013s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-14 12:38:21,2019-03-14 12:38:21,0.076s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:38:21,2019-03-14 12:38:23,1.500s,PASSED
+"selenium.type(""id=tbUsername"", username)",Chrome 72.0.3626.121,,2019-03-14 12:38:23,2019-03-14 12:38:23,0.041s,PASSED
+"selenium.type(""id=tbPassword"", password)",Chrome 72.0.3626.121,,2019-03-14 12:38:23,2019-03-14 12:38:23,0.048s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-14 12:38:23,2019-03-14 12:38:24,1.500s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-14 12:38:24,2019-03-14 12:38:31,6.368s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-14 12:38:31,2019-03-14 12:38:31,0.502s,PASSED
+locationNow = location,Chrome 72.0.3626.121,,2019-03-14 12:38:31,2019-03-14 12:38:31,0.016s,PASSED
+if (CurrentURL == locationNow),Chrome 72.0.3626.121,,2019-03-14 12:38:31,2019-03-14 12:38:31,0.000s,PASSED
+else,Chrome 72.0.3626.121,,2019-03-14 12:38:31,2019-03-14 12:38:31,0.001s,PASSED

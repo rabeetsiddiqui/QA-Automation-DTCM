@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DTCM QA Automation,Chrome 72.0.3626.121,,2019-03-08 12:42:41,2019-03-08 12:44:40,1m - 58.824s,PASSED
+,,,,,,
+Test Cases/Language Change/DTCM Language Change Eng-Fr-Eng,Chrome 72.0.3626.121,,2019-03-08 12:42:41,2019-03-08 12:43:31,50.225s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-08 12:42:41,2019-03-08 12:42:52,10.425s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-08 12:42:52,2019-03-08 12:42:52,0.008s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-08 12:42:52,2019-03-08 12:42:52,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-08 12:42:52,2019-03-08 12:42:52,0.085s,PASSED
+"selenium.open(""https://qacd2.testvisitdubai.com/en/account/login?v=78798789"")",Chrome 72.0.3626.121,,2019-03-08 12:42:52,2019-03-08 12:42:57,5.348s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-08 12:42:57,2019-03-08 12:42:58,1.149s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]"")",Chrome 72.0.3626.121,,2019-03-08 12:42:58,2019-03-08 12:42:59,0.130s,PASSED
+Thread.sleep(4000),Chrome 72.0.3626.121,,2019-03-08 12:42:59,2019-03-08 12:43:03,4.005s,PASSED
+"selenium.click(""css=.dd-options:first li:nth-child(9) .dd-option"")",Chrome 72.0.3626.121,,2019-03-08 12:43:03,2019-03-08 12:43:11,8.452s,PASSED
+Thread.sleep(10000),Chrome 72.0.3626.121,,2019-03-08 12:43:11,2019-03-08 12:43:21,10.001s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Français'])[2]/following::span[1]"")",Chrome 72.0.3626.121,,2019-03-08 12:43:21,2019-03-08 12:43:21,0.100s,PASSED
+Thread.sleep(2000),Chrome 72.0.3626.121,,2019-03-08 12:43:21,2019-03-08 12:43:23,2.001s,PASSED
+"selenium.click(""css=.dd-options:first li:nth-child(1) .dd-option"")",Chrome 72.0.3626.121,,2019-03-08 12:43:23,2019-03-08 12:43:31,8.217s,PASSED
+,,,,,,
+Test Cases/Login and logout/DTCM Invalid Login Scenario,Chrome 72.0.3626.121,,2019-03-08 12:43:31,2019-03-08 12:44:07,35.400s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-08 12:43:31,2019-03-08 12:43:43,12.053s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-08 12:43:43,2019-03-08 12:43:44,0.001s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-08 12:43:44,2019-03-08 12:43:44,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-08 12:43:44,2019-03-08 12:43:44,0.017s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-08 12:43:44,2019-03-08 12:43:44,0.001s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-08 12:43:44,2019-03-08 12:43:51,7.024s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-08 12:43:51,2019-03-08 12:43:56,5.078s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-08 12:43:56,2019-03-08 12:43:57,1.501s,PASSED
+"selenium.type(""id=tbUsername"", ""muhammad.saad@ovrlod.com"")",Chrome 72.0.3626.121,,2019-03-08 12:43:57,2019-03-08 12:43:57,0.061s,PASSED
+"selenium.type(""id=tbPassword"", ""Qwerty#123"")",Chrome 72.0.3626.121,,2019-03-08 12:43:57,2019-03-08 12:43:57,0.065s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-08 12:43:57,2019-03-08 12:43:59,1.502s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-08 12:43:59,2019-03-08 12:44:06,7.429s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-08 12:44:06,2019-03-08 12:44:07,0.503s,PASSED
+locationNow = location,Chrome 72.0.3626.121,,2019-03-08 12:44:07,2019-03-08 12:44:07,0.010s,PASSED
+if (CurrentURL == locationNow),Chrome 72.0.3626.121,,2019-03-08 12:44:07,2019-03-08 12:44:07,0.001s,PASSED
+,,,,,,
+Test Cases/Login and logout/DTCM Valid Login and logout,Chrome 72.0.3626.121,,2019-03-08 12:44:07,2019-03-08 12:44:39,32.182s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.121,,2019-03-08 12:44:07,2019-03-08 12:44:18,11.401s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-08 12:44:18,2019-03-08 12:44:18,0.001s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-08 12:44:18,2019-03-08 12:44:18,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-08 12:44:18,2019-03-08 12:44:18,0.015s,PASSED
+"selenium.open(""https://qacd2.testvisitdubai.com/en/account/login?v=78798789"")",Chrome 72.0.3626.121,,2019-03-08 12:44:18,2019-03-08 12:44:25,6.394s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-08 12:44:25,2019-03-08 12:44:25,0.080s,PASSED
+"selenium.type(""id=tbUsername"", ""muhammad.saad@ovrlod.com"")",Chrome 72.0.3626.121,,2019-03-08 12:44:25,2019-03-08 12:44:25,0.048s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-08 12:44:25,2019-03-08 12:44:25,0.500s,PASSED
+"selenium.type(""id=tbPassword"", ""Qwerty#1"")",Chrome 72.0.3626.121,,2019-03-08 12:44:25,2019-03-08 12:44:25,0.062s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-08 12:44:25,2019-03-08 12:44:26,0.501s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-08 12:44:26,2019-03-08 12:44:31,5.254s,PASSED
+Thread.sleep(1000),Chrome 72.0.3626.121,,2019-03-08 12:44:31,2019-03-08 12:44:32,1.001s,PASSED
+"selenium.click(""id=btnLogout"")",Chrome 72.0.3626.121,,2019-03-08 12:44:32,2019-03-08 12:44:39,6.750s,PASSED
+"out.println(""Test Case is Passed"")",Chrome 72.0.3626.121,,2019-03-08 12:44:39,2019-03-08 12:44:39,0.000s,PASSED

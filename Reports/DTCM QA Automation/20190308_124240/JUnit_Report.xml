@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DTCM QA Automation" time="118" tests="3" failures="0" errors="0">
+   <testsuite name="DTCM QA Automation" tests="3" failures="0" errors="0" time="118" timestamp="2019-03-08 12:42:41" hostname="rabeet - SQA-02-004.ovrlod.pk" id="Test Suites/DTCM QA Automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\DTCM QA Automation\\20190308_124240"/>
+         <property name="logFiles" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\DTCM QA Automation\\20190308_124240\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rabeet - SQA-02-004.ovrlod.pk"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="90.90.90.100"/>
+         <property name="sessionId" value="df5de48617459ec28620851a50a423c4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Language Change/DTCM Language Change Eng-Fr-Eng" classname="Test Cases/Language Change/DTCM Language Change Eng-Fr-Eng" status="PASSED">
+         <system-out><![CDATA[2019-03-08 12:42:41 - [TEST_CASE][PASSED] - Test Cases/Language Change/DTCM Language Change Eng-Fr-Eng: Test Cases/Language Change/DTCM Language Change Eng-Fr-Eng
+
+2019-03-08 12:42:41 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-08 12:42:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 12:42:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-08 12:42:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-08 12:42:52 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-08 12:42:52 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-03-08 12:42:52 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-08 12:42:52 - [TEST_STEP][PASSED] - selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789"): null
+
+2019-03-08 12:42:57 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-03-08 12:42:58 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]"): null
+
+2019-03-08 12:42:59 - [TEST_STEP][PASSED] - Thread.sleep(4000): null
+
+2019-03-08 12:43:03 - [TEST_STEP][PASSED] - selenium.click("css=.dd-options:first li:nth-child(9) .dd-option"): null
+
+2019-03-08 12:43:11 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-03-08 12:43:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Français'])[2]/following::span[1]"): null
+
+2019-03-08 12:43:21 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-08 12:43:23 - [TEST_STEP][PASSED] - selenium.click("css=.dd-options:first li:nth-child(1) .dd-option"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login and logout/DTCM Invalid Login Scenario" classname="Test Cases/Login and logout/DTCM Invalid Login Scenario" status="PASSED">
+         <system-out><![CDATA[2019-03-08 12:43:31 - [TEST_CASE][PASSED] - Test Cases/Login and logout/DTCM Invalid Login Scenario: Test Cases/Login and logout/DTCM Invalid Login Scenario
+
+2019-03-08 12:43:31 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-08 12:43:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 12:43:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 12:43:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-08 12:43:43 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-08 12:43:44 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-03-08 12:43:44 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-08 12:43:44 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-03-08 12:43:44 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-03-08 12:43:51 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null
+
+2019-03-08 12:43:56 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-08 12:43:57 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", "muhammad.saad@ovrlod.com"): null
+
+2019-03-08 12:43:57 - [TEST_STEP][PASSED] - selenium.type("id=tbPassword", "Qwerty#123"): null
+
+2019-03-08 12:43:57 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-03-08 12:43:59 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-08 12:44:06 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-08 12:44:07 - [TEST_STEP][PASSED] - locationNow = location: null
+
+2019-03-08 12:44:07 - [TEST_STEP][PASSED] - if (CurrentURL == locationNow): null
+
+2019-03-08 12:44:07 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login and logout/DTCM Valid Login and logout" classname="Test Cases/Login and logout/DTCM Valid Login and logout" status="PASSED">
+         <system-out><![CDATA[2019-03-08 12:44:07 - [TEST_CASE][PASSED] - Test Cases/Login and logout/DTCM Valid Login and logout: Test Cases/Login and logout/DTCM Valid Login and logout
+
+2019-03-08 12:44:07 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-08 12:44:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 12:44:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 12:44:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-03-08 12:44:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-08 12:44:18 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-03-08 12:44:18 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-03-08 12:44:18 - [TEST_STEP][PASSED] - selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789"): null
+
+2019-03-08 12:44:25 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null
+
+2019-03-08 12:44:25 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", "muhammad.saad@ovrlod.com"): null
+
+2019-03-08 12:44:25 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-08 12:44:25 - [TEST_STEP][PASSED] - selenium.type("id=tbPassword", "Qwerty#1"): null
+
+2019-03-08 12:44:25 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-08 12:44:26 - [TEST_STEP][PASSED] - selenium.click("id=plhcontent_0_lbtnSubmit"): null
+
+2019-03-08 12:44:31 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-03-08 12:44:32 - [TEST_STEP][PASSED] - selenium.click("id=btnLogout"): null
+
+2019-03-08 12:44:39 - [TEST_STEP][PASSED] - out.println("Test Case is Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-08 12:42:41 - [TEST_SUITE][PASSED] - DTCM QA Automation: Test Cases/Login and logout/DTCM Valid Login and logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
