@@ -1,0 +1,184 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DTCM QA Automation,Chrome 72.0.3626.121,,2019-03-25 15:38:05,2019-03-25 15:42:04,3m - 59.154s,ERROR
+,,,,,,
+Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario,Chrome 72.0.3626.121,,2019-03-25 15:38:05,2019-03-25 15:38:27,21.186s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 72.0.3626.121,,2019-03-25 15:38:06,2019-03-25 15:38:14,8.445s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-25 15:38:14,2019-03-25 15:38:14,0.008s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 72.0.3626.121,,2019-03-25 15:38:14,2019-03-25 15:38:14,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-25 15:38:14,2019-03-25 15:38:14,0.106s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-25 15:38:14,2019-03-25 15:38:15,1.219s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-25 15:38:15,2019-03-25 15:38:15,0.001s,PASSED
+"username = ""muhammad.saad@ovrlod.com""",Chrome 72.0.3626.121,,2019-03-25 15:38:15,2019-03-25 15:38:15,0.000s,PASSED
+"password = ""Qwerty##1244""",Chrome 72.0.3626.121,,2019-03-25 15:38:15,2019-03-25 15:38:15,0.000s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-25 15:38:15,2019-03-25 15:38:22,7.059s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-25 15:38:22,2019-03-25 15:38:23,0.120s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-25 15:38:23,2019-03-25 15:38:24,1.505s,PASSED
+"selenium.type(""id=tbUsername"", username)",Chrome 72.0.3626.121,,2019-03-25 15:38:24,2019-03-25 15:38:24,0.053s,PASSED
+"selenium.type(""id=tbPassword"", password)",Chrome 72.0.3626.121,,2019-03-25 15:38:24,2019-03-25 15:38:24,0.064s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-25 15:38:24,2019-03-25 15:38:26,1.501s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-25 15:38:26,2019-03-25 15:38:26,0.300s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:38:26,2019-03-25 15:38:26,0.500s,PASSED
+locationNow = location,Chrome 72.0.3626.121,,2019-03-25 15:38:26,2019-03-25 15:38:27,0.017s,PASSED
+if (CurrentURL == locationNow),Chrome 72.0.3626.121,,2019-03-25 15:38:27,2019-03-25 15:38:27,0.000s,PASSED
+else,Chrome 72.0.3626.121,,2019-03-25 15:38:27,2019-03-25 15:38:27,0.012s,PASSED
+,,,,,,
+Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng,Chrome 72.0.3626.121,,2019-03-25 15:38:27,2019-03-25 15:38:33,6.297s,ERROR
+"openBrowser(""https://www.google.com/"")",Chrome 72.0.3626.121,,2019-03-25 15:38:27,2019-03-25 15:38:31,4.674s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-25 15:38:31,2019-03-25 15:38:31,0.000s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 72.0.3626.121,,2019-03-25 15:38:31,2019-03-25 15:38:31,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-25 15:38:31,2019-03-25 15:38:31,0.015s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-25 15:38:31,2019-03-25 15:38:33,1.121s,PASSED
+"selenium.open(""https://qacd2.testvisitdubai.com/en/account/login?v=78798789"")",Chrome 72.0.3626.121,,2019-03-25 15:38:33,2019-03-25 15:38:33,0.242s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-25 15:38:33,2019-03-25 15:38:33,0.005s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]"")",Chrome 72.0.3626.121,,2019-03-25 15:38:33,2019-03-25 15:38:33,0.078s,ERROR
+,,,,,,
+Test Cases/DTCM/Language Change/Language Change Az-Fr-Az,Chrome 72.0.3626.121,,2019-03-25 15:38:33,2019-03-25 15:39:43,1m - 9.876s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 72.0.3626.121,,2019-03-25 15:38:33,2019-03-25 15:38:38,5.066s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-25 15:38:38,2019-03-25 15:38:38,0.000s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 72.0.3626.121,,2019-03-25 15:38:38,2019-03-25 15:38:38,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-25 15:38:38,2019-03-25 15:38:38,0.017s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-25 15:38:38,2019-03-25 15:38:39,1.124s,PASSED
+"selenium.open(""https://qacd2.testvisitdubai.com/en/account/login?v=78798789"")",Chrome 72.0.3626.121,,2019-03-25 15:38:39,2019-03-25 15:38:49,9.552s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-25 15:38:49,2019-03-25 15:38:49,0.005s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-25 15:38:49,2019-03-25 15:38:49,0.000s,PASSED
+locationNow = location,Chrome 72.0.3626.121,,2019-03-25 15:38:49,2019-03-25 15:38:49,0.007s,PASSED
+"CssSelector = ""css=.dd-options:first li""",Chrome 72.0.3626.121,,2019-03-25 15:38:49,2019-03-25 15:38:49,0.000s,PASSED
+"dropdown = ""xpath=(.//*[normalize-space(text()) and normalize-space(.)=""",Chrome 72.0.3626.121,,2019-03-25 15:38:49,2019-03-25 15:38:49,0.000s,PASSED
+"selenium.click(dropdown + ""'English'])[2]/following::span[1]"")",Chrome 72.0.3626.121,,2019-03-25 15:38:49,2019-03-25 15:38:49,0.145s,PASSED
+Thread.sleep(4000),Chrome 72.0.3626.121,,2019-03-25 15:38:49,2019-03-25 15:38:53,4.001s,PASSED
+"selenium.click(CssSelector + "":nth-child(3) .dd-option"")",Chrome 72.0.3626.121,,2019-03-25 15:38:53,2019-03-25 15:39:02,8.584s,PASSED
+if (CurrentURL != location),Chrome 72.0.3626.121,,2019-03-25 15:39:02,2019-03-25 15:39:02,0.021s,PASSED
+Thread.sleep(10000),Chrome 72.0.3626.121,,2019-03-25 15:39:02,2019-03-25 15:39:12,10.001s,PASSED
+out.println(locationNow),Chrome 72.0.3626.121,,2019-03-25 15:39:12,2019-03-25 15:39:12,0.001s,PASSED
+"selenium.click(dropdown + ""'Azərbaycan'])[2]/following::span[1]"")",Chrome 72.0.3626.121,,2019-03-25 15:39:12,2019-03-25 15:39:12,0.136s,PASSED
+Thread.sleep(2000),Chrome 72.0.3626.121,,2019-03-25 15:39:12,2019-03-25 15:39:14,2.001s,PASSED
+"selenium.click(CssSelector + "":nth-child(9) .dd-option"")",Chrome 72.0.3626.121,,2019-03-25 15:39:14,2019-03-25 15:39:14,0.077s,PASSED
+if (CurrentURL != location),Chrome 72.0.3626.121,,2019-03-25 15:39:14,2019-03-25 15:39:32,18.707s,PASSED
+"selenium.click(dropdown + ""'Français'])[2]/following::span[1]"")",Chrome 72.0.3626.121,,2019-03-25 15:39:32,2019-03-25 15:39:33,0.109s,PASSED
+Thread.sleep(2000),Chrome 72.0.3626.121,,2019-03-25 15:39:33,2019-03-25 15:39:35,2.000s,PASSED
+"selenium.click(CssSelector + "":nth-child(1) .dd-option"")",Chrome 72.0.3626.121,,2019-03-25 15:39:35,2019-03-25 15:39:43,8.132s,PASSED
+,,,,,,
+Test Cases/DTCM/Forget Password/Forget Login Info,Chrome 72.0.3626.121,,2019-03-25 15:39:43,2019-03-25 15:40:49,1m - 5.993s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 72.0.3626.121,,2019-03-25 15:39:43,2019-03-25 15:39:48,5.331s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-25 15:39:48,2019-03-25 15:39:48,0.000s,PASSED
+base = driver.getWindowHandle(),Chrome 72.0.3626.121,,2019-03-25 15:39:48,2019-03-25 15:39:48,0.005s,PASSED
+"StartPoint = ""https://www.google.com/""",Chrome 72.0.3626.121,,2019-03-25 15:39:48,2019-03-25 15:39:48,0.000s,PASSED
+"email = ""muhammad.saad@ovrlod.com""",Chrome 72.0.3626.121,,2019-03-25 15:39:48,2019-03-25 15:39:48,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, StartPoint)",Chrome 72.0.3626.121,,2019-03-25 15:39:48,2019-03-25 15:39:48,0.013s,PASSED
+"selenium.open(""https://qacd2.testvisitdubai.com/en/account/login?v=78798789"")",Chrome 72.0.3626.121,,2019-03-25 15:39:48,2019-03-25 15:39:57,8.425s,PASSED
+Thread.sleep(5000),Chrome 72.0.3626.121,,2019-03-25 15:39:57,2019-03-25 15:40:02,5.000s,PASSED
+"selenium.click(""link=exact:Forgot login info?"")",Chrome 72.0.3626.121,,2019-03-25 15:40:02,2019-03-25 15:40:05,3.724s,PASSED
+"selenium.click(""id=txtResetPasswordEmail"")",Chrome 72.0.3626.121,,2019-03-25 15:40:05,2019-03-25 15:40:06,0.091s,PASSED
+"selenium.type(""id=txtResetPasswordEmail"", email)",Chrome 72.0.3626.121,,2019-03-25 15:40:06,2019-03-25 15:40:06,0.049s,PASSED
+"selenium.click(""id=resetpassworddiv"")",Chrome 72.0.3626.121,,2019-03-25 15:40:06,2019-03-25 15:40:06,0.063s,PASSED
+"selenium.click(""id=plhcontent_0_btnSendAccountReset"")",Chrome 72.0.3626.121,,2019-03-25 15:40:06,2019-03-25 15:40:06,0.651s,PASSED
+Thread.sleep(20000),Chrome 72.0.3626.121,,2019-03-25 15:40:06,2019-03-25 15:40:26,20.001s,PASSED
+js = driver,Chrome 72.0.3626.121,,2019-03-25 15:40:26,2019-03-25 15:40:26,0.004s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:40:26,2019-03-25 15:40:27,0.501s,PASSED
+"CreateAccountUrl = ""https://qacd2.testvisitdubai.com/en/account/create-account?UT="" + email",Chrome 72.0.3626.121,,2019-03-25 15:40:27,2019-03-25 15:40:27,0.000s,PASSED
+"command = ""window.open('"" + CreateAccountUrl + ""');""",Chrome 72.0.3626.121,,2019-03-25 15:40:27,2019-03-25 15:40:27,0.001s,PASSED
+out.println(command),Chrome 72.0.3626.121,,2019-03-25 15:40:27,2019-03-25 15:40:27,0.001s,PASSED
+js.executeScript(command),Chrome 72.0.3626.121,,2019-03-25 15:40:27,2019-03-25 15:40:27,0.044s,PASSED
+Thread.sleep(3000),Chrome 72.0.3626.121,,2019-03-25 15:40:27,2019-03-25 15:40:30,3.000s,PASSED
+tabs = new java.util.ArrayList(driver.getWindowHandles()),Chrome 72.0.3626.121,,2019-03-25 15:40:30,2019-03-25 15:40:30,0.012s,PASSED
+out.println(tabs.size()),Chrome 72.0.3626.121,,2019-03-25 15:40:30,2019-03-25 15:40:30,0.003s,PASSED
+switchTo().window(tabs.get(1)),Chrome 72.0.3626.121,,2019-03-25 15:40:30,2019-03-25 15:40:30,0.016s,PASSED
+Thread.sleep(5000),Chrome 72.0.3626.121,,2019-03-25 15:40:30,2019-03-25 15:40:35,5.001s,PASSED
+"ParentElement = driver.findElement(By.id(""divHomeWrap""))",Chrome 72.0.3626.121,,2019-03-25 15:40:35,2019-03-25 15:40:36,1.038s,PASSED
+htmlstring = ParentElement.getText(),Chrome 72.0.3626.121,,2019-03-25 15:40:36,2019-03-25 15:40:36,0.196s,PASSED
+out.println(htmlstring),Chrome 72.0.3626.121,,2019-03-25 15:40:36,2019-03-25 15:40:36,0.000s,PASSED
+"ChildList = ParentElement.findElements(By.tagName(""h2""))",Chrome 72.0.3626.121,,2019-03-25 15:40:36,2019-03-25 15:40:36,0.013s,PASSED
+otp = ChildList.get(0),Chrome 72.0.3626.121,,2019-03-25 15:40:36,2019-03-25 15:40:36,0.000s,PASSED
+value = otp.getText(),Chrome 72.0.3626.121,,2019-03-25 15:40:36,2019-03-25 15:40:36,0.014s,PASSED
+out.println(value),Chrome 72.0.3626.121,,2019-03-25 15:40:36,2019-03-25 15:40:36,0.000s,PASSED
+Thread.sleep(2500),Chrome 72.0.3626.121,,2019-03-25 15:40:36,2019-03-25 15:40:39,2.500s,PASSED
+switchTo().window(base),Chrome 72.0.3626.121,,2019-03-25 15:40:39,2019-03-25 15:40:39,0.025s,PASSED
+"selenium.click(""id=txtToken"")",Chrome 72.0.3626.121,,2019-03-25 15:40:39,2019-03-25 15:40:39,0.085s,PASSED
+"selenium.type(""id=txtToken"", value)",Chrome 72.0.3626.121,,2019-03-25 15:40:39,2019-03-25 15:40:39,0.044s,PASSED
+"selenium.click(""id=plhcontent_0_btnVerifyToken"")",Chrome 72.0.3626.121,,2019-03-25 15:40:39,2019-03-25 15:40:39,0.613s,PASSED
+Thread.sleep(2500),Chrome 72.0.3626.121,,2019-03-25 15:40:39,2019-03-25 15:40:42,2.500s,PASSED
+"selenium.click(""id=password"")",Chrome 72.0.3626.121,,2019-03-25 15:40:42,2019-03-25 15:40:42,0.082s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:40:42,2019-03-25 15:40:42,0.501s,PASSED
+"selenium.type(""id=password"", ""Qwerty#1234"")",Chrome 72.0.3626.121,,2019-03-25 15:40:42,2019-03-25 15:40:43,0.063s,PASSED
+"selenium.click(""id=confirmPassword"")",Chrome 72.0.3626.121,,2019-03-25 15:40:43,2019-03-25 15:40:43,0.065s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:40:43,2019-03-25 15:40:43,0.501s,PASSED
+"selenium.type(""id=confirmPassword"", ""Qwerty#1234"")",Chrome 72.0.3626.121,,2019-03-25 15:40:43,2019-03-25 15:40:43,0.066s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-25 15:40:43,2019-03-25 15:40:46,3.013s,PASSED
+Thread.sleep(2500),Chrome 72.0.3626.121,,2019-03-25 15:40:46,2019-03-25 15:40:49,2.500s,PASSED
+,,,,,,
+Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario,Chrome 72.0.3626.121,,2019-03-25 15:40:49,2019-03-25 15:41:11,22.603s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 72.0.3626.121,,2019-03-25 15:40:49,2019-03-25 15:40:54,4.952s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-25 15:40:54,2019-03-25 15:40:54,0.000s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 72.0.3626.121,,2019-03-25 15:40:54,2019-03-25 15:40:54,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-25 15:40:54,2019-03-25 15:40:54,0.018s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-25 15:40:54,2019-03-25 15:40:55,1.121s,PASSED
+"CurrentURL = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-25 15:40:55,2019-03-25 15:40:55,0.000s,PASSED
+"username = ""muhammad.saad@ovrlod.com""",Chrome 72.0.3626.121,,2019-03-25 15:40:55,2019-03-25 15:40:55,0.000s,PASSED
+"password = ""Qwerty##1244""",Chrome 72.0.3626.121,,2019-03-25 15:40:55,2019-03-25 15:40:55,0.000s,PASSED
+selenium.open(CurrentURL),Chrome 72.0.3626.121,,2019-03-25 15:40:55,2019-03-25 15:41:05,9.724s,PASSED
+"selenium.click(""id=tbUsername"")",Chrome 72.0.3626.121,,2019-03-25 15:41:05,2019-03-25 15:41:05,0.099s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-25 15:41:05,2019-03-25 15:41:06,1.501s,PASSED
+"selenium.type(""id=tbUsername"", username)",Chrome 72.0.3626.121,,2019-03-25 15:41:06,2019-03-25 15:41:06,0.055s,PASSED
+"selenium.type(""id=tbPassword"", password)",Chrome 72.0.3626.121,,2019-03-25 15:41:06,2019-03-25 15:41:06,0.051s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-25 15:41:06,2019-03-25 15:41:08,1.500s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-25 15:41:08,2019-03-25 15:41:11,3.058s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:41:11,2019-03-25 15:41:11,0.502s,PASSED
+locationNow = location,Chrome 72.0.3626.121,,2019-03-25 15:41:11,2019-03-25 15:41:11,0.008s,PASSED
+if (CurrentURL == locationNow),Chrome 72.0.3626.121,,2019-03-25 15:41:11,2019-03-25 15:41:11,0.001s,PASSED
+,,,,,,
+Test Cases/DTCM/Login and logout/LoginFormValidation,Chrome 72.0.3626.121,,2019-03-25 15:41:11,2019-03-25 15:41:26,14.829s,PASSED
+"openBrowser(""https://qacd2.testvisitdubai.com/en/account/login?v=78798789"")",Chrome 72.0.3626.121,,2019-03-25 15:41:11,2019-03-25 15:41:20,8.623s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-25 15:41:20,2019-03-25 15:41:20,0.001s,PASSED
+"baseUrl = ""https://qacd2.testvisitdubai.com/en/account/login?v=78798789""",Chrome 72.0.3626.121,,2019-03-25 15:41:20,2019-03-25 15:41:20,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-25 15:41:20,2019-03-25 15:41:20,0.028s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-25 15:41:20,2019-03-25 15:41:21,1.126s,PASSED
+Thread.sleep(2500),Chrome 72.0.3626.121,,2019-03-25 15:41:21,2019-03-25 15:41:24,2.500s,PASSED
+"selenium.type(""id=tbUsername"", ""muhammad.saad@ovrlod.com"")",Chrome 72.0.3626.121,,2019-03-25 15:41:24,2019-03-25 15:41:24,0.056s,PASSED
+Thread.sleep(2000),Chrome 72.0.3626.121,,2019-03-25 15:41:24,2019-03-25 15:41:26,2.002s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-25 15:41:26,2019-03-25 15:41:26,0.275s,PASSED
+"emailFieldErrorDisplay = id(""plhcontent_0_rfvEmail"")).getCssValue(""display"")",Chrome 72.0.3626.121,,2019-03-25 15:41:26,2019-03-25 15:41:26,0.057s,PASSED
+"passFieldErrorDisplay = id(""plhcontent_0_rfvPassword"")).getCssValue(""display"")",Chrome 72.0.3626.121,,2019-03-25 15:41:26,2019-03-25 15:41:26,0.019s,PASSED
+"if (passFieldErrorDisplay != ""none"")",Chrome 72.0.3626.121,,2019-03-25 15:41:26,2019-03-25 15:41:26,0.001s,PASSED
+,,,,,,
+Test Cases/DTCM/SignUp/Create Account,Chrome 72.0.3626.121,,2019-03-25 15:41:26,2019-03-25 15:42:04,37.429s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 72.0.3626.121,,2019-03-25 15:41:26,2019-03-25 15:41:32,5.243s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-25 15:41:32,2019-03-25 15:41:32,0.001s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.121,,2019-03-25 15:41:32,2019-03-25 15:41:32,0.000s,PASSED
+"email = ""rabeet.siddiqui@ovrlod.com""",Chrome 72.0.3626.121,,2019-03-25 15:41:32,2019-03-25 15:41:32,0.000s,PASSED
+"password = ""Qwerty#1""",Chrome 72.0.3626.121,,2019-03-25 15:41:32,2019-03-25 15:41:32,0.000s,PASSED
+"name = ""Rabeet""",Chrome 72.0.3626.121,,2019-03-25 15:41:32,2019-03-25 15:41:32,0.000s,PASSED
+"lastname = ""Siddiqui""",Chrome 72.0.3626.121,,2019-03-25 15:41:32,2019-03-25 15:41:32,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.121,,2019-03-25 15:41:32,2019-03-25 15:41:32,0.010s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-25 15:41:32,2019-03-25 15:41:33,1.120s,PASSED
+"selenium.open(""https://qacd2.testvisitdubai.com/en/account/create-account"")",Chrome 72.0.3626.121,,2019-03-25 15:41:33,2019-03-25 15:41:40,7.188s,PASSED
+"selenium.click(""id=firstName"")",Chrome 72.0.3626.121,,2019-03-25 15:41:40,2019-03-25 15:41:40,0.099s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:41:40,2019-03-25 15:41:41,0.502s,PASSED
+"selenium.type(""id=firstName"", name)",Chrome 72.0.3626.121,,2019-03-25 15:41:41,2019-03-25 15:41:41,0.046s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:41:41,2019-03-25 15:41:41,0.501s,PASSED
+"selenium.type(""id=lastName"", lastname)",Chrome 72.0.3626.121,,2019-03-25 15:41:41,2019-03-25 15:41:41,0.054s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:41:41,2019-03-25 15:41:42,0.501s,PASSED
+"selenium.type(""id=password"", password)",Chrome 72.0.3626.121,,2019-03-25 15:41:42,2019-03-25 15:41:42,0.051s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:41:42,2019-03-25 15:41:42,0.501s,PASSED
+"selenium.type(""id=confirmPassword"", password)",Chrome 72.0.3626.121,,2019-03-25 15:41:42,2019-03-25 15:41:42,0.045s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:41:42,2019-03-25 15:41:43,0.501s,PASSED
+"selenium.type(""id=email"", email)",Chrome 72.0.3626.121,,2019-03-25 15:41:43,2019-03-25 15:41:43,0.057s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:41:43,2019-03-25 15:41:43,0.501s,PASSED
+"selenium.click(""link=Country/Region"")",Chrome 72.0.3626.121,,2019-03-25 15:41:43,2019-03-25 15:41:43,0.114s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:41:43,2019-03-25 15:41:44,0.501s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Country/Region'])[4]/following::label[1]"")",Chrome 72.0.3626.121,,2019-03-25 15:41:44,2019-03-25 15:41:44,0.089s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-25 15:41:44,2019-03-25 15:41:44,0.500s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/following::label[1]"")",Chrome 72.0.3626.121,,2019-03-25 15:41:44,2019-03-25 15:41:45,0.084s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-25 15:41:45,2019-03-25 15:41:46,1.500s,PASSED
+"selenium.click(""id=plhcontent_0_lbtnSubmit"")",Chrome 72.0.3626.121,,2019-03-25 15:41:46,2019-03-25 15:41:49,3.011s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-25 15:41:49,2019-03-25 15:41:51,1.501s,PASSED
+"selenium.open(""https://qacd2.testvisitdubai.com/en/account/create-account?UT="" + email)",Chrome 72.0.3626.121,,2019-03-25 15:41:51,2019-03-25 15:41:53,2.608s,PASSED
+Thread.sleep(3000),Chrome 72.0.3626.121,,2019-03-25 15:41:53,2019-03-25 15:41:56,3.002s,PASSED
+"ParentElement = driver.findElement(By.id(""divHomeWrap""))",Chrome 72.0.3626.121,,2019-03-25 15:41:56,2019-03-25 15:41:56,0.015s,PASSED
+"ChildList = ParentElement.findElements(By.tagName(""h2""))",Chrome 72.0.3626.121,,2019-03-25 15:41:56,2019-03-25 15:41:56,0.012s,PASSED
+otp = ChildList.get(0),Chrome 72.0.3626.121,,2019-03-25 15:41:56,2019-03-25 15:41:56,0.000s,PASSED
+value = otp.getText(),Chrome 72.0.3626.121,,2019-03-25 15:41:56,2019-03-25 15:41:56,0.013s,PASSED
+Thread.sleep(2500),Chrome 72.0.3626.121,,2019-03-25 15:41:56,2019-03-25 15:41:59,2.500s,PASSED
+"stringurl = ""https://qacd2.testvisitdubai.com/en/account/token-verification?register=1&token="" + value",Chrome 72.0.3626.121,,2019-03-25 15:41:59,2019-03-25 15:41:59,0.001s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-25 15:41:59,2019-03-25 15:42:00,1.501s,PASSED
+selenium.open(stringurl),Chrome 72.0.3626.121,,2019-03-25 15:42:00,2019-03-25 15:42:02,1.831s,PASSED
+Thread.sleep(1500),Chrome 72.0.3626.121,,2019-03-25 15:42:02,2019-03-25 15:42:04,1.501s,PASSED

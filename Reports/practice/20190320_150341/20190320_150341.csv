@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+practice,Chrome 72.0.3626.121,,2019-03-20 15:03:43,2019-03-20 15:03:55,12.154s,PASSED
+,,,,,,
+Test Cases/Practice Test Cases/record,Chrome 72.0.3626.121,,2019-03-20 15:03:43,2019-03-20 15:03:55,11.936s,PASSED
+"openBrowser(""https://twitter.com/login?lang=en"")",Chrome 72.0.3626.121,,2019-03-20 15:03:43,2019-03-20 15:03:49,5.930s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-20 15:03:49,2019-03-20 15:03:49,0.009s,PASSED
+window().maximize(),Chrome 72.0.3626.121,,2019-03-20 15:03:49,2019-03-20 15:03:50,1.176s,PASSED
+Thread.sleep(1000),Chrome 72.0.3626.121,,2019-03-20 15:03:50,2019-03-20 15:03:51,1.009s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login on Twitter/input_Log in_sessionusername_or_email""), ""rabeet.sijdi"")",Chrome 72.0.3626.121,,2019-03-20 15:03:51,2019-03-20 15:03:51,0.196s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-20 15:03:51,2019-03-20 15:03:52,0.500s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login on Twitter/input_Log in_sessionpassword""), ""F5Epga5gQt8bttFOyyZEHg=="")",Chrome 72.0.3626.121,,2019-03-20 15:03:52,2019-03-20 15:03:52,0.166s,PASSED
+Thread.sleep(500),Chrome 72.0.3626.121,,2019-03-20 15:03:52,2019-03-20 15:03:52,0.501s,PASSED
+"click(findTestObject(""Object Repository/Page_Login on Twitter/button_Log in""))",Chrome 72.0.3626.121,,2019-03-20 15:03:52,2019-03-20 15:03:54,1.592s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-20 15:03:54,2019-03-20 15:03:55,0.611s,PASSED

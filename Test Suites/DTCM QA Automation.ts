@@ -4,7 +4,7 @@
    <name>DTCM QA Automation</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>rabeet.siddiqui@ovrlod.com;muhammad.saad@ovrlod.com;m.atiq@ovrlod.com;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -19,13 +19,13 @@
    <testCaseLink>
       <guid>e1393efc-2e24-4f07-a723-bff08e809305</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7ec24d72-7751-4a73-9e01-6640812faafc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/DTCM/Language Change/Language Change Az-Fr-Az</testCaseId>
    </testCaseLink>
    <testCaseLink>

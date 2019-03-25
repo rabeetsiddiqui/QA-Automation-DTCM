@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="practice" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="practice" tests="1" failures="0" errors="0" time="12" timestamp="2019-03-20 15:03:43" hostname="rabeet - SQA-02-004.ovrlod.pk" id="Test Suites/practice">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\practice\\20190320_150341"/>
+         <property name="logFiles" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\practice\\20190320_150341\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rabeet - SQA-02-004.ovrlod.pk"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.168.23"/>
+         <property name="sessionId" value="b691d35f29c433049bd4c64af24b80e3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Practice Test Cases/record" classname="Test Cases/Practice Test Cases/record" status="PASSED">
+         <system-out><![CDATA[2019-03-20 15:03:43 - [TEST_CASE][PASSED] - Test Cases/Practice Test Cases/record: Test Cases/Practice Test Cases/record
+
+2019-03-20 15:03:43 - [TEST_STEP][PASSED] - openBrowser("https://twitter.com/login?lang=en"): Browser is opened with url: 'https://twitter.com/login?lang=en'
+
+2019-03-20 15:03:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-20 15:03:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-20 15:03:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://twitter.com/login?lang=en'
+
+2019-03-20 15:03:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-20 15:03:49 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-03-20 15:03:50 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-03-20 15:03:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login on Twitter/input_Log in_sessionusername_or_email"), "rabeet.sijdi"): Text 'rabeet.sijdi' is set on object 'Object Repository/Page_Login on Twitter/input_Log in_sessionusername_or_email'
+
+2019-03-20 15:03:51 - [MESSAGE][PASSED] - Text 'rabeet.sijdi' is set on object 'Object Repository/Page_Login on Twitter/input_Log in_sessionusername_or_email'
+
+2019-03-20 15:03:51 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-20 15:03:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login on Twitter/input_Log in_sessionpassword"), "F5Epga5gQt8bttFOyyZEHg=="): Text ****** has been set on object 'Object Repository/Page_Login on Twitter/input_Log in_sessionpassword'
+
+2019-03-20 15:03:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login on Twitter/input_Log in_sessionpassword'
+
+2019-03-20 15:03:52 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-03-20 15:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login on Twitter/button_Log in")): Object: 'Object Repository/Page_Login on Twitter/button_Log in' is clicked on
+
+2019-03-20 15:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login on Twitter/button_Log in' is clicked on
+
+2019-03-20 15:03:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-20 15:03:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-20 15:03:43 - [TEST_SUITE][PASSED] - practice: Test Cases/Practice Test Cases/record]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
