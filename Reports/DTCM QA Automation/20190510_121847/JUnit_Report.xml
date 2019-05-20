@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DTCM QA Automation" time="53" tests="0" failures="0" errors="7">
+   <testsuite name="DTCM QA Automation" tests="0" failures="0" errors="7" time="53" timestamp="2019-05-10 12:18:49" hostname="rabeet - SQA-02-004.ovrlod.pk" id="Test Suites/DTCM QA Automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\DTCM QA Automation\\20190510_121847"/>
+         <property name="logFiles" value="C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Reports\\DTCM QA Automation\\20190510_121847\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rabeet - SQA-02-004.ovrlod.pk"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="192.168.168.23"/>
+         <property name="sessionId" value="86b947379ee3ee76c7ecdcb2d9d072c2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario" classname="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario" status="ERROR">
+         <error type="ERROR" message="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52378}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 2a6aa2d58b688fbf1677aaa690604a70
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551953894303.run(Script1551953894303.groovy:41)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-10 12:18:49 - [TEST_CASE][ERROR] - Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario: Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52378}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 2a6aa2d58b688fbf1677aaa690604a70
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551953894303.run(Script1551953894303.groovy:41)
+	... 13 more
+
+
+2019-05-10 12:18:50 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:18:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-10 12:18:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-10 12:18:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:18:55 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-05-10 12:18:55 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2019-05-10 12:18:55 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-05-10 12:18:55 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-05-10 12:18:56 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-05-10 12:18:56 - [TEST_STEP][PASSED] - username = "muhammad.saad@ovrlod.com": null
+
+2019-05-10 12:18:56 - [TEST_STEP][PASSED] - password = "Qwerty##1244": null
+
+2019-05-10 12:18:56 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-05-10 12:18:57 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null]]></system-out>
+         <system-err><![CDATA[2019-05-10 12:18:49 - [TEST_CASE][ERROR] - Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario: Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52378}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 2a6aa2d58b688fbf1677aaa690604a70
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551953894303.run(Script1551953894303.groovy:41)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng" classname="Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng" status="ERROR">
+         <error type="ERROR" message="Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Language Change Eng-Fr-Eng.run(DTCM Language Change Eng-Fr-Eng:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1552030841447.run(Script1552030841447.groovy:41)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-10 12:18:57 - [TEST_CASE][ERROR] - Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng: Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Language Change Eng-Fr-Eng.run(DTCM Language Change Eng-Fr-Eng:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1552030841447.run(Script1552030841447.groovy:41)
+	... 13 more
+
+
+2019-05-10 12:18:57 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:18:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-10 12:18:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-10 12:19:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:19:02 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-05-10 12:19:02 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2019-05-10 12:19:02 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-05-10 12:19:02 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-05-10 12:19:03 - [TEST_STEP][PASSED] - selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789"): null
+
+2019-05-10 12:19:03 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-05-10 12:19:03 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]"): null]]></system-out>
+         <system-err><![CDATA[2019-05-10 12:18:57 - [TEST_CASE][ERROR] - Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng: Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Language Change Eng-Fr-Eng.run(DTCM Language Change Eng-Fr-Eng:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1552030841447.run(Script1552030841447.groovy:41)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Language Change/Language Change Az-Fr-Az" classname="Test Cases/DTCM/Language Change/Language Change Az-Fr-Az" status="ERROR">
+         <error type="ERROR" message="Test Cases/DTCM/Language Change/Language Change Az-Fr-Az FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Language Change Az-Fr-Az.run(Language Change Az-Fr-Az:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1552040412802.run(Script1552040412802.groovy:46)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-10 12:19:03 - [TEST_CASE][ERROR] - Test Cases/DTCM/Language Change/Language Change Az-Fr-Az: Test Cases/DTCM/Language Change/Language Change Az-Fr-Az FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Language Change Az-Fr-Az.run(Language Change Az-Fr-Az:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1552040412802.run(Script1552040412802.groovy:46)
+	... 13 more
+
+
+2019-05-10 12:19:03 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:19:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-10 12:19:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-10 12:19:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:19:08 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-05-10 12:19:08 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2019-05-10 12:19:08 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-05-10 12:19:08 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-05-10 12:19:10 - [TEST_STEP][PASSED] - selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789"): null
+
+2019-05-10 12:19:10 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-05-10 12:19:10 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-05-10 12:19:10 - [TEST_STEP][PASSED] - locationNow = location: null
+
+2019-05-10 12:19:10 - [TEST_STEP][PASSED] - CssSelector = "css=.dd-options:first li": null
+
+2019-05-10 12:19:10 - [TEST_STEP][PASSED] - dropdown = "xpath=(.//*[normalize-space(text()) and normalize-space(.)=": null
+
+2019-05-10 12:19:10 - [TEST_STEP][PASSED] - selenium.click(dropdown + "'English'])[2]/following::span[1]"): null]]></system-out>
+         <system-err><![CDATA[2019-05-10 12:19:03 - [TEST_CASE][ERROR] - Test Cases/DTCM/Language Change/Language Change Az-Fr-Az: Test Cases/DTCM/Language Change/Language Change Az-Fr-Az FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Language Change Az-Fr-Az.run(Language Change Az-Fr-Az:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1552040412802.run(Script1552040412802.groovy:46)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Forget Password/Forget Login Info" classname="Test Cases/DTCM/Forget Password/Forget Login Info" status="ERROR">
+         <error type="ERROR" message="Test Cases/DTCM/Forget Password/Forget Login Info FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=exact:Forgot login info? not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Forget Login Info.run(Forget Login Info:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+"/>
+         <system-out><![CDATA[2019-05-10 12:19:10 - [TEST_CASE][ERROR] - Test Cases/DTCM/Forget Password/Forget Login Info: Test Cases/DTCM/Forget Password/Forget Login Info FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=exact:Forgot login info? not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Forget Login Info.run(Forget Login Info:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+
+
+2019-05-10 12:19:10 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:19:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-10 12:19:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-10 12:19:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:19:15 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-05-10 12:19:15 - [TEST_STEP][PASSED] - base = driver.getWindowHandle(): null
+
+2019-05-10 12:19:15 - [TEST_STEP][PASSED] - StartPoint = "https://www.google.com/": null
+
+2019-05-10 12:19:15 - [TEST_STEP][PASSED] - email = "muhammad.saad@ovrlod.com": null
+
+2019-05-10 12:19:15 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, StartPoint): null
+
+2019-05-10 12:19:15 - [TEST_STEP][PASSED] - selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789"): null
+
+2019-05-10 12:19:15 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-05-10 12:19:20 - [TEST_STEP][PASSED] - selenium.click("link=exact:Forgot login info?"): null]]></system-out>
+         <system-err><![CDATA[2019-05-10 12:19:10 - [TEST_CASE][ERROR] - Test Cases/DTCM/Forget Password/Forget Login Info: Test Cases/DTCM/Forget Password/Forget Login Info FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=exact:Forgot login info? not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Forget Login Info.run(Forget Login Info:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario" classname="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario" status="ERROR">
+         <error type="ERROR" message="Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52498}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 373978c371c38120f35323b082df314e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551953894303.run(Script1551953894303.groovy:41)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-10 12:19:20 - [TEST_CASE][ERROR] - Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario: Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52498}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 373978c371c38120f35323b082df314e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551953894303.run(Script1551953894303.groovy:41)
+	... 13 more
+
+
+2019-05-10 12:19:20 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:19:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-10 12:19:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-10 12:19:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:19:25 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-05-10 12:19:25 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2019-05-10 12:19:25 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-05-10 12:19:25 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-05-10 12:19:27 - [TEST_STEP][PASSED] - CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-05-10 12:19:27 - [TEST_STEP][PASSED] - username = "muhammad.saad@ovrlod.com": null
+
+2019-05-10 12:19:27 - [TEST_STEP][PASSED] - password = "Qwerty##1244": null
+
+2019-05-10 12:19:27 - [TEST_STEP][PASSED] - selenium.open(CurrentURL): null
+
+2019-05-10 12:19:27 - [TEST_STEP][PASSED] - selenium.click("id=tbUsername"): null]]></system-out>
+         <system-err><![CDATA[2019-05-10 12:19:20 - [TEST_CASE][ERROR] - Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario: Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52498}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 373978c371c38120f35323b082df314e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551953894303.run(Script1551953894303.groovy:41)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/Login and logout/LoginFormValidation" classname="Test Cases/DTCM/Login and logout/LoginFormValidation" status="ERROR">
+         <error type="ERROR" message="Test Cases/DTCM/Login and logout/LoginFormValidation FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:59)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:31)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:39)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:322)
+	at com.thoughtworks.selenium.Selenium$type$1.call(Unknown Source)
+	at LoginFormValidation.run(LoginFormValidation:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52528}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: c876ac49a2b7ef994f021ce82b1c2adc
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:59)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:31)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:39)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:322)
+	at com.thoughtworks.selenium.Selenium$type$1.call(Unknown Source)
+	at Script1552549847679.run(Script1552549847679.groovy:58)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-10 12:19:27 - [TEST_CASE][ERROR] - Test Cases/DTCM/Login and logout/LoginFormValidation: Test Cases/DTCM/Login and logout/LoginFormValidation FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:59)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:31)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:39)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:322)
+	at com.thoughtworks.selenium.Selenium$type$1.call(Unknown Source)
+	at LoginFormValidation.run(LoginFormValidation:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52528}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: c876ac49a2b7ef994f021ce82b1c2adc
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:59)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:31)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:39)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:322)
+	at com.thoughtworks.selenium.Selenium$type$1.call(Unknown Source)
+	at Script1552549847679.run(Script1552549847679.groovy:58)
+	... 13 more
+
+
+2019-05-10 12:19:27 - [TEST_STEP][PASSED] - openBrowser("https://qacd2.testvisitdubai.com/en/account/login?v=78798789"): Browser is opened with url: 'https://qacd2.testvisitdubai.com/en/account/login?v=78798789'
+
+2019-05-10 12:19:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-10 12:19:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-10 12:19:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qacd2.testvisitdubai.com/en/account/login?v=78798789'
+
+2019-05-10 12:19:31 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-05-10 12:19:31 - [TEST_STEP][PASSED] - baseUrl = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789": null
+
+2019-05-10 12:19:31 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-05-10 12:19:31 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-05-10 12:19:32 - [TEST_STEP][PASSED] - Thread.sleep(2500): null
+
+2019-05-10 12:19:35 - [TEST_STEP][PASSED] - selenium.type("id=tbUsername", "muhammad.saad@ovrlod.com"): null]]></system-out>
+         <system-err><![CDATA[2019-05-10 12:19:27 - [TEST_CASE][ERROR] - Test Cases/DTCM/Login and logout/LoginFormValidation: Test Cases/DTCM/Login and logout/LoginFormValidation FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:59)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:31)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:39)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:322)
+	at com.thoughtworks.selenium.Selenium$type$1.call(Unknown Source)
+	at LoginFormValidation.run(LoginFormValidation:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52528}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: c876ac49a2b7ef994f021ce82b1c2adc
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:59)
+	at com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:31)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:39)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:322)
+	at com.thoughtworks.selenium.Selenium$type$1.call(Unknown Source)
+	at Script1552549847679.run(Script1552549847679.groovy:58)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DTCM/SignUp/Create Account" classname="Test Cases/DTCM/SignUp/Create Account" status="ERROR">
+         <error type="ERROR" message="Test Cases/DTCM/SignUp/Create Account FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=firstName not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Create Account.run(Create Account:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=firstName not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52547}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 86b947379ee3ee76c7ecdcb2d9d072c2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551951305667.run(Script1551951305667.groovy:46)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-10 12:19:35 - [TEST_CASE][ERROR] - Test Cases/DTCM/SignUp/Create Account: Test Cases/DTCM/SignUp/Create Account FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=firstName not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Create Account.run(Create Account:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=firstName not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52547}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 86b947379ee3ee76c7ecdcb2d9d072c2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551951305667.run(Script1551951305667.groovy:46)
+	... 13 more
+
+
+2019-05-10 12:19:35 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:19:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-10 12:19:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-10 12:19:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2019-05-10 12:19:40 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-05-10 12:19:40 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-05-10 12:19:40 - [TEST_STEP][PASSED] - email = "rabeet.siddiqui@ovrlod.com": null
+
+2019-05-10 12:19:40 - [TEST_STEP][PASSED] - password = "Qwerty#1": null
+
+2019-05-10 12:19:40 - [TEST_STEP][PASSED] - name = "Rabeet": null
+
+2019-05-10 12:19:40 - [TEST_STEP][PASSED] - lastname = "Siddiqui": null
+
+2019-05-10 12:19:40 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-05-10 12:19:40 - [TEST_STEP][PASSED] - window().maximize(): null
+
+2019-05-10 12:19:41 - [TEST_STEP][PASSED] - selenium.open("https://qacd2.testvisitdubai.com/en/account/create-account"): null
+
+2019-05-10 12:19:42 - [TEST_STEP][PASSED] - selenium.click("id=firstName"): null]]></system-out>
+         <system-err><![CDATA[2019-05-10 12:19:35 - [TEST_CASE][ERROR] - Test Cases/DTCM/SignUp/Create Account: Test Cases/DTCM/SignUp/Create Account FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=firstName not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Create Account.run(Create Account:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=firstName not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52547}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 86b947379ee3ee76c7ecdcb2d9d072c2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551951305667.run(Script1551951305667.groovy:46)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-10 12:18:49 - [TEST_SUITE][ERROR] - DTCM QA Automation: Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52378}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 2a6aa2d58b688fbf1677aaa690604a70
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551953894303.run(Script1551953894303.groovy:41)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-05-10 12:18:49 - [TEST_SUITE][ERROR] - DTCM QA Automation: Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SQA-02-004', ip: '192.168.168.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\rabeet\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52378}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 2a6aa2d58b688fbf1677aaa690604a70
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1551953894303.run(Script1551953894303.groovy:41)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

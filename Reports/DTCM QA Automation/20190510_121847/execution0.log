@@ -1,0 +1,3428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-10T12:18:49</date>
+  <millis>1557472729542</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/DTCM QA Automation</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">DTCM QA Automation</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/DTCM QA Automation</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:49</date>
+  <millis>1557472729552</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = rabeet - SQA-02-004.ovrlod.pk</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">rabeet - SQA-02-004.ovrlod.pk</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:49</date>
+  <millis>1557472729553</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:49</date>
+  <millis>1557472729553</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.168.23</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.168.23</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:49</date>
+  <millis>1557472729554</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.4.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.4.1</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:49</date>
+  <millis>1557472729711</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario</property>
+  <property name="source">C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Test Cases\\DTCM\\Login and logout\\DTCM Invalid Login Scenario.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:50</date>
+  <millis>1557472730003</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:50</date>
+  <millis>1557472730206</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:50</date>
+  <millis>1557472730221</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:53</date>
+  <millis>1557472733140</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 2a6aa2d58b688fbf1677aaa690604a70</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">2a6aa2d58b688fbf1677aaa690604a70</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:53</date>
+  <millis>1557472733166</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.131</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.131</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:53</date>
+  <millis>1557472733166</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:53</date>
+  <millis>1557472733168</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:53</date>
+  <millis>1557472733169</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:55</date>
+  <millis>1557472735624</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.google.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:55</date>
+  <millis>1557472735625</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:55</date>
+  <millis>1557472735625</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:55</date>
+  <millis>1557472735634</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:55</date>
+  <millis>1557472735634</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:55</date>
+  <millis>1557472735635</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:55</date>
+  <millis>1557472735635</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:55</date>
+  <millis>1557472735726</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:55</date>
+  <millis>1557472735726</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:56</date>
+  <millis>1557472736882</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:56</date>
+  <millis>1557472736882</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CurrentURL = \&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:56</date>
+  <millis>1557472736884</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CurrentURL = \&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:56</date>
+  <millis>1557472736885</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : username = \&amp;quot;muhammad.saad@ovrlod.com\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:56</date>
+  <millis>1557472736885</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : username = \&amp;quot;muhammad.saad@ovrlod.com\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:56</date>
+  <millis>1557472736886</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : password = \&amp;quot;Qwerty##1244\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:56</date>
+  <millis>1557472736886</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : password = \&amp;quot;Qwerty##1244\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:56</date>
+  <millis>1557472736886</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(CurrentURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:57</date>
+  <millis>1557472737208</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(CurrentURL)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:57</date>
+  <millis>1557472737209</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(\&amp;quot;id=tbUsername\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:57</date>
+  <millis>1557472737247</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(\&amp;quot;id=tbUsername\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:57</date>
+  <millis>1557472737253</millis>
+  <sequence>40</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.\nReason:\ncom.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)\r\nCaused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found\n  (Session info: chrome=74.0.3729.131)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SQA-02-004&amp;apos;, ip: &amp;apos;192.168.168.23&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\rabeet\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52378}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}\nSession ID: 2a6aa2d58b688fbf1677aaa690604a70\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat Script1551953894303.run(Script1551953894303.groovy:41)\r\n\t... 13 more\r\n</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>DTCM Invalid Login Scenario</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>336</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>327</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>306</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1557472727971</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:57</date>
+  <millis>1557472737255</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:57</date>
+  <millis>1557472737260</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng</property>
+  <property name="source">C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Test Cases\\DTCM\\Language Change\\DTCM Language Change Eng-Fr-Eng.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:57</date>
+  <millis>1557472737435</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-10T12:18:57</date>
+  <millis>1557472737443</millis>
+  <sequence>46</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:18:58</date>
+  <millis>1557472738042</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:00</date>
+  <millis>1557472740383</millis>
+  <sequence>49</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 287272f762fb619181f36005cd31eb1e</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">287272f762fb619181f36005cd31eb1e</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:00</date>
+  <millis>1557472740403</millis>
+  <sequence>50</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.131</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.131</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:00</date>
+  <millis>1557472740403</millis>
+  <sequence>51</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:00</date>
+  <millis>1557472740403</millis>
+  <sequence>52</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:00</date>
+  <millis>1557472740404</millis>
+  <sequence>53</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:02</date>
+  <millis>1557472742377</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.google.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:02</date>
+  <millis>1557472742377</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:02</date>
+  <millis>1557472742377</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:02</date>
+  <millis>1557472742378</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:02</date>
+  <millis>1557472742378</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:02</date>
+  <millis>1557472742378</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:02</date>
+  <millis>1557472742379</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:02</date>
+  <millis>1557472742394</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:02</date>
+  <millis>1557472742394</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743515</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743517</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743721</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743721</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743727</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743728</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(\&amp;quot;xpath=(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;English&amp;apos;])[2]/following::span[1]\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743753</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(\&amp;quot;xpath=(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;English&amp;apos;])[2]/following::span[1]\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743754</millis>
+  <sequence>73</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng FAILED.\nReason:\ncom.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;English&amp;apos;])[2]/following::span[1] not found\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat DTCM Language Change Eng-Fr-Eng.run(DTCM Language Change Eng-Fr-Eng:41)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;English&amp;apos;])[2]/following::span[1]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SQA-02-004&amp;apos;, ip: &amp;apos;192.168.168.23&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: unknown\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat Script1552030841447.run(Script1552030841447.groovy:41)\r\n\t... 13 more\r\n</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1] not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>DTCM Language Change Eng-Fr-Eng</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>336</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>327</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>306</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1557472727971</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743756</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/DTCM/Language Change/DTCM Language Change Eng-Fr-Eng</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743759</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/DTCM/Language Change/Language Change Az-Fr-Az</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/DTCM/Language Change/Language Change Az-Fr-Az</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/DTCM/Language Change/Language Change Az-Fr-Az</property>
+  <property name="source">C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Test Cases\\DTCM\\Language Change\\Language Change Az-Fr-Az.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743962</millis>
+  <sequence>77</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:03</date>
+  <millis>1557472743966</millis>
+  <sequence>79</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:04</date>
+  <millis>1557472744572</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:06</date>
+  <millis>1557472746697</millis>
+  <sequence>82</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = c97f391d3cb60a2691d22aa356291577</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">c97f391d3cb60a2691d22aa356291577</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:06</date>
+  <millis>1557472746727</millis>
+  <sequence>83</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.131</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.131</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:06</date>
+  <millis>1557472746728</millis>
+  <sequence>84</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:06</date>
+  <millis>1557472746728</millis>
+  <sequence>85</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:06</date>
+  <millis>1557472746729</millis>
+  <sequence>86</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:08</date>
+  <millis>1557472748919</millis>
+  <sequence>88</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.google.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:08</date>
+  <millis>1557472748920</millis>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:08</date>
+  <millis>1557472748920</millis>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:08</date>
+  <millis>1557472748921</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:08</date>
+  <millis>1557472748921</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:08</date>
+  <millis>1557472748921</millis>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:08</date>
+  <millis>1557472748921</millis>
+  <sequence>94</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:08</date>
+  <millis>1557472748935</millis>
+  <sequence>95</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:08</date>
+  <millis>1557472748935</millis>
+  <sequence>96</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750057</millis>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750057</millis>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750266</millis>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750266</millis>
+  <sequence>100</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750273</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750273</millis>
+  <sequence>102</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CurrentURL = \&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750273</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CurrentURL = \&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750274</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : locationNow = location</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750281</millis>
+  <sequence>105</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : locationNow = location</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750282</millis>
+  <sequence>106</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CssSelector = \&amp;quot;css=.dd-options:first li\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750282</millis>
+  <sequence>107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CssSelector = \&amp;quot;css=.dd-options:first li\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750282</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dropdown = \&amp;quot;xpath=(.//*[normalize-space(text()) and normalize-space(.)=\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750283</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dropdown = \&amp;quot;xpath=(.//*[normalize-space(text()) and normalize-space(.)=\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750283</millis>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(dropdown + \&amp;quot;&amp;apos;English&amp;apos;])[2]/following::span[1]\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750307</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(dropdown + \&amp;quot;&amp;apos;English&amp;apos;])[2]/following::span[1]\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750308</millis>
+  <sequence>114</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/DTCM/Language Change/Language Change Az-Fr-Az FAILED.\nReason:\ncom.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;English&amp;apos;])[2]/following::span[1] not found\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat Language Change Az-Fr-Az.run(Language Change Az-Fr-Az:46)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;English&amp;apos;])[2]/following::span[1]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SQA-02-004&amp;apos;, ip: &amp;apos;192.168.168.23&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: unknown\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat Script1552040412802.run(Script1552040412802.groovy:46)\r\n\t... 13 more\r\n</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::span[1] not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Language Change Az-Fr-Az</class>
+      <method>run</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>336</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>327</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>306</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1557472727971</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750309</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/DTCM/Language Change/Language Change Az-Fr-Az</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750311</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/DTCM/Forget Password/Forget Login Info</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/DTCM/Forget Password/Forget Login Info</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/DTCM/Forget Password/Forget Login Info</property>
+  <property name="source">C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Test Cases\\DTCM\\Forget Password\\Forget Login Info.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750615</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:10</date>
+  <millis>1557472750618</millis>
+  <sequence>120</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:11</date>
+  <millis>1557472751221</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:13</date>
+  <millis>1557472753501</millis>
+  <sequence>123</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = a5fb3ae0e5f3132ddfdb1d0982ffc69d</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">a5fb3ae0e5f3132ddfdb1d0982ffc69d</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:13</date>
+  <millis>1557472753533</millis>
+  <sequence>124</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.131</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.131</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:13</date>
+  <millis>1557472753533</millis>
+  <sequence>125</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:13</date>
+  <millis>1557472753534</millis>
+  <sequence>126</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:13</date>
+  <millis>1557472753534</millis>
+  <sequence>127</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755724</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.google.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755725</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755725</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755725</millis>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755725</millis>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : base = driver.getWindowHandle()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755729</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : base = driver.getWindowHandle()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755729</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : StartPoint = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755730</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : StartPoint = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755730</millis>
+  <sequence>137</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : email = \&amp;quot;muhammad.saad@ovrlod.com\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755730</millis>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : email = \&amp;quot;muhammad.saad@ovrlod.com\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755730</millis>
+  <sequence>139</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, StartPoint)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755745</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, StartPoint)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755745</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755936</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:15</date>
+  <millis>1557472755936</millis>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(5000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:20</date>
+  <millis>1557472760941</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(5000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:20</date>
+  <millis>1557472760943</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(\&amp;quot;link=exact:Forgot login info?\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:20</date>
+  <millis>1557472760968</millis>
+  <sequence>146</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(\&amp;quot;link=exact:Forgot login info?\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:20</date>
+  <millis>1557472760968</millis>
+  <sequence>148</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/DTCM/Forget Password/Forget Login Info FAILED.\nReason:\ncom.thoughtworks.selenium.SeleniumException: Element link=exact:Forgot login info? not found\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat Forget Login Info.run(Forget Login Info:57)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)\r\n</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element link=exact:Forgot login info? not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Forget Login Info</class>
+      <method>run</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>336</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>327</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>306</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1557472727971</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:20</date>
+  <millis>1557472760969</millis>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/DTCM/Forget Password/Forget Login Info</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:20</date>
+  <millis>1557472760971</millis>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario</property>
+  <property name="source">C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Test Cases\\DTCM\\Login and logout\\DTCM Invalid Login Scenario.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:20</date>
+  <millis>1557472760976</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:20</date>
+  <millis>1557472760978</millis>
+  <sequence>154</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:21</date>
+  <millis>1557472761596</millis>
+  <sequence>155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:23</date>
+  <millis>1557472763750</millis>
+  <sequence>157</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 373978c371c38120f35323b082df314e</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">373978c371c38120f35323b082df314e</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:23</date>
+  <millis>1557472763768</millis>
+  <sequence>158</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.131</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.131</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:23</date>
+  <millis>1557472763769</millis>
+  <sequence>159</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:23</date>
+  <millis>1557472763769</millis>
+  <sequence>160</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:23</date>
+  <millis>1557472763769</millis>
+  <sequence>161</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:25</date>
+  <millis>1557472765914</millis>
+  <sequence>163</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.google.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:25</date>
+  <millis>1557472765915</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:25</date>
+  <millis>1557472765915</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:25</date>
+  <millis>1557472765915</millis>
+  <sequence>166</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:25</date>
+  <millis>1557472765915</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:25</date>
+  <millis>1557472765916</millis>
+  <sequence>168</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = \&amp;quot;https://www.google.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:25</date>
+  <millis>1557472765916</millis>
+  <sequence>169</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:25</date>
+  <millis>1557472765935</millis>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:25</date>
+  <millis>1557472765935</millis>
+  <sequence>171</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767054</millis>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767054</millis>
+  <sequence>173</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CurrentURL = \&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767054</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CurrentURL = \&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767054</millis>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : username = \&amp;quot;muhammad.saad@ovrlod.com\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767054</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : username = \&amp;quot;muhammad.saad@ovrlod.com\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767054</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : password = \&amp;quot;Qwerty##1244\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767055</millis>
+  <sequence>178</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : password = \&amp;quot;Qwerty##1244\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767055</millis>
+  <sequence>179</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(CurrentURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767277</millis>
+  <sequence>180</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(CurrentURL)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767278</millis>
+  <sequence>181</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(\&amp;quot;id=tbUsername\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767302</millis>
+  <sequence>182</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(\&amp;quot;id=tbUsername\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767303</millis>
+  <sequence>185</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario FAILED.\nReason:\ncom.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat DTCM Invalid Login Scenario.run(DTCM Invalid Login Scenario:41)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)\r\nCaused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found\n  (Session info: chrome=74.0.3729.131)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SQA-02-004&amp;apos;, ip: &amp;apos;192.168.168.23&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\rabeet\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52498}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}\nSession ID: 373978c371c38120f35323b082df314e\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat Script1551953894303.run(Script1551953894303.groovy:41)\r\n\t... 13 more\r\n</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>DTCM Invalid Login Scenario</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>336</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>327</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>306</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1557472727971</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767304</millis>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/DTCM/Login and logout/DTCM Invalid Login Scenario</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767308</millis>
+  <sequence>187</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/DTCM/Login and logout/LoginFormValidation</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/DTCM/Login and logout/LoginFormValidation</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/DTCM/Login and logout/LoginFormValidation</property>
+  <property name="source">C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Test Cases\\DTCM\\Login and logout\\LoginFormValidation.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767469</millis>
+  <sequence>189</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:27</date>
+  <millis>1557472767470</millis>
+  <sequence>191</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:28</date>
+  <millis>1557472768111</millis>
+  <sequence>192</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:30</date>
+  <millis>1557472770273</millis>
+  <sequence>194</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = c876ac49a2b7ef994f021ce82b1c2adc</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">c876ac49a2b7ef994f021ce82b1c2adc</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:30</date>
+  <millis>1557472770292</millis>
+  <sequence>195</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.131</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.131</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:30</date>
+  <millis>1557472770292</millis>
+  <sequence>196</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:30</date>
+  <millis>1557472770292</millis>
+  <sequence>197</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:30</date>
+  <millis>1557472770292</millis>
+  <sequence>198</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:31</date>
+  <millis>1557472771831</millis>
+  <sequence>200</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://qacd2.testvisitdubai.com/en/account/login?v=78798789&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:31</date>
+  <millis>1557472771832</millis>
+  <sequence>201</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:31</date>
+  <millis>1557472771832</millis>
+  <sequence>202</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:31</date>
+  <millis>1557472771832</millis>
+  <sequence>203</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:31</date>
+  <millis>1557472771832</millis>
+  <sequence>204</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = \&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:31</date>
+  <millis>1557472771833</millis>
+  <sequence>205</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = \&amp;quot;https://qacd2.testvisitdubai.com/en/account/login?v=78798789\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:31</date>
+  <millis>1557472771833</millis>
+  <sequence>206</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:31</date>
+  <millis>1557472771847</millis>
+  <sequence>207</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:31</date>
+  <millis>1557472771847</millis>
+  <sequence>208</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:32</date>
+  <millis>1557472772972</millis>
+  <sequence>209</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:32</date>
+  <millis>1557472772972</millis>
+  <sequence>210</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(2500)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:35</date>
+  <millis>1557472775472</millis>
+  <sequence>211</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(2500)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:35</date>
+  <millis>1557472775474</millis>
+  <sequence>212</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(\&amp;quot;id=tbUsername\&amp;quot;, \&amp;quot;muhammad.saad@ovrlod.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:35</date>
+  <millis>1557472775528</millis>
+  <sequence>213</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(\&amp;quot;id=tbUsername\&amp;quot;, \&amp;quot;muhammad.saad@ovrlod.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:35</date>
+  <millis>1557472775528</millis>
+  <sequence>216</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/DTCM/Login and logout/LoginFormValidation FAILED.\nReason:\ncom.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:59)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:31)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:322)\r\n\tat com.thoughtworks.selenium.Selenium$type$1.call(Unknown Source)\r\n\tat LoginFormValidation.run(LoginFormValidation:58)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)\r\nCaused by: org.openqa.selenium.JavascriptException: javascript error: Element id=tbUsername not found\n  (Session info: chrome=74.0.3729.131)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SQA-02-004&amp;apos;, ip: &amp;apos;192.168.168.23&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\rabeet\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52528}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}\nSession ID: c876ac49a2b7ef994f021ce82b1c2adc\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:59)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Type.handleSeleneseCommand(Type.java:31)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:322)\r\n\tat com.thoughtworks.selenium.Selenium$type$1.call(Unknown Source)\r\n\tat Script1552549847679.run(Script1552549847679.groovy:58)\r\n\t... 13 more\r\n</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element id=tbUsername not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Type</class>
+      <method>handleSeleneseCommand</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Type</class>
+      <method>handleSeleneseCommand</method>
+      <line>31</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>type</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$type$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>LoginFormValidation</class>
+      <method>run</method>
+      <line>58</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>336</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>327</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>306</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1557472727971</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:35</date>
+  <millis>1557472775544</millis>
+  <sequence>217</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/DTCM/Login and logout/LoginFormValidation</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:35</date>
+  <millis>1557472775545</millis>
+  <sequence>218</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/DTCM/SignUp/Create Account</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/DTCM/SignUp/Create Account</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/DTCM/SignUp/Create Account</property>
+  <property name="source">C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Test Cases\\DTCM\\SignUp\\Create Account.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:35</date>
+  <millis>1557472775738</millis>
+  <sequence>220</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:35</date>
+  <millis>1557472775740</millis>
+  <sequence>222</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:36</date>
+  <millis>1557472776320</millis>
+  <sequence>223</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:38</date>
+  <millis>1557472778631</millis>
+  <sequence>225</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 86b947379ee3ee76c7ecdcb2d9d072c2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">86b947379ee3ee76c7ecdcb2d9d072c2</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:38</date>
+  <millis>1557472778662</millis>
+  <sequence>226</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.131</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.131</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:38</date>
+  <millis>1557472778663</millis>
+  <sequence>227</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:38</date>
+  <millis>1557472778663</millis>
+  <sequence>228</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:38</date>
+  <millis>1557472778663</millis>
+  <sequence>229</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780851</millis>
+  <sequence>231</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.google.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780851</millis>
+  <sequence>232</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://www.google.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780851</millis>
+  <sequence>233</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780852</millis>
+  <sequence>234</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780852</millis>
+  <sequence>235</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = \&amp;quot;https://www.katalon.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780852</millis>
+  <sequence>236</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = \&amp;quot;https://www.katalon.com/\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780852</millis>
+  <sequence>237</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : email = \&amp;quot;rabeet.siddiqui@ovrlod.com\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780852</millis>
+  <sequence>238</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : email = \&amp;quot;rabeet.siddiqui@ovrlod.com\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780852</millis>
+  <sequence>239</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : password = \&amp;quot;Qwerty#1\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780852</millis>
+  <sequence>240</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : password = \&amp;quot;Qwerty#1\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780853</millis>
+  <sequence>241</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : name = \&amp;quot;Rabeet\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780853</millis>
+  <sequence>242</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : name = \&amp;quot;Rabeet\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780853</millis>
+  <sequence>243</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : lastname = \&amp;quot;Siddiqui\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780853</millis>
+  <sequence>244</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : lastname = \&amp;quot;Siddiqui\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780853</millis>
+  <sequence>245</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780866</millis>
+  <sequence>246</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:40</date>
+  <millis>1557472780866</millis>
+  <sequence>247</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:41</date>
+  <millis>1557472781991</millis>
+  <sequence>248</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:41</date>
+  <millis>1557472781991</millis>
+  <sequence>249</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/create-account\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:42</date>
+  <millis>1557472782182</millis>
+  <sequence>250</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(\&amp;quot;https://qacd2.testvisitdubai.com/en/account/create-account\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:42</date>
+  <millis>1557472782182</millis>
+  <sequence>251</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(\&amp;quot;id=firstName\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-05-10T12:19:42</date>
+  <millis>1557472782204</millis>
+  <sequence>252</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(\&amp;quot;id=firstName\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:42</date>
+  <millis>1557472782205</millis>
+  <sequence>255</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/DTCM/SignUp/Create Account FAILED.\nReason:\ncom.thoughtworks.selenium.SeleniumException: Element id=firstName not found\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat Create Account.run(Create Account:46)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1557472727971.run(TempTestSuite1557472727971.groovy:35)\r\nCaused by: org.openqa.selenium.JavascriptException: javascript error: Element id=firstName not found\n  (Session info: chrome=74.0.3729.131)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SQA-02-004&amp;apos;, ip: &amp;apos;192.168.168.23&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\rabeet\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52547}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}\nSession ID: 86b947379ee3ee76c7ecdcb2d9d072c2\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)\r\n\tat com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)\r\n\tat com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)\r\n\tat com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)\r\n\tat com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)\r\n\tat com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)\r\n\tat com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)\r\n\tat com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)\r\n\tat Script1551951305667.run(Script1551951305667.groovy:46)\r\n\t... 13 more\r\n</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element id=firstName not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Create Account</class>
+      <method>run</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>336</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>327</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>306</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>232</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1557472727971</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:42</date>
+  <millis>1557472782207</millis>
+  <sequence>256</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/DTCM/SignUp/Create Account</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-10T12:19:42</date>
+  <millis>1557472782827</millis>
+  <sequence>257</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/DTCM QA Automation</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
