@@ -31,9 +31,9 @@ import static org.apache.commons.lang3.StringUtils.join
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 
-WebUI.openBrowser('https://qacd2.testvisitdubai.com/en/account/login?v=78798789')
+WebUI.openBrowser('https://www.visitdubai.com/en/account/login')
 def driver = DriverFactory.getWebDriver()
-String baseUrl = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789"
+String baseUrl = "https://www.visitdubai.com/en/account/login"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize();
 

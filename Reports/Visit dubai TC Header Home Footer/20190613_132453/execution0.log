@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-13T13:24:55</date>
+  <millis>1560414295242</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Visit dubai TC Header Home Footer</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Visit dubai TC Header Home Footer</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Visit dubai TC Header Home Footer</property>
+</record>
+<record>
+  <date>2019-06-13T13:24:55</date>
+  <millis>1560414295259</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = rabeet - SQA-02-004.ovrlod.pk</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">rabeet - SQA-02-004.ovrlod.pk</property>
+</record>
+<record>
+  <date>2019-06-13T13:24:55</date>
+  <millis>1560414295260</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-06-13T13:24:55</date>
+  <millis>1560414295260</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.168.23</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.168.23</property>
+</record>
+<record>
+  <date>2019-06-13T13:24:55</date>
+  <millis>1560414295261</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.5.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.5.3</property>
+</record>
+<record>
+  <date>2019-06-13T13:24:55</date>
+  <millis>1560414295414</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Visit dubai TC Header Home Footer/TC01 Land on Visit Dubai Website</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Visit dubai TC Header Home Footer/TC01 Land on Visit Dubai Website</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Visit dubai TC Header Home Footer/TC01 Land on Visit Dubai Website</property>
+  <property name="source">C:\\Users\\rabeet\\Katalon Studio\\DTCM QA Automation\\Test Cases\\Visit dubai TC Header Home Footer\\TC01 Land on Visit Dubai Website.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>

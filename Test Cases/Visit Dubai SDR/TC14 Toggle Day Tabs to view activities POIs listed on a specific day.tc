@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14 Toggle Day Tabs to view activities POIs listed on a specific day</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bd3cd32-a167-4858-a747-9982a75ef01e</testCaseGuid>
+</TestCaseEntity>
