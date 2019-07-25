@@ -43,18 +43,18 @@ selenium.open(gv.getWebsitename())
 
 //selenium.click('xpath=//*[@id=\'ctl15_ctl02_rptSuperCategories_hlCategory_0\']')
 
-String expandableLink = '//*[@id="ctl15_ctl02_rptSuperCategories_rptCategories_2_rptSubCategories_0_hlItem_2"]';
+String expandableLink = '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4) > ul > li:nth-child(6) > ul > li:nth-child(3) > a';
 
-WebUI.mouseOver(getElement("css","#ctl15_ctl02_rptSuperCategories_hlCategory_2"))
+WebUI.mouseOver(getElement("css",".homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4)"))
 
 WebUI.waitForPageLoad(20000)
 
-WebUI.click(getElement('css','#ctl15_ctl02_rptSuperCategories_rptCategories_2_hlItem_0'))
-WebUI.mouseOver(getElement("xpath",expandableLink))
+WebUI.click(getElement('css','.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4) > ul > li:nth-child(6)'))
+WebUI.mouseOver(getElement("css",expandableLink))
 Thread.sleep(500)
 
 //System.out.println(WebUI.verifyElementPresent(getElement('css', expandableLink + '.focus'), 0, FailureHandling.CONTINUE_ON_FAILURE))
-WebUI.click(getElement('xpath', expandableLink))
+WebUI.click(getElement('css', expandableLink))
 
 
 

@@ -43,11 +43,14 @@ selenium.open(gv.getWebsitename())
 
 //selenium.click('xpath=//*[@id=\'ctl15_ctl02_rptSuperCategories_hlCategory_0\']')
 
-String expandableLink = '#ctl15_ctl02_rptSuperCategories_rptCategories_2_rptSubCategories_4_liCategory_3';
+String expandableLink = '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4) > ul > li:nth-child(3) > ul > li:nth-child(3) > a';
 
-WebUI.mouseOver(getElement("css","#ctl15_ctl02_rptSuperCategories_hlCategory_2"))
+WebUI.mouseOver(getElement("css",".homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4)"))
 
-WebUI.click(getElement('xpath', '//*[@id="ctl15_ctl02_rptSuperCategories_rptCategories_2_hlItem_4"]'))
+Thread.sleep(2000)
+
+WebUI.click(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4) > ul > li:nth-child(3)'))
+Thread.sleep(2000)
 
 WebUI.mouseOver(getElement('css',expandableLink))
 

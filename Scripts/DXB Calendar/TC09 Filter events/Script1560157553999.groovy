@@ -71,17 +71,26 @@ Thread.sleep(1000)
 
 selenium.click('css=.filter-btn')
 
-JavascriptExecutor js = ((driver) as JavascriptExecutor)
-js.executeScript('document.querySelectorAll(\'.dd-options\')[0].classList.add(\'language-selector-list\')')
-
 int TagsLength = driver.findElements(By.cssSelector('.search-filter-dsf .filters a')).size()
 
 System.out.println('number of languages: ' + TagsLength)
 
-for(int i =1 ; i <= TagsLength ; i++)
-{
-	selenium.click('css=.search-filter-dsf .filters a' + ':nth-child(' + i + ')')
+for(int i =2 ; i <= TagsLength ; i++)
+{	
+	WebUI.mouseOver(getElement('css', '.search-inner .filters > a' + ':nth-child(' + i + ')'))
+	String TagName = WebUI.click(getElement('css', '.search-filter-dsf .filters > a' + ':nth-child(' + i + ')'))
+	
+	Thread.sleep(1000)
+	String TxtBoxContent = WebUI.getText(getElement('css', '.heading.inner > small')).toString()
+	println(TxtBoxContent)
+	
+	WebUI.click(getElement('css', '.search-filter-dsf .filters > a:nth-child('+i+')'))
+	Thread.sleep(1000)
+	
 }
+
+Thread.sleep(4000)
+WebUI.closeBrowser()
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')

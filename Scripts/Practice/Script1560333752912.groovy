@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-
+import org.openqa.selenium.Keys as Keys
 import com.thoughtworks.selenium.Selenium
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.WebDriver
@@ -31,32 +31,50 @@ import java.util.regex.Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.By as By
 
 WebUI.openBrowser('https://www.katalon.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.katalon.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 selenium.open("https://www.visitdubai.com/en")
-selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Skip to main content'])[1]/following::a[1]")
-selenium.click("id=tbUsername")
-selenium.type("id=tbUsername", "rabeet.siddiqui08@gmail.com")
-selenium.click("id=tbPassword")
-selenium.type("id=tbPassword", "Ovrlod@12345")
-//selenium.selectFrame("index=3")
-//selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='reCAPTCHA'])[1]/preceding::div[8]")
-//selenium.selectFrame("relative=parent")
-//selenium.selectFrame("index=4")
-//selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='store front'])[1]/following::img[3]")
-//selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='store front'])[1]/following::img[8]")
-//selenium.click("id=recaptcha-verify-button")
-//selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='store front'])[1]/following::img[4]")
-//selenium.click("id=recaptcha-verify-button")
-//selenium.selectFrame("relative=parent")
-//selenium.click("id=plhcontent_0_lbtnSubmit")
-//selenium.click("id=btnLogout")
+WebUI.maximizeWindow()
+//Keys.chord(Keys.CONTROL, Keys.SHIFT, Keys.ENTER)
 
-String Verify =  WebUI.verifyElementPresent(getElement('css', '#recaptcha1 > div > div > iframe'), 0)
-println (Verify) 
+
+int ulLength = driver.findElements(By.cssSelector('.footer .container > ul > li')).size()
+println (ulLength)
+
+for(int i = 1 ; i<=ulLength ;i++)
+{
+	Default = WebUI.getUrl()
+	println (Default)
+	WebUI.scrollToElement(getElement('css', '.footer-social.container > a.footer-social-icon.facebook-icon'), 20)
+	
+	int languagesLength = driver.findElements(By.cssSelector('.footer .container > ul > li:nth-child('+i+') > ul > li')).size()
+	println (languagesLength)
+		
+	for(int j = 1 ; j<=languagesLength ;j++)
+	{
+		
+		WebUI.click(getElement('css', '.footer .container > ul > li:nth-child(' + i + ') > ul > li:nth-child(' + j + ') > a'))
+		New = WebUI.getUrl()
+		println (New)
+		
+		if(Default != New)
+		{
+			println ("Passed")
+		}
+		else(Default == New).call(
+		{
+			println ("Failed")
+		})
+	}
+	
+}
+
+
+
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')
 

@@ -42,18 +42,18 @@ GlobalVaribale gv = new GlobalVaribale()
 
 selenium.open(gv.getWebsitename() + 'en/discover')
 
-WebUI.scrollToElement(getElement('css', '#plhcontent_0_phcolumn1_1_panelContainer > div > section > div > div > div > ul > li.ic-globe'), 
+WebUI.scrollToElement(getElement('css', '.container.mobile-full-width .row .col-sm-12 .icon-list > ul > li:nth-child(2)'), 
     10)
 
-WebUI.click(getElement('xpath', '//*[@id=\'bussiness-newslettermodal\']/div[1]/button'))
+WebUI.click(getElement('css', '.modal-content.business-modal.visitdubai-modal .modal-header .close.b-close'))
 
 Thread.sleep(500)
 
-WebUI.mouseOver(getElement('css', '#plhcontent_0_phcolumn1_2_panelContainer > div > div.ng-scope > section:nth-child(2) > div.ng-scope > div > div:nth-child(1) > div > a > div'))
+WebUI.mouseOver(getElement('css', '.max-container.vdf-col-1 .ng-scope:nth-child(1) > div:nth-child(1) > div:nth-child(1) .tab-content-pod .exclude-external .vd-article-title.ng-binding'))
 
 Thread.sleep(1000)
 
-WebUI.click(getElement('css', '#plhcontent_0_phcolumn1_2_panelContainer > div > div.ng-scope > section:nth-child(2) > div.ng-scope > div > div:nth-child(1) > div > a > div'))
+WebUI.click(getElement('css', '.max-container.vdf-col-1 .ng-scope:nth-child(1) > div:nth-child(1) > div:nth-child(1) .tab-content-pod .exclude-external .vd-article-title.ng-binding'))
 
 
 TestObject getElement(String selectorType, String locator) {
@@ -64,3 +64,4 @@ TestObject getElement(String selectorType, String locator) {
     return newTestObject
 }
 
+WebUI.closeBrowser()

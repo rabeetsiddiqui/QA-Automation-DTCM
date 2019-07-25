@@ -42,11 +42,11 @@ GlobalVaribale gv = new GlobalVaribale()
 
 selenium.open(gv.getWebsitename() + 'en/discover')
 
-WebUI.scrollToElement(getElement('css', '#plhcontent_0_phcolumn1_2_panelContainer > div > div.ng-scope > section:nth-child(2) > div.ng-scope > div > div:nth-child(3) > div > a'), 10)
+WebUI.scrollToElement(getElement('css', '.max-container.vdf-col-1 .ng-scope:nth-child(1) > div:nth-child(1) > div:nth-child(1) .tab-content-pod .exclude-external .vd-article-title.ng-binding'), 10)
 Thread.sleep(1500)
-WebUI.mouseOver(getElement('xpath', '//*[@id="whats-on"]/div/div/div/div[1]/div/div/div[2]'))
+WebUI.mouseOver(getElement('css', '.whats-on-slider.slick-initialized.slick-slider .slick-list.draggable .slick-track .item.active.slick-slide.slick-current.slick-active .col-lg-12.col-md-12.nopadding .tiles-copy-wrapper .btn-buy-now-container.btn-more-info'))
 Thread.sleep(1000)
-WebUI.click(getElement('xpath', '//*[@id="whats-on"]/div/div/div/div[1]/div/div/div[2]'))
+WebUI.click(getElement('css', '.whats-on-slider.slick-initialized.slick-slider .slick-list.draggable .slick-track .item.active.slick-slide.slick-current.slick-active .col-lg-12.col-md-12.nopadding .tiles-copy-wrapper .btn-buy-now-container.btn-more-info'))
 Thread.sleep(500)
 
 TestObject getElement(String selectorType, String locator) {
@@ -56,4 +56,4 @@ TestObject getElement(String selectorType, String locator) {
 
     return newTestObject
 }
-
+WebUI.closeBrowser()

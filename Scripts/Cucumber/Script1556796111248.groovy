@@ -18,22 +18,22 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
 
-WebUI.setText(findTestObject('Object Repository/Cucumber/Page_Gmail/input_Continue to Gmail_identifier'), 'rabeet.siddiqui08@gmail.com')
+WebUI.setText(findTestObject('null'), 'rabeet.siddiqui08@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Cucumber/Page_Gmail/span_Next'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Cucumber/Page_Gmail/input_Too many failed attempts_password'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     'pdGGk+YARTYC3O0wZkTIzQ==')
 
-WebUI.click(findTestObject('Object Repository/Cucumber/Page_Gmail/span_Next'))
+WebUI.click(findTestObject('null'))
 
 WebUI.verifyImagePresent(findTestObject(null))
 
-WebUI.click(findTestObject('Object Repository/Cucumber/Page_Inbox - rabeet.siddiqui08gmail.com - Gmail/img_Gmail (standard view) guide_gb_ma'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Cucumber/Page_Inbox - rabeet.siddiqui08gmail.com - Gmail/span_Send feedback_gb_ya gbii'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Cucumber/Page_Inbox - rabeet.siddiqui08gmail.com - Gmail/a_Sign out'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

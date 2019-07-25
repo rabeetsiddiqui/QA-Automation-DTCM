@@ -83,7 +83,7 @@ Thread.sleep(1000)
 WebUI.mouseOver(getElement('css', '#tabMenu > li.location'))
 Thread.sleep(500);
 WebUI.click(getElement('css', '#tabMenu > li.location'))
-Thread.sleep(100)
+Thread.sleep(500)
 
 String Afterclick = WebUI.getCSSValue(getElement('css', '#tabMenu > li.location.active_tab.mouseout'), 'background-color')
 println (Afterclick)

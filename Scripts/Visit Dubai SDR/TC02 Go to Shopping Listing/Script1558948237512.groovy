@@ -44,10 +44,15 @@ GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
 String BackgroundColorPink = "rgba(194, 44, 145, 1)"
 
-WebUI.mouseOver(getElement("css","#ctl15_ctl02_rptSuperCategories_hlCategory_1"))
+//Hover on SDR
+WebUI.mouseOver(getElement("css",".homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(3)"))
 Thread.sleep(1000)
-WebUI.click(getElement("css", "#ctl15_ctl02_rptSuperCategories_rptCategories_1_hlItem_0"))
-WebUI.click(getElement("css","#ctl15_ctl02_rptSuperCategories_rptCategories_1_rptSubCategories_0_hlItem_0"));
+//Expand tab
+WebUI.click(getElement("css", ".mobile_nav .main-nav .nav-section > li:nth-child(3) > ul > li:nth-child(3)"))
+
+//Click Under Expanded Tab
+WebUI.click(getElement("css",".mobile_nav .main-nav .nav-section > li:nth-child(3) > ul > li:nth-child(3) .sub-level.hidden > li:nth-child(3)"));
+
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')
 

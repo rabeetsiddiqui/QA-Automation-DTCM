@@ -42,20 +42,20 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize()
 GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
-selenium.click("xpath=//*[@id='ctl15_ctl02_rptSuperCategories_hlCategory_0']")
-WebUI.waitForPageLoad(20000)
 
-String Colorcode  = driver.findElement(By.xpath('//*[@id="ctl17_ctl02_rptSuperCategories_hlCategory_0"]')).getCssValue("color");
+
+//selenium.click(".homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2)")
+WebUI.click(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2)'))
+WebUI.waitForPageLoad(20000)
+Thread.sleep(1000)
+String Colorcode  = driver.findElement(By.cssSelector('.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2) > a')).getCssValue("color");
 System.out.println(Colorcode);
 if(Colorcode == 'rgba(194, 44, 145, 1)')
 {
-	System.out.println('Font color is Pink')
 }
 else(Colorcode != 'rgba(194, 44, 145, 1)'){
 	System.out.println('Font color is not changed')
 }
-
-WebUI.scrollToElement(getElement('css', '#whats-on > div > div > div > div:nth-child(3) > div > div > div.btn-buy-now-container.btn-more-info'), 10)
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')
@@ -64,3 +64,4 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+WebUI.closeBrowser()

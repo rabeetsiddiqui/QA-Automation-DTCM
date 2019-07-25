@@ -11,17 +11,24 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
-
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword as WebUIAbstractKeyword
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-
+import com.thoughtworks.selenium.Selenium as Selenium
+import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
+import org.openqa.selenium.WebDriver as WebDriver
+import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
+import static org.junit.Assert.*
+import java.util.regex.Pattern as Pattern
+import static org.apache.commons.lang3.StringUtils.join
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import org.openqa.selenium.WebElement as WebElement
+import org.eclipse.persistence.internal.oxm.record.json.JSONParser.object_return
+import org.openqa.selenium.By as By
+import com.test.GlobalVaribale as GlobalVaribale
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.thoughtworks.selenium.Selenium
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.WebDriver
@@ -33,40 +40,61 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
-import org.openqa.selenium.JavascriptExecutor;
-
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import org.apache.commons.lang.time.DateUtils;
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('https://www.google.com/')
+
 def driver = DriverFactory.getWebDriver()
-String baseUrl = "https://www.google.com/"
+
+String baseUrl = 'https://www.google.com/'
+
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
+
 driver.manage().window().maximize()
+
 GlobalVaribale gv = new GlobalVaribale()
+
 selenium.open(gv.getWebsitename())
-String BackgroundColorPink = "rgba(194, 44, 145, 1)"
+
+String BackgroundColorPink = 'rgba(194, 44, 145, 1)'
 
 //hover on Shopping Dine Relax
-WebUI.mouseOver(getElement("css","#ctl15_ctl02_rptSuperCategories_hlCategory_1"))
+WebUI.mouseOver(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(3)'))
+
 Thread.sleep(1000)
 
 //Expand Shopping Under Shopping Dine Relax
-WebUI.click(getElement("css", "#ctl15_ctl02_rptSuperCategories_rptCategories_1_hlItem_0"))
+WebUI.click(getElement('css', '.mobile_nav .main-nav .nav-section > li:nth-child(3) > ul > li:nth-child(3)'))
+Thread.sleep(700)
 
 //Click on any of the Item Under Shopping
-WebUI.click(getElement("css","#ctl15_ctl02_rptSuperCategories_rptCategories_1_rptSubCategories_0_hlItem_0"));
+WebUI.click(getElement('css', '.mobile_nav .main-nav .nav-section > li:nth-child(3) > ul > li:nth-child(3) .sub-level.hidden > li:nth-child(3)'))
+Thread.sleep(700)
 
-WebUI.click(getElement('xpath', '//*[@id=\'bussiness-newslettermodal\']/div[1]/button'))
-WebUI.scrollToElement(getElement('css', '#plhcontent_1_panelContainer > div > div > a:nth-child(4)'), 0)
+WebUI.click(getElement('css', '.modal-content.business-modal.visitdubai-modal .modal-header .close.b-close'))
+Thread.sleep(700)
+WebUI.scrollToElement(getElement('css', '.vdf-col-right .slick-track'), 16)
+Thread.sleep(700)
 
-WebUI.mouseOver(getElement('css', '#player_uid_246770620_1 > div.ytp-cued-thumbnail-overlay > button'),false)
+WebUI.click(findTestObject('Object Repository/Visit Dubai SDR/TC04 FeaturedVideo Button'))
 
-//JavascriptExecutor js = (JavascriptExecutor) driver;
-//js.executeScript("window.scrollTo(10, document.body.scrollHeight)");
+
+int width = WebUI.getCSSValue(findTestObject('Object Repository/Visit Dubai SDR/TC04 width'), "width")
+println (width)
+int height = WebUI.getCSSValue(findTestObject('Object Repository/Visit Dubai SDR/TC04 height'), "height")
+println(height)
+
 
 TestObject getElement(String selectorType, String locator) {
-	TestObject newTestObject = new TestObject('Grid')
-
-	newTestObject.addProperty(selectorType, ConditionType.EQUALS, locator)
-
-	return newTestObject
+    TestObject newTestObject = new TestObject('Grid')
+    newTestObject.addProperty(selectorType, ConditionType.EQUALS, locator)
+    return newTestObject
 }
+

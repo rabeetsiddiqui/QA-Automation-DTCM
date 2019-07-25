@@ -32,13 +32,9 @@ import com.test.GlobalVaribale
 
 
 WebUI.openBrowser('https://www.google.com/')
-
 def driver = DriverFactory.getWebDriver()
-
 String baseUrl = 'https://www.google.com/'
-
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-
 driver.manage().window().maximize()
 
 GlobalVaribale gv = new GlobalVaribale()

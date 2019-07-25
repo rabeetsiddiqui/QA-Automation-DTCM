@@ -44,15 +44,15 @@ selenium.open(gv.getWebsitename())
 
 String BackgroundColorPink = 'rgba(194, 44, 145, 1)'
 
-WebUI.mouseOver(getElement('css', '#ctl15_ctl02_rptSuperCategories_hlCategory_1'))
+WebUI.mouseOver(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(3)'))
 
 Thread.sleep(1000)
 
-selenium.click('xpath=//*[@id=\'ctl15_ctl02_rptSuperCategories_hlCategory_1\']')
+WebUI.click(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(3)'))
 
 WebUI.waitForPageLoad(20000)
 
-String Colorcode = driver.findElement(By.xpath('//*[@id="ctl17_ctl02_rptSuperCategories_hlCategory_1"]')).getCssValue('color')
+String Colorcode  = driver.findElement(By.cssSelector('.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(3) > a')).getCssValue("color");
 
 System.out.println(Colorcode)
 
@@ -64,9 +64,11 @@ if (Colorcode == BackgroundColorPink) {
         })
 }
 
-WebUI.click(getElement('xpath', '//*[@id=\'bussiness-newslettermodal\']/div[1]/button'))
+WebUI.click(getElement('css', '.modal-content.business-modal.visitdubai-modal .modal-header .close.b-close'))
 
-WebUI.scrollToElement(getElement('css', '#plhcontent_1_PanelsRepeater_PanelsChipPanel_5_headTitleH2_5'), 5)
+WebUI.mouseOver(getElement('css', '.homepage_wrap.no-transition .rs_preserve .nav.rs_skip .cnt .sub_menu > ul > li:nth-child(6)'))
+
+WebUI.scrollToElement(getElement('css', '.homepage_wrap.no-transition .rs_preserve .nav.rs_skip .cnt .sub_menu > ul > li:nth-child(6)'), 15)
 
 TestObject getElement(String selectorType, String locator) {
     TestObject newTestObject = new TestObject('Grid')

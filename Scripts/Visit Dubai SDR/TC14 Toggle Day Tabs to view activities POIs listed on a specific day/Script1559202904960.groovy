@@ -48,7 +48,7 @@ driver.manage().window().maximize()
 String CssSelector = '.dubai .nav .sub_menu li'
 String ActiveStateColor = "rgba(17, 136, 215, 1)";
 
-WebUI.click(getElement('css', '#lightbox > div.lb-dataContainer.top-text.font_55 > div > a'))
+WebUI.click(getElement('css', '.lb-dataContainer.top-text.font_55 .top-holder > a'))
 JavascriptExecutor js = ((driver) as JavascriptExecutor)
 js.executeScript('document.querySelectorAll(\'.dubai .nav .sub_menu li\')') 
 

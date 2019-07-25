@@ -36,9 +36,9 @@ driver.manage().window().maximize()
 GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
 
-WebUI.mouseOver(getElement('css','#ctl15_ctl02_rptSuperCategories_hlCategory_0'))
+WebUI.mouseOver(getElement('css','.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2)'))
 Thread.sleep(500)
-WebUI.click(getElement('css','#ctl15_ctl02_rptSuperCategories_rptCategories_0_hlImage > span > span.tout_subheader_v2.font_33'))
+WebUI.click(getElement('css','.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2) .nav-column-middle .tout.default'))
 String Default = WebUI.getUrl();
 println (Default)
 
@@ -51,3 +51,4 @@ TestObject getElement(String selectorType, String locator) {
     return newTestObject
 }
 
+WebUI.closeBrowser()

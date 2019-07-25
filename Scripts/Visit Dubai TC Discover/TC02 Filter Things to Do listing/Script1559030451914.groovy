@@ -39,9 +39,9 @@ selenium.open(gv.getWebsitename())
 String AfterClick = "rgba(255, 255, 255, 1)";
 
 
-selenium.click('xpath=//*[@id=\'ctl15_ctl02_rptSuperCategories_hlCategory_0\']')
+WebUI.click(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2)'))
 WebUI.waitForPageLoad(20000)
-String Colorcode = driver.findElement(By.xpath('//*[@id="ctl17_ctl02_rptSuperCategories_hlCategory_0"]')).getCssValue('color')
+String Colorcode  = driver.findElement(By.cssSelector('.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2) > a')).getCssValue("color");
 System.out.println(Colorcode)
 if (Colorcode == 'rgba(194, 44, 145, 1)') {
     System.out.println('Font color is Pink')
@@ -51,15 +51,16 @@ else {
             System.out.println('Font color is not changed')
         })
 }
-WebUI.scrollToElement(getElement('css', '#plhcontent_0_phcolumn1_1_panelContainer > div > section > div > div > div > ul > li.ic-globe'), 10)
-String DefaultContent = WebUI.getText(getElement('css', '#plhcontent_0_phcolumn1_2_panelContainer > div > div.ng-scope > section:nth-child(2) > div.ng-scope > div > div:nth-child(1) > div > a > h4'))
+WebUI.scrollToElement(getElement('css', '.container.mobile-full-width .row .col-sm-12 .icon-list > ul > li:nth-child(2)'), 10)
+String DefaultContent = WebUI.getText(getElement('css', '.max-container.vdf-col-1 .ng-scope:nth-child(1) > div:nth-child(1) > div:nth-child(1) .tab-content-pod .exclude-external .vd-article-title.ng-binding'))
 println (DefaultContent);
 
-WebUI.mouseOver(getElement('css', '#plhcontent_0_phcolumn1_2_panelContainer > div > div.ng-scope > section:nth-child(1) > div > div > div:nth-child(2)'));
+WebUI.mouseOver(getElement('css', '.ng-scope .container .row:nth-child(1) .icon-tabs.new-tab-icons.halign-center.col-sm-12 .tabular-tab.col-sm-3.col-md-3.col-lg-3:nth-child(3)'));
 Thread.sleep(500)
-WebUI.click(getElement('css', '#plhcontent_0_phcolumn1_2_panelContainer > div > div.ng-scope > section:nth-child(1) > div > div > div:nth-child(2)'))
 
-String Colorcode1 = driver.findElement(By.xpath('//*[@id="plhcontent_0_phcolumn1_2_panelContainer"]/div/div[1]/section[1]/div/div/div[2]')).getCssValue('color')
+WebUI.click(getElement('css', '.ng-scope .container .row:nth-child(1) .icon-tabs.new-tab-icons.halign-center.col-sm-12 .tabular-tab.col-sm-3.col-md-3.col-lg-3:nth-child(3)'))
+
+String Colorcode1 = driver.findElement(By.cssSelector('.ng-scope .container .row:nth-child(1) .icon-tabs.new-tab-icons.halign-center.col-sm-12 .tabular-tab.col-sm-3.col-md-3.col-lg-3.active')).getCssValue('color')
 println (Colorcode1);
  
 if(Colorcode1 == AfterClick)
@@ -71,7 +72,7 @@ else {Colorcode1 != AfterClick.call({
 		})
 }
 
-String Newtext = WebUI.getText(getElement('css', '#plhcontent_0_phcolumn1_2_panelContainer > div > div.ng-scope > section:nth-child(2) > div.ng-scope > div > div:nth-child(1) > div > a > h4'))
+String Newtext = WebUI.getText(getElement('css', '.max-container.vdf-col-1 .ng-scope:nth-child(1) > div:nth-child(1) > div:nth-child(1) .tab-content-pod .exclude-external .vd-article-title.ng-binding'))
 println (Newtext);
 if(DefaultContent != Newtext)
 {

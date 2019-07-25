@@ -44,29 +44,29 @@ GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
 
 //Hover on shop,dine,Relax
-WebUI.mouseOver(getElement("css","#ctl16_ctl02_rptSuperCategories_hlCategory_1"))
+WebUI.mouseOver(getElement("css",".homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(3)"))
 Thread.sleep(1000)
 //Open Shopping Dropdown under Shop dine Relax
-WebUI.click(getElement("css", "#ctl16_ctl02_navMobileNav > div > ul > li.high-level.hover > ul > li:nth-child(3)"))
+WebUI.click(getElement("css", ".mobile_nav .main-nav .nav-section > li:nth-child(3) > ul > li:nth-child(3)"))
 Thread.sleep(500)
 //Click on See more Subitem under Shopping 
-WebUI.click(getElement("css","#ctl16_ctl02_navMobileNav > div > ul > li.high-level.hover > ul > li:nth-child(3) > ul > li:nth-child(7)"));
+WebUI.click(getElement("css",".mobile_nav .main-nav .nav-section > li:nth-child(3) > ul > li:nth-child(3) .sub-level.hidden > li:nth-child(7)"));
 
 //after landing on shopping page Closing Newsletter Component to scroll
-WebUI.click(getElement('css','#bussiness-newslettermodal > div.modal-header > button'))
-WebUI.scrollToElement(getElement('css','#flights > div.booking_controls_wrap.active.in > div.booking_dates > label:nth-child(1) > div'), 10)
+WebUI.click(getElement('css', '.modal-content.business-modal.visitdubai-modal .modal-header .close.b-close'))
+WebUI.scrollToElement(getElement('css','.vdf-col-right .sidebar-dynamic-img .banner-slide-wrap.slick-initialized.slick-slider .slick-dots .aaa-right-pause.aaa-right-control'), 150)
 
 //Click on Itineraries to show changes in Articles
-WebUI.click(getElement('css', '#dsf_shop_sub_cat_filters > dl > dd > div > a:nth-child(2)'))
+WebUI.click(getElement('css', '.dropdown_filter .sub_cat_filters.nav.nav-tabs > a:nth-child(2)'))
 Thread.sleep(500)
-String Default= WebUI.getText(getElement('css', '#Itineraries_categoryDataRoot > li:nth-child(1) > div > a:nth-child(2) > h4'))
+String Default= WebUI.getText(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(1) .dsf_shop_cat_deals_info > a:nth-child(2) > h4'))
 println (Default)
 Thread.sleep(1500)
 
 //click on Articles
-WebUI.click(getElement('css','#dsf_shop_sub_cat_filters > dl > dd > div > a:nth-child(1)'))
+WebUI.click(getElement('css','.dropdown_filter .sub_cat_filters.nav.nav-tabs > a:nth-child(1)'))
 Thread.sleep(500)
-String New = WebUI.getText(getElement('css', '#Articles_categoryDataRoot > li:nth-child(1) > div > a > h4'))
+String New = WebUI.getText(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(1) .dsf_shop_cat_deals_info > a > h4'))
 println (New)
 
 if(Default != New)

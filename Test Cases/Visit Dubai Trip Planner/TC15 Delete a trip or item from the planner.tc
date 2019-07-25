@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15 Delete a trip or item from the planner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>950d4b76-0526-4fa1-b74d-e7909fd17457</testCaseGuid>
+</TestCaseEntity>

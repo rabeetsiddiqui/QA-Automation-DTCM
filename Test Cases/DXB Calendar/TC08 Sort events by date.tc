@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08 Sort events by date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd269e94-5d33-49cb-ab10-890d62b867cc</testCaseGuid>
+</TestCaseEntity>

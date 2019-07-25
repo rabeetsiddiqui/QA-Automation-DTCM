@@ -56,7 +56,7 @@ WebUI.executeJavaScript('document.querySelectorAll(\'.radio-inline\')[3\t].click
 
 Thread.sleep(500)
 
-WebUI.selectOptionByValue(findTestObject('CalculatorSelect'), 'Private-A', false)
+WebUI.selectOptionByValue(findTestObject('null'), 'Private-A', false)
 
 Thread.sleep(500)
 

@@ -59,7 +59,7 @@ WebUI.waitForElementNotVisible(getElement('css', '.sc-progressindicator-inner'),
 System.out.println('title 2: ' + WebUI.getWindowTitle( // Dynamically creates test object that WebUI Functions can use to perform operations.
         ))
 
-WebUI.click(findTestObject('ButtonIframeSC1'))
+WebUI.click(findTestObject('null'))
 
 System.out.println('clicked success')
 
@@ -67,36 +67,36 @@ System.out.println('clicked success')
 WebUI.click(getElement('css', 'body > div:nth-child(184) > div.scInsertionHandleLeft.scAddToHere'))
 
 //WebUI.click(getElement('css', '#Tabs_tab_9'))
-WebUI.click(findTestObject('Iframe2SCButton'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Iframe2SC'))
+WebUI.click(findTestObject('null'))
 
 //WebUI.click(getElement('css', '#I51C13F0383644F61B8602EC6CA7439B3 > div'))
-WebUI.click(findTestObject('Iframe4SC'))
+WebUI.click(findTestObject('null'))
 
 //WebUI.click(getElement('css', '#OK'))
-WebUI.click(findTestObject('SubmitBtnSC'))
+WebUI.click(findTestObject('null'))
 
-//WebUI.click(findTestObject('DropDownComponentSC'))
-//WebUI.click(findTestObject('Iframe2SC'))
+//WebUI.click(findTestObject('null'))
+//WebUI.click(findTestObject('null'))
 //WebUI.executeJavaScript('document.querySelectorAll(".scContentTreeNodeGlyph")[1].click())',[])
-WebUI.click(findTestObject('DropDownComponentSC'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('NewPromoBtnSC') //WebUI.click(getElement('css', '.scButtonPrimary'))
+WebUI.click(findTestObject('null') //WebUI.click(getElement('css', '.scButtonPrimary'))
     )
 
-WebUI.click(findTestObject('SubmitButtonPromoSC'))
+WebUI.click(findTestObject('null'))
 
 WebUI.executeJavaScript('document.querySelectorAll(\'#commandRow > a:nth-child(16) > span\')[1].click()', [])
 
 WebUI.click(getElement('css', 'body > div:nth-child(2) > a:nth-child(2)'))
 
 
-WebUI.scrollToElement(findTestObject('VariantSelectionSC'), 20)
+WebUI.scrollToElement(findTestObject('null'), 20)
 
-WebUI.selectOptionByValue(findTestObject('VariantSelectionSC'), '{2FF9DC0D-D429-436E-8AAA-093FB92AB9F7}', false)
+WebUI.selectOptionByValue(findTestObject('null'), '{2FF9DC0D-D429-436E-8AAA-093FB92AB9F7}', false)
 
-WebUI.click(findTestObject('SubmitBtnVariantSC'))
+WebUI.click(findTestObject('null'))
 
 TestObject getElement(String selectorType, String locator) {
     TestObject newTestObject = new TestObject('Grid')

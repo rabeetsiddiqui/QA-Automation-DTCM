@@ -45,19 +45,19 @@ selenium.open(gv.getWebsitename())
 String BackgroundColorPink = "rgba(194, 44, 145, 1)"
 
 //hover on Shopping Dine Relax
-WebUI.mouseOver(getElement("css","#ctl15_ctl02_rptSuperCategories_hlCategory_1"))
+WebUI.mouseOver(getElement("css",".homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(3)"))
 Thread.sleep(1000)
 
 //Expand Shopping Under Shopping Dine Relax
-WebUI.click(getElement("css", "#ctl15_ctl02_rptSuperCategories_rptCategories_1_hlItem_0"))
+WebUI.click(getElement("css", ".mobile_nav .main-nav .nav-section > li:nth-child(3) > ul > li:nth-child(3)"))
 
 //Click on any of the Item Under Shopping
-WebUI.click(getElement("css","#ctl15_ctl02_rptSuperCategories_rptCategories_1_rptSubCategories_0_hlItem_0"));
+WebUI.click(getElement("css",".mobile_nav .main-nav .nav-section > li:nth-child(3) > ul > li:nth-child(3) .sub-level.hidden > li:nth-child(3)"));
 
 //Choose any Category tab after land on the Shopping page
-WebUI.mouseOver(getElement("css","#plhcontent_1_panelContainer > div > div > a:nth-child(3)"))
+WebUI.mouseOver(getElement("css",".homepage_wrap.no-transition .rs_preserve .vdf-col-1 .dsf_shop_cat > a:nth-child(3)"))
 Thread.sleep(2000);
-WebUI.click(getElement("css","#plhcontent_1_panelContainer > div > div > a:nth-child(3)"));
+WebUI.click(getElement("css",".homepage_wrap.no-transition .rs_preserve .vdf-col-1 .dsf_shop_cat > a:nth-child(3)"));
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')

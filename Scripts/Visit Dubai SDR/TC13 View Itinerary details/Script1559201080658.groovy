@@ -44,19 +44,19 @@ GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename()+"/en/shop-dine-relax/shopping")
 
 //after landing on shopping page Closing Newsletter Component to scroll
-WebUI.click(getElement('css','#bussiness-newslettermodal > div.modal-header > button'))
-WebUI.scrollToElement(getElement('css','#flights > div.booking_controls_wrap.active.in > div.booking_dates > label:nth-child(1) > div'), 10)
+WebUI.click(getElement('css', '.modal-content.business-modal.visitdubai-modal .modal-header .close.b-close'))
+WebUI.scrollToElement(getElement('css','.vdf-col-right .sidebar-dynamic-img .banner-slide-wrap.slick-initialized.slick-slider .slick-dots .aaa-right-pause.aaa-right-control'), 150)
 
 //Click on Itineraries 
-WebUI.click(getElement('css', '#dsf_shop_sub_cat_filters > dl > dd > div > a:nth-child(2)'))
+WebUI.click(getElement('css','.dropdown_filter .sub_cat_filters.nav.nav-tabs > a:nth-child(2)'))
 Thread.sleep(500)
 String Default= WebUI.getUrl()
 println (Default)
 
 //Click on Detail Itineray
 Thread.sleep(500)
-WebUI.mouseOver(getElement('css', '#Itineraries_categoryDataRoot > li:nth-child(1) > div > a:nth-child(2)'))
-WebUI.click(getElement('css', '#Itineraries_categoryDataRoot > li:nth-child(1) > div > a:nth-child(2)'))
+WebUI.mouseOver(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(2) .dsf_shop_cat_deals_info'))
+WebUI.click(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(2) .dsf_shop_cat_deals_info > a:nth-child(2)'))
 String New= WebUI.getUrl()
 println (New)
 
@@ -68,10 +68,6 @@ else(Default == New).call(
 	{
 		println ("Failed")
 	})
-
-Thread.sleep(1000);
-WebUI.click(getElement('css', '#lightbox > div.lb-dataContainer.top-text.font_55 > div > a'))
-
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')
 

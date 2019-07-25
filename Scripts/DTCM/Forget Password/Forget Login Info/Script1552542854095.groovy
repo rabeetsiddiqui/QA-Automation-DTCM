@@ -75,6 +75,7 @@ Thread.sleep(3000);
 ArrayList tabs = new ArrayList (driver.getWindowHandles());
 System.out.println(tabs.size());
 driver.switchTo().window(tabs.get(1));
+
 Thread.sleep(5000);
 WebElement ParentElement = driver.findElement(By.id("divHomeWrap"))
 String htmlstring = ParentElement.getText();

@@ -43,12 +43,11 @@ selenium.open("https://www.visitdubai.com/en")
 
 String Sitemap = "https://www.visitdubai.com/en/sitemap";
 
-WebUI.click(getElement("xpath","//*[@id='bussiness-newslettermodal']/div[1]/button"))
+WebUI.click(getElement("css","#bussiness-newslettermodal > div.modal-header > button"))
 
-WebUI.scrollToElement(getElement("xpath","//*[@id='ctl18_hlSiteMap']"), 25)
-WebUI.mouseOver(getElement("xpath","//*[@id='ctl18_hlSiteMap']"))
-Thread.sleep(1500)
-WebUI.click(getElement("xpath","//*[@id='ctl18_hlSiteMap']"))
+WebUI.scrollToElement(getElement("css",".footer-social.container > a.footer-social-icon.pinterest-icon"), 10)
+WebUI.mouseOver(getElement("css","#footer-container-ajax > div.copyright > div > div.copyright-menu > ul > li:nth-child(2)"))
+WebUI.click(getElement("css","#footer-container-ajax > div.copyright > div > div.copyright-menu > ul > li:nth-child(2)"))
 
 String CurrentUrl = WebUI.getUrl()
 println(CurrentUrl)

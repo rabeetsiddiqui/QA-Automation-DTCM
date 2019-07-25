@@ -44,19 +44,19 @@ GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename()+"/en/shop-dine-relax/shopping")
 
 //after landing on shopping page Closing Newsletter Component to scroll
-WebUI.click(getElement('css','#bussiness-newslettermodal > div.modal-header > button'))
-WebUI.scrollToElement(getElement('css','#flights > div.booking_controls_wrap.active.in > div.booking_dates > label:nth-child(1) > div'), 10)
+WebUI.click(getElement('css', '.modal-content.business-modal.visitdubai-modal .modal-header .close.b-close'))
+WebUI.scrollToElement(getElement('css','.vdf-col-right .sidebar-dynamic-img .banner-slide-wrap.slick-initialized.slick-slider .slick-dots .aaa-right-pause.aaa-right-control'), 150)
 
 //click on Articles
-WebUI.click(getElement('css','#dsf_shop_sub_cat_filters > dl > dd > div > a:nth-child(1)'))
+WebUI.click(getElement('css','.dropdown_filter .sub_cat_filters.nav.nav-tabs > a:nth-child(1)'))
 Thread.sleep(500)
 String Default = WebUI.getUrl()
 println (Default)
 
 //Click on Article Listing
-WebUI.mouseOver(getElement('css', '#Articles_categoryDataRoot > li:nth-child(1) > a > div > div.trans-dsf_shop'))
+WebUI.mouseOver(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(1) .dsf_shop_cat_deals_info'))
 Thread.sleep(2000)
-WebUI.click(getElement('css', '#Articles_categoryDataRoot > li:nth-child(1) > a > div > div.trans-dsf_shop'))
+WebUI.click(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(1) .dsf_shop_cat_deals_info > a'))
 String New = WebUI.getUrl()
 println (New)
 

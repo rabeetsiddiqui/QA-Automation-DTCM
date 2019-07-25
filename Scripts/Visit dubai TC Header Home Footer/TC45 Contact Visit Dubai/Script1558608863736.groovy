@@ -47,12 +47,10 @@ selenium.open(gv.getWebsitename())
 
 String ContactUs = "https://www.visitdubai.com/en/contact-us";
 
-WebUI.click(getElement("xpath","//*[@id='bussiness-newslettermodal']/div[1]/button"))
+WebUI.click(getElement("css","#bussiness-newslettermodal > div.modal-header > button"))
 
-WebUI.scrollToElement(getElement("xpath","//*[@id='sectionHomePage']/div[11]/div/div[2]/ul/li[1]"), 10)
-WebUI.click(getElement("xpath","//*[@id='sectionHomePage']/div[11]/div/div[2]/ul/li[1]"))
-
-WebUI.click(getElement('xpath','//*[@id="plhcontent_0_heroWrap"]/div/div/div[2]/ul/li[4]/a/span'))
+WebUI.scrollToElement(getElement("css",".footer-social.container > a.footer-social-icon.pinterest-icon"), 10)
+WebUI.click(getElement("css","#footer-container-ajax > div.copyright > div > div.copyright-menu > ul > li:nth-child(1)"))
 
 //ArrayList tabs = new ArrayList (driver.getWindowHandles());
 //System.out.println(tabs.size());

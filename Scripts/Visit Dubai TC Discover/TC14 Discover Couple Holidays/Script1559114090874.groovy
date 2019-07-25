@@ -36,12 +36,12 @@ driver.manage().window().maximize()
 GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
 
-WebUI.mouseOver(getElement('css','#ctl15_ctl02_rptSuperCategories_hlCategory_0'))
+WebUI.mouseOver(getElement('css','.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2)'))
 Thread.sleep(500)
 String Default = WebUI.getUrl();
 println (Default)
 
-WebUI.click(getElement('css','#ctl15_ctl02_rptSuperCategories_rptCategories_0_hlItem_2'))
+WebUI.click(getElement('css','.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2) > ul > li:nth-child(5)'))
 String New = WebUI.getUrl();
 println (New)
 if(Default != New)

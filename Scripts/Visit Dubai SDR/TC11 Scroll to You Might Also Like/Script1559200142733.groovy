@@ -44,23 +44,22 @@ GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename()+"/en/shop-dine-relax/shopping")
 
 //after landing on shopping page Closing Newsletter Component to scroll
-WebUI.click(getElement('css','#bussiness-newslettermodal > div.modal-header > button'))
-WebUI.scrollToElement(getElement('css','#flights > div.booking_controls_wrap.active.in > div.booking_dates > label:nth-child(1) > div'), 10)
+WebUI.click(getElement('css', '.modal-content.business-modal.visitdubai-modal .modal-header .close.b-close'))
+WebUI.scrollToElement(getElement('css','.vdf-col-right .sidebar-dynamic-img .banner-slide-wrap.slick-initialized.slick-slider .slick-dots .aaa-right-pause.aaa-right-control'), 150)
 
 //click on Articles
-WebUI.click(getElement('css','#dsf_shop_sub_cat_filters > dl > dd > div > a:nth-child(1)'))
+WebUI.click(getElement('css','.dropdown_filter .sub_cat_filters.nav.nav-tabs > a:nth-child(1)'))
 Thread.sleep(500)
 String Default = WebUI.getUrl()
 println (Default)
 Thread.sleep(2000)
 
-//Click on Article Listing
-WebUI.scrollToElement(getElement('css', '#Articles_categoryDataRoot > li:nth-child(3) > div > a'), 10)
-WebUI.mouseOver(getElement('css', '#Articles_categoryDataRoot > li:nth-child(5) > div > a'))
-Thread.sleep(2000)
-WebUI.click(getElement('css', '#Articles_categoryDataRoot > li:nth-child(5) > div > a'))
-String New = WebUI.getUrl()
 
+//Click on Article Listing
+WebUI.mouseOver(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(1) .dsf_shop_cat_deals_info'))
+Thread.sleep(2000)
+WebUI.click(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(4) .dsf_shop_cat_deals_info > a'))
+String New = WebUI.getUrl()
 println (New)
 
 if(Default != New)
@@ -72,19 +71,10 @@ else(Default == New).call(
 	println ("Failed")
 })
 
-WebUI.scrollToElement(getElement('css','#divHomeWrap > div > div.newCategory > div.content_wrap.hotel-location-detail.deals-detail-content-wrap > div.content_cell.main_cell.detail-page-container > span:nth-child(11) > div > p:nth-child(43) > span'), 10)
-WebUI.click(getElement('css', '#divHomeWrap > div > div.tiles-container.tiles-container-bottom.new-tiles-container > div:nth-child(1) > div.tout_copy_v2.color_2.promotional-tiles > div.tout_header_v2.font_35'))
-WebUI.scrollToElement(getElement('css','#plhcontent_0_youmayalsolike_0_rptPromotions_divTile_0'), 10)
-String NewestOnce = WebUI.getUrl()
-println (NewestOnce)
-if(New != NewestOnce)
-{
-	println ("Success")
-}
-else(New == NewestOnce).call(
-{
-	println ("Failed")
-})
+
+WebUI.scrollToElement(getElement('css','#divHomeWrap > div > div.tiles-container-head'), 10)
+//WebUI.click(getElement('css', '.tab-content .tab-pane.active .cta_loadmore.for_web .btn_loadmore.show_wrapper > span'))
+//WebUI.scrollToElement(getElement('css','#plhcontent_0_youmayalsolike_0_rptPromotions_divTile_0'), 10)
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')

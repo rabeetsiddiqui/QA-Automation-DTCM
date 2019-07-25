@@ -45,9 +45,11 @@ selenium.open('https://www.visitdubai.com/en')
 String Twitter = "https://twitter.com/visitdubai";
 
 //To redirect on Twitter Page
-WebUI.click(getElement("xpath","//*[@id='bussiness-newslettermodal']/div[1]/button"))
-WebUI.scrollToElement(getElement("xpath", "//*[@id='ctl18_divSocial']/a[1]"), 15)
-WebUI.click(getElement("xpath", "//*[@id='ctl18_divSocial']/a[1]"))
+//WebUI.click(getElement("xpath","//*[@id='bussiness-newslettermodal']/div[1]/button"))
+Thread.sleep(500)
+WebUI.scrollToElement(getElement("css", ".footer-social.container > a:nth-child(1)"), 15)
+Thread.sleep(500)
+WebUI.click(getElement("css", ".footer-social.container > a:nth-child(1)"))
 
 ArrayList tabs = new ArrayList (driver.getWindowHandles());
 System.out.println(tabs.size());
@@ -76,3 +78,4 @@ TestObject getElement(String selectorType, String locator) {
     return newTestObject
 }
 
+WebUI.closeBrowser()

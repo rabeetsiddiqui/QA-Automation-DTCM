@@ -46,10 +46,10 @@ selenium.open(gv.getWebsitename())
 
 String BackgroundColorPink = "rgba(194, 44, 145, 1)"
 
-selenium.click("xpath=//*[@id='ctl15_ctl02_rptSuperCategories_hlCategory_2']")
+WebUI.click(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4)'))
 WebUI.waitForPageLoad(20000)
 
-String Colorcode  = driver.findElement(By.xpath('//*[@id="ctl17_ctl02_rptSuperCategories_hlCategory_2"]')).getCssValue("color");
+String Colorcode  = driver.findElement(By.cssSelector('.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4) > a')).getCssValue("color");
 System.out.println(Colorcode);
 if(Colorcode == BackgroundColorPink)
 {
@@ -59,9 +59,9 @@ else(Colorcode != BackgroundColorPink).call({
 	System.out.println('Font color is not changed')
 })
 Thread.sleep(2000)
-WebUI.scrollToElement(getElement("xpath",'//*[@id="nav"]/div/div/ul/li[6]/a'), 15)
+WebUI.scrollToElement(getElement("css",'.footer .container .section:nth-child(1) > ul > li:nth-child(2)'), 15)
  
-WebUI.click(getElement('xpath', '//*[@id="nav"]/div/div/ul/li[6]/a'))
+//WebUI.click(getElement('css', '.footer .container .section:nth-child(1) > ul > li:nth-child(2)'))
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')
 

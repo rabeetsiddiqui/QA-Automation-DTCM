@@ -36,15 +36,15 @@ driver.manage().window().maximize()
 GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename() + 'en/discover')
 
-WebUI.scrollToElement(getElement('css', '#whats-on > div > div > div > div:nth-child(3) > div > div > div.btn-buy-now-container.btn-more-info > a'), 10)
+WebUI.scrollToElement(getElement('css', '.whats-on-slider.slick-initialized.slick-slider .slick-list.draggable .slick-track .item.active.slick-slide.slick-current.slick-active .col-lg-12.col-md-12.nopadding .tiles-copy-wrapper .btn-buy-now.blue-color'), 10)
 Thread.sleep(1500)
 String Default = WebUI.getUrl();
 println (Default)
 
-WebUI.mouseOver(getElement('css', '#plhcontent_0_phcolumn1_5_panelContainer > div > section > div > div > div > div > div > p:nth-child(3) > a'))
+WebUI.mouseOver(getElement('css', '.container-fluid.light-grey-background .row .col-sm-12 .container .row .col-sm-12 .rounded-corner-button'))
 Thread.sleep(1000)
 
-WebUI.click(getElement('xpath', '//*[@id="plhcontent_0_phcolumn1_5_panelContainer"]/div/section/div/div/div/div/div/p[2]/a'))
+WebUI.click(getElement('css', '.container-fluid.light-grey-background .row .col-sm-12 .container .row .col-sm-12 .rounded-corner-button'))
 WebUI.waitForPageLoad(2000)
 ArrayList tabs = new ArrayList (driver.getWindowHandles());
 System.out.println(tabs.size());
@@ -70,3 +70,4 @@ TestObject getElement(String selectorType, String locator) {
     return newTestObject
 }
 
+WebUI.closeBrowser()

@@ -48,7 +48,7 @@ WebUI.executeJavaScript("document.querySelectorAll('.radio-inline')[1].click();"
 
 WebUI.executeJavaScript("document.querySelectorAll('.radio-inline')[3].click();", [])
 
-WebUI.selectOptionByValue(findTestObject('CalculatorSelect'), 'Private-B', false)
+WebUI.selectOptionByValue(findTestObject('null'), 'Private-B', false)
 
 WebUI.sendKeys(getElement("css", "#txt-monthly-salary"), "5600")
 

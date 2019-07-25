@@ -47,30 +47,33 @@ GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
 
 WebUI.waitForPageLoad(2000)
-WebUI.click(getElement('css', '#bussiness-newslettermodal > div.modal-header > button'))
-WebUI.scrollToElement(getElement('css', '.footer'), 10)
+int ulLength = driver.findElements(By.cssSelector('.footer .container > ul > li')).size()
+println (ulLength)
 
-int FooterLinksLength = driver.findElements(By.cssSelector('.footer a')).size()
-println (FooterLinksLength)
-
-JavascriptExecutor js = ((driver) as JavascriptExecutor)
-
-
-for(int i = 20; i < FooterLinksLength ; i++)
+for(int i = 1 ; i<=ulLength ;i++)
 {
-//	WebUI.click(getElement('css', '.footer a'+':nth-child('+i+')'))
-	println ('clicking on link: '+ (i+1));
+	Default = WebUI.getUrl()
+	println (Default)
+	WebUI.scrollToElement(getElement('css', '.footer-social.container > a.footer-social-icon.facebook-icon'), 20)
 	
-	if(i < driver.findElements(By.cssSelector('.footer a')).size() ){
-		js.executeScript('document.querySelectorAll(".footer a")['+i+'].click()');
-		WebUI.waitForPageLoad(60)
-		WebUI.scrollToElement(getElement('css', '.footer'), 10)
-	}else{
-	println ('This page doesnt have link number '+ (i+1) + ' in the footer');
-	break;
+	int languagesLength = driver.findElements(By.cssSelector('.footer .container > ul > li:nth-child('+i+') > ul > li')).size()
+	println (languagesLength)
+		
+	for(int j = 1 ; j<=languagesLength ;j++)
+	{
+		WebUI.click(getElement('css', '.footer .container > ul > li:nth-child(' + i + ') > ul > li:nth-child(' + j + ') > a'))
+		New = WebUI.getUrl()
+		println (New)
+		
+		if(Default != New)
+		{
+			println ("Passed")
+		}
+		else(Default == New).call(
+		{
+			println ("Failed")
+		})
 	}
-	
-	
 	
 }
 
@@ -82,3 +85,4 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+WebUI.closeBrowser()

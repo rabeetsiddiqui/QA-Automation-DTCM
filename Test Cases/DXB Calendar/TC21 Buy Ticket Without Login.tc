@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21 Buy Ticket Without Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbf247fb-76ca-4356-860e-05acb22b77f1</testCaseGuid>
+</TestCaseEntity>

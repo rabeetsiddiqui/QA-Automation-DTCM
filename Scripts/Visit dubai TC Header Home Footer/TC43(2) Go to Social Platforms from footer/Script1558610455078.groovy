@@ -70,9 +70,11 @@ selenium.open('https://www.visitdubai.com/en')
 //To redirect on YouTube to run this please comment above Facebook Session
 String YouTube = "https://www.youtube.com/visitdubai";
 
-WebUI.click(getElement("xpath","//*[@id='bussiness-newslettermodal']/div[1]/button"))
-WebUI.scrollToElement(getElement("xpath", "//*[@id='ctl18_divSocial']/a[3]"), 15)
-WebUI.click(getElement("xpath", "//*[@id='ctl18_divSocial']/a[3]"))
+//WebUI.click(getElement("xpath","//*[@id='bussiness-newslettermodal']/div[1]/button"))
+Thread.sleep(500)
+WebUI.scrollToElement(getElement("css", ".footer-social.container > a:nth-child(3)"), 15)
+Thread.sleep(500)
+WebUI.click(getElement("css", ".footer-social.container > a:nth-child(3)"))
 Thread.sleep(500)
 ArrayList tabs = new ArrayList (driver.getWindowHandles());
 System.out.println(tabs.size());

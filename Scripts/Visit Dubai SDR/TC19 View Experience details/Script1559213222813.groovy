@@ -44,20 +44,22 @@ GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename()+"/en/shop-dine-relax/shopping")
 
 //after landing on shopping page Closing Newsletter Component to scroll
-WebUI.click(getElement('css','#bussiness-newslettermodal > div.modal-header > button'))
-WebUI.scrollToElement(getElement('css','#flights > div.booking_controls_wrap.active.in > div.booking_dates > label:nth-child(1) > div'), 10)
-String DefaultUrl = WebUI.getUrl();
+WebUI.click(getElement('css', '.modal-content.business-modal.visitdubai-modal .modal-header .close.b-close'))
+WebUI.scrollToElement(getElement('css','.vdf-col-right .sidebar-dynamic-img .banner-slide-wrap.slick-initialized.slick-slider .slick-dots .aaa-right-pause.aaa-right-control'), 150)
+String DefaultUrl = WebUI.getUrl()
 println (DefaultUrl)
 
-//click/GetText on Articles
-String Default = WebUI.getText(getElement('css', '#Articles_categoryDataRoot > li:nth-child(1) > div > a > h4'))
-println (Default)
-Thread.sleep(1500)
 
 //Click on Experiences
-WebUI.click(getElement('css', '#dsf_shop_sub_cat_filters > dl > dd > div > a:nth-child(3)'))
+WebUI.click(getElement('css','.dropdown_filter .sub_cat_filters.nav.nav-tabs > a:nth-child(3)'))
 Thread.sleep(500)
-String New= WebUI.getText(getElement('css', '#POIS_categoryDataRoot > li:nth-child(1) > div > a:nth-child(2) > h4'))
+String Default= WebUI.getUrl()
+println (Default)
+
+Thread.sleep(500)
+WebUI.mouseOver(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(2) .dsf_shop_cat_deals_info'))
+WebUI.click(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(2) .dsf_shop_cat_deals_info > a:nth-child(2)'))
+String New= WebUI.getUrl()
 println (New)
 
 if(Default != New)
@@ -69,20 +71,6 @@ else(Default == New).call(
 		println ("Failed")
 	})
 
-//Click on Experience to land on detail page
-WebUI.click(getElement('css','#POIS_categoryDataRoot > li:nth-child(1) > div > a:nth-child(2)'))
-String NewUrl = WebUI.getUrl();
-println (NewUrl)
-
-//Matching that is it redirect to the detail page or not
-if(DefaultUrl != NewUrl)
-{
-	println ("Success")
-}
-else(DefaultUrl == NewUrl).call(
-	{
-		println ("Failed")
-	})
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')

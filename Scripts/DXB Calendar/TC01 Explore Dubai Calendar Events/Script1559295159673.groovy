@@ -47,15 +47,28 @@ selenium.open(gv.getWebsitename())
 WebUI.waitForPageLoad(600)
 
 
-WebUI.mouseOver(getElement('css', '#ctl16_hlEventsCalendar'))
-String Color = WebUI.getCSSValue(getElement('css', '#ctl16_hlEventsCalendar'), 'background-color')
+WebUI.mouseOver(getElement('css', '.calendar_button.icon_button'))
+String Color = WebUI.getCSSValue(getElement('css', '.calendar_button.icon_button'), 'background-color')
 Thread.sleep(2000)
 
 String CurrentUrl = WebUI.getUrl()
 println (Color)
 println (CurrentUrl)
 
-WebUI.click(getElement('css', '#ctl16_hlEventsCalendar'))
+WebUI.click(getElement('css', '.calendar_button.icon_button'))
+String AfterClickColor = WebUI.getCSSValue(getElement('css', '.calendar_button.icon_button'), 'background-color')
+println (AfterClickColor)
+
+if(Color == AfterClickColor)
+{
+	println ('Success')
+}
+else(Color != AfterClickColor).call(
+	{
+		println ('Failed')
+	})
+
+
 String AfterClick = WebUI.getUrl()
 println (AfterClick)
 

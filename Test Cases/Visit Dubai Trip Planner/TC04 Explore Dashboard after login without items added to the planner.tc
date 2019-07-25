@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04 Explore Dashboard after login without items added to the planner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>192ee1a7-216f-4def-b51b-519dbdff46de</testCaseGuid>
+</TestCaseEntity>

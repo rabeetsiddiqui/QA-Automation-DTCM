@@ -43,17 +43,17 @@ selenium.open(gv.getWebsitename())
 
 //selenium.click('xpath=//*[@id=\'ctl15_ctl02_rptSuperCategories_hlCategory_0\']')
 
-String expandableLink = '//*[@id="ctl15_ctl02_rptSuperCategories_rptCategories_2_rptSubCategories_2_liCategory_4"]';
+String expandableLink = '.mobile_nav> div > ul > li.high-level.hover > ul > li:nth-child(8) .sub-level.hidden  > li:nth-child(3) > a';
 
-WebUI.mouseOver(getElement("css","#ctl15_ctl02_rptSuperCategories_hlCategory_2"))
+WebUI.mouseOver(getElement("css",".homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4)"))
 
-WebUI.click(getElement('xpath', '//*[@id="ctl15_ctl02_navMobileNav"]/div/ul/li[4]/ul/li[5]'))
+WebUI.click(getElement('css', '.mobile_nav> div > ul > li.high-level.hover > ul > li:nth-child(8)'))
 
-WebUI.mouseOver(getElement('xpath',expandableLink))
+WebUI.mouseOver(getElement('css',expandableLink))
 
 Thread.sleep(500)
 
-WebUI.click(getElement('xpath',expandableLink))
+WebUI.click(getElement('css',expandableLink))
 
 //System.out.println(WebUI.verifyElementPresent(getElement('css', expandableLink + '.focus'), 0, FailureHandling.CONTINUE_ON_FAILURE))
 

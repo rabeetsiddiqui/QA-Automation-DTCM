@@ -41,9 +41,9 @@ driver.manage().window().maximize()
 GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
 
-String expandableLink = '#ctl15_ctl02_rptSuperCategories_rptEssentialLinks_hlItem_3';
+String expandableLink = '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4) > ul > li:nth-child(4)';
 
-WebUI.mouseOver(getElement("css","#ctl15_ctl02_rptSuperCategories_hlCategory_1"))
+WebUI.mouseOver(getElement("css",".homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(4)"))
 
 //WebUI.click(getElement('xpath', '//*[@id="ctl15_ctl02_rptSuperCategories_rptCategories_2_hlItem_4"]'))
 
