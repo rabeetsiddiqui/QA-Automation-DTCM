@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\rabeet\\AppData\\Local\\Temp\\Katalon\\Test Cases\\DXB Calendar\\TC08 Sort events by date\\20190730_124241\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\rabeet\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Visit Dubai Trip Planner\\TC05 Explore Dashboard after login with items added to the planner\\20190730_154534\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/DXB Calendar/TC08 Sort events by date', new TestCaseBinding('Test Cases/DXB Calendar/TC08 Sort events by date',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Visit Dubai Trip Planner/TC05 Explore Dashboard after login with items added to the planner', new TestCaseBinding('Test Cases/Visit Dubai Trip Planner/TC05 Explore Dashboard after login with items added to the planner',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
