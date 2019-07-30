@@ -11,225 +11,225 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>233cdb09-fe6d-40a6-9f15-d800b957aed4</testSuiteGuid>
    <testCaseLink>
-      <guid>26f634a7-ed05-452a-8d3f-ed79885c2094</guid>
+      <guid>9e5a3431-798c-4eb4-8ea1-3b28093237c3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC01 Land on Visit Dubai Website</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ef04d129-17f6-421e-8955-d240b213215d</guid>
+      <guid>752ed99b-f4ee-414b-876f-8afdc448a436</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC02 Go to Department of Tourism</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3d286b36-ebb9-448e-baf4-9f456ea8c82c</guid>
+      <guid>5a72de90-e710-4c91-8160-53c9ae7b48e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC03 Go to Business in Dubai</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>efbed4b1-4660-46e7-8019-e5960ca4957d</guid>
+      <guid>527d1626-17f2-4e24-8193-6a98d294ba74</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC04 Change Accessibility Options</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>455680f0-c860-4acb-a631-a6f427c45079</guid>
+      <guid>19d5459f-eedc-4352-9d84-4bcb9a9725d0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC05 Increase Text Size</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8f942ce-c6da-4f32-915e-bfd287de13a1</guid>
+      <guid>9d0b4f48-bf8d-4dad-9694-3f170a494f4f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC06 Change Color Contrast</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fa49f073-85d5-4ae0-8176-ea1ff2de5c79</guid>
+      <guid>ce075493-c482-4fb5-a564-3c337949d45d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC07 Listen to page</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2075230e-7716-4200-b33b-a87609b62a8a</guid>
+      <guid>d4996704-9f07-4db1-a9b9-8f6a976ecd49</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC08 Learn more about accessibility</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7238e63a-8248-4d8b-99d9-73c4771f11f0</guid>
+      <guid>ca68676f-9c56-4345-be47-19ffea05c7b1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC09 Read about the accessibility options</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4da0c2fc-18f6-4635-9b8a-5d525c623ab4</guid>
+      <guid>ab5b27aa-500e-47bd-9b51-6da3bf61e3bb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC10 Change Language</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8483bc5d-e303-4382-b29b-005f034a2b4f</guid>
+      <guid>71cf9a17-14ea-45c1-bc84-e4e3575ef28c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC11 Select a language from dropdown</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>edfecdb7-6504-4ed5-b911-3e2de24b2e76</guid>
+      <guid>bef4a1c6-3830-4f0b-a2b3-153f20b3d08b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC22 Close Accessibility, Language or Sign-in</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a3f49c84-dc7d-4b95-9904-3fdc1c12cc9a</guid>
+      <guid>930f964e-0e29-40b7-bca6-a850b37a4c40</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC23 Go to Discover</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3435ff50-1f53-4a08-b310-d1c1b790c1dd</guid>
+      <guid>2e0ba598-200b-409b-b4ad-d0a875ef7586</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC24 Jump to specific sections from the megamenu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8007ff08-98a4-444a-83c4-6f03e6c091dd</guid>
+      <guid>06e61590-ad37-4a46-9593-e8f8ba55b3da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC25 Expand hidden content within the megamenu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9e5aeb2b-1013-4f38-8623-5dc10aa5ba7a</guid>
+      <guid>9f46bc12-ed4f-418b-a519-40e00166f138</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC26 Go to Shop, Dine, Relax</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b35ea493-ce5e-47d4-8254-3c8cbad6c6f3</guid>
+      <guid>04cfb354-76c8-4fc3-b94c-1f8c7cc0959a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC27 Go to See, Thrill, Play</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c03347a2-401b-4c3e-9334-cc8a68f0afa8</guid>
+      <guid>ac4dfed6-ceac-4eaa-afef-341ef8fb8229</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC28 Go to Travel Planning</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>31c9e790-fdfb-4bc7-8ba0-9b9fcb05bf6f</guid>
+      <guid>66e8ebbd-8916-4da5-a4cd-81325e9301b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC29 Go to Dubai Calendar</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8827fc9c-c649-436b-80a8-f029093c2e11</guid>
+      <guid>adfcb83a-2c53-44b0-b045-65075553c11d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC30 Go to Trip Planner</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0422fd28-9556-4ee3-84c0-d6aa50269779</guid>
+      <guid>3aa009b3-172c-45eb-abc3-c9f24495023b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC31 Sign-up for Newsletter</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>27826b59-adf0-4a6a-ba84-b4e0ea07909f</guid>
+      <guid>9ae9e970-8d5c-4bd7-afa1-979fd7f59d87</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC32 Search Website</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>70cfa95a-bb56-40e9-aaae-f90aba331f4e</guid>
+      <guid>e066e4d8-8d82-4f75-a015-8601a31191e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC33 Enter Keyword to search</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7c03e33f-9bac-4b76-89eb-f823f5e546c8</guid>
+      <guid>c84fef59-36f3-43e6-8e01-918fef2a961e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC34 Select an auto-suggested item from dropdown</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7e150a51-220d-4238-9317-96b73f5f936d</guid>
+      <guid>0ad53527-e91b-4b20-b312-a3cfe09ba6ab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC35 Explore search results</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8814a5e-200a-47b8-aaba-240b0987bb5d</guid>
+      <guid>3fd2ee0b-374f-402e-9588-a9cdacc818b5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC36 Explore Home Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bbe02e0b-53e2-4e6d-b21f-34d939467c44</guid>
+      <guid>f7b74014-f30f-477c-a44d-8e0f53610e27</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC38 Anchor to specific sections on the homepage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fbfd708b-fb86-40b2-9a74-6b036d208c68</guid>
+      <guid>46ab3ba5-05ae-4637-ab27-2aa1f5b813fd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC39 Read an Article or Service details from the homepage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6857d2bc-f4a4-467b-8f33-19e427a6c7d4</guid>
+      <guid>849bb919-829b-484c-b46b-eed4906ecf49</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC41 Go back to top</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8ff2710e-caf4-4470-9e5a-ce55ea39238e</guid>
+      <guid>1cc60813-b0e2-4811-af9b-02b02534d36f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC42 Return to Homepage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc7315ec-8cd2-4ae9-94ec-d4fe221b86cf</guid>
+      <guid>d6f68de8-155d-4788-82e0-fe303e1e695c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC43(1) Go to Social Platforms from footer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>88b11b67-96ee-4764-9888-f555751874ce</guid>
+      <guid>ea41f5d8-1503-483b-a0ba-c34328619469</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC43(2) Go to Social Platforms from footer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>154aa5dc-b910-4f67-b9c6-d7ce2d1ab970</guid>
+      <guid>bdc04efe-139f-48c4-8744-09d0da3504bd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC44 Go to sections from the footer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7dbdef7b-2b3c-41d7-8a79-a53f04c9866b</guid>
+      <guid>accd11a8-00b6-4297-aea8-def45a80d820</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC45 Contact Visit Dubai</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d2120976-6a08-4e96-8add-61e739d6d167</guid>
+      <guid>62036905-689c-46fe-82b8-232b0c0e1c1e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC46 View website Sitemap</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ac69a3cd-a83c-4b33-b1cf-ff1f44333c80</guid>
+      <guid>c3271cbb-0419-4f5b-8128-f4f880f2915b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC47 Read Privacy Policy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fac56e63-2c0a-414c-9d05-5aa4d6a0ae22</guid>
+      <guid>85b52b5c-50b4-4314-bb47-4b66f942b025</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC48 Read Terms of Use</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

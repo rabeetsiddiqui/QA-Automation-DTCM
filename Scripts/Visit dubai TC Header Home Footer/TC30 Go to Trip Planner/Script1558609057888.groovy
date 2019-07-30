@@ -51,13 +51,17 @@ WebUI.waitForPageLoad(20000)
 
 String Colorcode  = driver.findElement(By.cssSelector('.main_nav_container .main_nav .main_nav_wrap .tab_nav > li:nth-child(4) > a')).getCssValue("color");
 System.out.println(Colorcode);
+
 if(Colorcode == BackgroundColorPink)
 {
 	System.out.println('Font color is Pink')
 }
-else(Colorcode != BackgroundColorPink){
-	KeywordUtil.markFailed('Link IS NOT in pink when on the page')
+
+else(Colorcode != BackgroundColorPink)
+{
+	KeywordUtil.markFailed("Link is not  in pink when on the page")
 }
+
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')
@@ -66,3 +70,5 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+
+WebUI.closeBrowser()

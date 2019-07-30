@@ -50,10 +50,14 @@ selenium.open("https://www.visitdubai.com/en/events#/?type=Leisure")
 WebUI.waitForPageLoad(200)
 
 WebUI.click(getElement('css','.events-dsf.ng-scope .heading .heading-link')) //click on view all events
-Thread.sleep(500);
+WebUI.waitForPageLoad(1000)
+Thread.sleep(2500)
 
 //WebElement TxtBoxContent = driver.findElement(By.cssSelector(".heading.inner > small")).size();
 String TxtBoxContent = WebUI.getText(getElement('css', '.heading.inner > small')).toString()
+println (TxtBoxContent)
+
+Thread.sleep(2000)
 int EventCount=Integer.parseInt(TxtBoxContent.replaceAll("\\D+",""));
 println(EventCount)
 

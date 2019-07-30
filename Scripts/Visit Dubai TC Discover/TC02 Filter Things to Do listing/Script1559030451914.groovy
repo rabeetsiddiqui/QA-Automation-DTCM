@@ -62,7 +62,7 @@ WebUI.click(getElement('css', '.ng-scope .container .row:nth-child(1) .icon-tabs
 
 String Colorcode1 = driver.findElement(By.cssSelector('.ng-scope .container .row:nth-child(1) .icon-tabs.new-tab-icons.halign-center.col-sm-12 .tabular-tab.col-sm-3.col-md-3.col-lg-3.active')).getCssValue('color')
 println (Colorcode1);
- 
+Thread.sleep(500)
 if(Colorcode1 == AfterClick)
 {
 	System.out.println('Font color is Converted into Blue')
@@ -71,7 +71,7 @@ else {Colorcode1 != AfterClick.call({
 			System.out.println('Font color is not changed')
 		})
 }
-
+Thread.sleep(500)
 String Newtext = WebUI.getText(getElement('css', '.max-container.vdf-col-1 .ng-scope:nth-child(1) > div:nth-child(1) > div:nth-child(1) .tab-content-pod .exclude-external .vd-article-title.ng-binding'))
 println (Newtext);
 if(DefaultContent != Newtext)
@@ -82,6 +82,7 @@ else {DefaultContent == Newtext.call({
 			System.out.println('Failed Tab is not changed')
 		})
 }
+Thread.sleep(500)
 TestObject getElement(String selectorType, String locator) {
     TestObject newTestObject = new TestObject('Grid')
 

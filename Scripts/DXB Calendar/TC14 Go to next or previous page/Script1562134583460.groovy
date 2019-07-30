@@ -49,7 +49,11 @@ driver.manage().window().maximize()
 selenium.open("https://www.visitdubai.com/en/events#/?type=Leisure")
 WebUI.waitForPageLoad(200)
 WebUI.click(getElement('css','.events-dsf.ng-scope .heading .heading-link')) //click on view all events
-Thread.sleep(500);
+Thread.sleep(1500);
+WebUI.scrollToElement(getElement('css', '#event9 > ul > li.trip_detail.main_cell.valign-top'), 15)
+
+Thread.sleep(1500);
+
 WebUI.click(getElement('css','.pagination-wrapper > ul > li:nth-child(2) > a'))
 WebUI.waitForPageLoad(200)
 Thread.sleep(500);
