@@ -27,7 +27,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
-
+import com.kms.katalon.core.util.KeywordUtil
 WebUI.openBrowser('https://www.google.com/')
 
 def driver = DriverFactory.getWebDriver()

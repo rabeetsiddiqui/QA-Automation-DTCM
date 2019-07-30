@@ -77,12 +77,6 @@
       <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC11 Select a language from dropdown</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b2caa0b9-047e-4ae0-8c03-5810dc13d88d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Visit dubai TC Header Home Footer/TC16 Forgot Password</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>edfecdb7-6504-4ed5-b911-3e2de24b2e76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

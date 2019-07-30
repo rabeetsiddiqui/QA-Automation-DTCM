@@ -35,6 +35,7 @@ import org.apache.poi.hssf.record.PageBreakRecord.Break
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -73,9 +74,9 @@ if(tempCount==ConvertStringIntoInteger){
 	println ("-----*****TEst passed****----")
 }
 
-else(tempCount!=GetText).call(
+else(tempCount!=GetText)(
 	{
-		println ("-----*****TEst Failed****----")
+		KeywordUtil.markFailed('Failed')
 	}
 	)
 

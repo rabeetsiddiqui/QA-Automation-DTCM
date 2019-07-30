@@ -34,7 +34,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
-
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -67,9 +67,9 @@ if(Default != New)
 {
 	println ("Passed --  " )
 }
-else(Default == New).call({
-	println ("Failed -- ")
-})
+else(Default == New){
+	KeywordUtil.markFailed('Failed')
+}
 
 String Colorcode  = driver.findElement(By.cssSelector('#vdf-main > div:nth-child(4) .vdf-col-1 > div > a:nth-child(3)')).getCssValue("background-color");
 println (Colorcode) 

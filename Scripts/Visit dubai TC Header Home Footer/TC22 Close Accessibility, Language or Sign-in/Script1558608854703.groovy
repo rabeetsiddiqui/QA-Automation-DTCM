@@ -27,15 +27,12 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
-
 def driver = DriverFactory.getWebDriver()
-
 String baseUrl = 'https://www.google.com/'
-
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-
 driver.manage().window().maximize()
 
 GlobalVaribale gv = new GlobalVaribale()
@@ -43,7 +40,6 @@ selenium.open(gv.getWebsitename())
 
 String backgroundPositionPink = '-5px -31px'
 String backgroundPosition ='-5px -5px';
-
 
 selenium.click('xpath=//*[@id=\'literalAccessibility\']/a')
 //WebUI.click(getElement('xpath', '//*[@id=\'literalAccessibility\']/a'))
@@ -56,10 +52,10 @@ System.out.println(Colorcode)
 
 if (Colorcode == backgroundPositionPink) {
     System.out.println('Font color is pink')
-} else {
-    Colorcode != backgroundPositionPink.call({ 
-            System.out.println('Font color is not changed')
-        })
+} 
+else (Colorcode != backgroundPositionPink)
+{ 
+     KeywordUtil.markFailed('Symbol / Text is not in Pink when Open')
 }
 
 Thread.sleep(1000)
@@ -74,9 +70,9 @@ if(Colorcode2 == backgroundPosition)
 {
 	System.out.println('Font color is Grey')
 }
-else(Colorcode2 != backgroundPosition).call({
-	System.out.println('Font color is not changed')
-})
+else(Colorcode2 != backgroundPosition){
+	KeywordUtil.markFailed('Symbol / Text is not in grey when closed')
+}
 
 
 
@@ -87,4 +83,4 @@ TestObject getElement(String selectorType, String locator) {
 
     return newTestObject
 }
-
+WebUI.closeBrowser()

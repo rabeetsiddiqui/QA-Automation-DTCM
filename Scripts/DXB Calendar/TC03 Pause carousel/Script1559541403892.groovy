@@ -1,4 +1,3 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -35,6 +34,7 @@ import org.apache.poi.hssf.record.PageBreakRecord.Break
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -57,9 +57,9 @@ if(CurrentUrl != AfterClick)
 {
 	println ('Success')
 }
-else(CurrentUrl == AfterClick).call(
+else(CurrentUrl == AfterClick)(
 {
-		println ('Failed')
+		KeywordUtil.markFailed('Failed')
 })
 WebUI.click(getElement('css', '#event-calendar-banner-carousel > div > div > div > div.bx-controls.bx-has-pager.bx-has-controls-direction.bx-has-controls-auto > div.bx-controls-auto'))
 
@@ -70,3 +70,4 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+WebUI.closeBrowser()

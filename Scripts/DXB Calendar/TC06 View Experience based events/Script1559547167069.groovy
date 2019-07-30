@@ -35,6 +35,7 @@ import org.apache.poi.hssf.record.PageBreakRecord.Break
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -60,9 +61,9 @@ if(CurrentUrl != AfterClick)
 {
 	println ('Success')
 }
-else(CurrentUrl == AfterClick).call(
+else(CurrentUrl == AfterClick)(
 {
-		println ('Failed')
+		KeywordUtil.markFailed('Failed')
 })
 
 //Scroll to the page
@@ -86,9 +87,9 @@ if(Fontcolor == Color)
 {
 	println ('Success')
 }
-else(Fontcolor != Color).call(
+else(Fontcolor != Color)(
 	{
-		println ('Failed')
+		KeywordUtil.markFailed('Failed')
 	})
 
 

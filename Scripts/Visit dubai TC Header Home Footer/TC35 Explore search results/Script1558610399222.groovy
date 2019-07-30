@@ -31,7 +31,7 @@ import org.openqa.selenium.interactions.Action as Action
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.JavascriptExecutor;
 import com.test.GlobalVaribale
-
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 
@@ -73,9 +73,9 @@ System.out.println(Colorcode)
 if (Colorcode == BackgroundColorRed) {
     System.out.println('Font color is Red')
 } else {
-    Colorcode != BackgroundColorRed.call({ 
-            System.out.println('Font color is not changed')
-        })
+    Colorcode != BackgroundColorRed{ 
+            KeywordUtil.markFailed('Failed')
+        }
 }
 
 

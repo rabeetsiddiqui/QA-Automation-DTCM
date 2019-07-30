@@ -29,7 +29,7 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.interactions.Action as Action
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
-
+import com.kms.katalon.core.util.KeywordUtil
 WebUI.openBrowser('https://www.google.com/')
 
 def driver = DriverFactory.getWebDriver()
@@ -62,10 +62,10 @@ if(CurrentUrl == Twitter)
 {
 	println("Success")
 }
-else(CurrentUrl != Twitter).call(
+else(CurrentUrl != Twitter)
 {
-	println("Failed")
-})
+	KeywordUtil.markFailed("Failed")
+}
 
 
 

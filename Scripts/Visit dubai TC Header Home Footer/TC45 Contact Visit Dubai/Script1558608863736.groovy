@@ -64,11 +64,10 @@ if(CurrentUrl == ContactUs)
 	println("Success")
 }
 
-else(CurrentUrl != ContactUs).call(
+else(CurrentUrl != ContactUs)
 {
-	println("Failed")
-})
-
+	KeywordUtil.markFailed("Failed")
+}
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')

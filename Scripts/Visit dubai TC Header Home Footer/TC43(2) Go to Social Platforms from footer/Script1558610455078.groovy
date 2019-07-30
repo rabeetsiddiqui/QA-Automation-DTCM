@@ -29,6 +29,7 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.interactions.Action as Action
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 
@@ -87,10 +88,10 @@ if(CurrentUrl == YouTube)
 {
 	println("Success")
 }
-else(CurrentUrl != YouTube).call(
+else(CurrentUrl != YouTube)
 {
-	println("Failed")
-})
+	KeywordUtil.markFailed("Failed")
+}
 
 
 

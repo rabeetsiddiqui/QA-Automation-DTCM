@@ -34,6 +34,7 @@ import java.util.Date as Date
 import org.apache.commons.lang.time.DateUtils as DateUtils
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 

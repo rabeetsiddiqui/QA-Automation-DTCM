@@ -35,6 +35,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.test.GlobalVaribale as GlobalVaribale
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -60,17 +61,15 @@ if(preAudioSpeed==null){
 		println ("passed")
 		WebUI.closeBrowser()
 	}
-	else(postAudioSpeed<=0).call({
-		println ("Failed")
+	else(postAudioSpeed<=0){
+		KeywordUtil.markFailed('Failed Audio is not working')
 	
-	})
+	}
 }
-
-
-
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')
 	newTestObject.addProperty(selectorType, ConditionType.EQUALS, locator)
 	return newTestObject
 }
+WebUI.closeBrowser()

@@ -33,13 +33,17 @@ import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
+import com.kms.katalon.core.util.KeywordUtil
+import com.test.GlobalVaribale
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize()
-selenium.open("https://www.visitdubai.com/en")
+GlobalVaribale gv = new GlobalVaribale()
+selenium.open(gv.getWebsitename())
+
 	
 String BackgroundColorPink = "rgba(194, 44, 145, 1)"
 
@@ -53,9 +57,9 @@ if(Colorcode == BackgroundColorPink)
 {
 	System.out.println('Font color is Pink')
 }
-else(Colorcode != BackgroundColorPink).call({
-	System.out.println('Font color is not changed')
-})
+else(Colorcode != BackgroundColorPink){
+	KeywordUtil.markFailed('Link IS NOT in pink when on the page')
+}
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')

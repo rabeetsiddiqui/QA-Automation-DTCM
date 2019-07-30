@@ -34,6 +34,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 
 WebUI.openBrowser('https://www.google.com/')
@@ -54,7 +55,7 @@ selenium.type("xpath=//*[@id='txtNewsLetterSignupEmail']","rabeet.siddiqui08@gma
 
 selenium.click("xpath=//*[@id='newsletterBI']/div[3]/p/label")
 
-selenium.click("xpath=//*[@id='ctl00_btnNewsLetterSignupSubmit']");
+WebUI.click(getElement('css', '.btn-blue-summer.btn-block:nth-child(3)'))
 
 
 
@@ -65,3 +66,4 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+WebUI.closeBrowser()

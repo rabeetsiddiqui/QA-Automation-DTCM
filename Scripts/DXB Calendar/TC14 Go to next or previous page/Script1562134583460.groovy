@@ -39,6 +39,7 @@ import java.util.Calendar;
 import java.util.Date;
 import org.apache.commons.lang.time.DateUtils;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -57,10 +58,14 @@ WebElement pagerElement = driver.findElement(By.cssSelector(".pagination-wrapper
 String activeClass= pagerElement.getAttribute("class")
 
 int currPage=Integer.parseInt(WebUI.getText(getElement('css', '.pagination-wrapper > ul > li:nth-child(2) > a')))
-
+Thread.sleep(500)
 if(activeClass=="ng-binding current" && currPage==2)
 {
 	println ("Test passed")
+}
+else
+{KeywordUtil.markFailed('Failed')
+	
 }
 
 

@@ -40,6 +40,7 @@ import java.util.Date;
 import org.apache.commons.lang.time.DateUtils;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -177,7 +178,12 @@ public void datePickerReturn() {
 def drivers = DriverFactory.getWebDriver()
 
 	//Get Today's number
+	
 	String today = getCurrentDay(4);
+	if(today > 28)
+	{
+		getNextMonth(1)
+	}
 	System.out.println("Today's number: " + today + "\n");
 	
 	//Click and open the datepickers
@@ -215,6 +221,22 @@ private String getCurrentDay (int day){
 	//Get Current Day as a number
 	int todayInt = calendar.get(Calendar.DAY_OF_MONTH);
 	todayInt += day;
+	System.out.println("Today Int: " + todayInt+"\n");
+
+	//Integer to String Conversion
+	String todayStr = Integer.toString(todayInt);
+	System.out.println("Today Str: " + todayStr + "\n");
+
+	return todayStr;
+}
+
+private String getNextMonth (int month){
+	//Create a Calendar Object
+	Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
+
+	//Get Current Day as a number
+	int todayInt = calendar.get(Calendar.MONTH);
+	todayInt += month;
 	System.out.println("Today Int: " + todayInt+"\n");
 
 	//Integer to String Conversion

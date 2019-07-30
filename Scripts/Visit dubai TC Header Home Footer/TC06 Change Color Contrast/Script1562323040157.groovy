@@ -35,6 +35,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.test.GlobalVaribale as GlobalVaribale
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -56,14 +57,15 @@ if(precolor=="rgba(255, 255, 255, 1)")
 	Thread.sleep(800)
 	String postcolor = WebUI.getCSSValue(getElement("css", ".main_nav"), "background-color")
 	println (postcolor)
-	if(postcolor=="rgba(0, 0, 0 , 1)"){
+	Thread.sleep(300)
+	if(postcolor=="rgba(0, 0, 0, 1)"){
 		println("test passed")
 		WebUI.closeBrowser()
 	}
-	else(postcolor!="rgb(0, 0, 0)").call(
+	else(postcolor!="rgba(0, 0, 0, 1)")
 		{
-			println("Failed")
-		})
+			KeywordUtil.markFailed('Page color is not changed into greyscale')
+		}
 	
 }
 
@@ -73,3 +75,5 @@ TestObject getElement(String selectorType, String locator) {
 	newTestObject.addProperty(selectorType, ConditionType.EQUALS, locator)
 	return newTestObject
 }
+
+//WebUI.closeBrowser()

@@ -36,6 +36,7 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()

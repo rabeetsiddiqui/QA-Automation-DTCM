@@ -27,6 +27,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 
@@ -42,12 +43,10 @@ driver.manage().window().maximize()
 GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
 selenium.click('xpath=//*[@id=\'literalAccessibility\']/a')
-
-WebUI.waitForPageLoad(20000)
-
+Thread.sleep(500)
 //String Colorcode = driver.findElement(By.xpath('//*[@id="literalAccessibility"]/a')).getCssValue('color')
 String Colorcode = driver.findElement(By.xpath('//*[@id="literalAccessibility"]/a')).getCssValue('background-position')
-
+Thread.sleep(500)
 System.out.println(Colorcode)
 
 String backgroundPositionPink = '-5px -31px'
@@ -55,10 +54,11 @@ String backgroundPositionPink = '-5px -31px'
 if (Colorcode == backgroundPositionPink) {
     System.out.println('Font color is Pink')
 }
- else { Colorcode != backgroundPositionPink.call({ 
-            System.out.println('Font color is not changed')
-        })
-}
+ else (Colorcode != backgroundPositionPink)
+ { 
+    KeywordUtil.markFailed('Symbol is not in pink on expand')
+ }
+ 
 
 
 TestObject getElement(String selectorType, String locator) {
@@ -68,4 +68,4 @@ TestObject getElement(String selectorType, String locator) {
 
     return newTestObject
 }
-
+WebUI.closeBrowser()

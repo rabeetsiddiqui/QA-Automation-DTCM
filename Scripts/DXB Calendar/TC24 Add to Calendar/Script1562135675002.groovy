@@ -40,6 +40,7 @@ import java.util.Date;
 import org.apache.commons.lang.time.DateUtils;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.interactions.Actions
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -61,7 +62,7 @@ Thread.sleep(500)
 WebElement pagerElement = driver.findElement(By.cssSelector(".content_cell.main_cell > div:nth-child(5) > div .content_section .add-to-cal >span .atcb-list > li:nth-child(2) > a:first-child"));
 String newTab= pagerElement.getAttribute("target")
 println (newTab)
-WebUI.click(getElement('css', '.content_cell.main_cell > div:nth-child(5) > div .content_section .add-to-cal >span .atcb-list > li:nth-child(2) > a:first-child'))
+WebUI.click(getElement('css', '.content_cell.main_cell > div:nth-child(5) > div .content_section .add-to-cal >span ul:nth-child(4) > li:nth-child(2) > a'))
 
 ArrayList tabs = new ArrayList (driver.getWindowHandles());
 System.out.println(tabs.size());

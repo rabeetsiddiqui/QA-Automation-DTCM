@@ -34,6 +34,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -54,9 +55,10 @@ if(Colorcode == BackgroundColorPink)
 {
 	System.out.println('Font color is Pink')
 }
-else(Colorcode != BackgroundColorPink).call({
-	System.out.println('Font color is not changed')
-})
+else(Colorcode != BackgroundColorPink){
+	KeywordUtil.markFailed('Font color is not changed')
+	}
+
 WebUI.waitForPageLoad(20000)
 Thread.sleep(500);
 WebUI.click(getElement("css",".modal-header .close.b-close"))

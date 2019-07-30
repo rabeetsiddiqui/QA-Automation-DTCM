@@ -34,6 +34,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 
 WebUI.openBrowser('https://www.google.com/')
@@ -44,16 +45,32 @@ driver.manage().window().maximize()
 GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
 selenium.click("xpath=//*[@id='literalAccessibility']/a")
+String currentURL = WebUI.getUrl()
+Thread.sleep(3000)
+WebUI.click(getElement('css', '.accessibility-wrap .accessibility-category > .accessibility-option'))
+String newURL = WebUI.getUrl()
 
-Thread.sleep(2000)
+if(currentURL != newURL)
+{
+	println ("Test Case Passed")
+}
 
-//WebElement AccesibilityLink = driver.findElement(By.xpath("//*[@id='ctl15_div_accessibility_section']/div/div[4]/a"))
-//AccesibilityLink.click()
-//WebUI.waitForPageLoad(20000)
+else(currentURL == newURL)
+{
+	KeywordUtil.markFailed('Failed to Land on Accessibility page')
+}
 
-WebUI.click(getElement("css",".accessibility-wrap .accessibility-category > .accessibility-option"))
 Thread.sleep(1000)
 WebUI.click(getElement("css","#ui-accordion-accessibility-accordion-header-0"))
+
+if(WebUI.verifyElementPresent(getElement('css', '#ui-accordion-accessibility-accordion-panel-0 > h4:nth-child(5)'), 10) == true )
+{
+	println ("Passed")
+}
+else(WebUI.verifyElementPresent(getElement('css', '#ui-accordion-accessibility-accordion-panel-0 > h4:nth-child(5)'), 10) == false)
+{
+	KeywordUtil.markFailed('Failed to Land on Accessibility page')
+}
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')
@@ -62,3 +79,4 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+WebUI.closeBrowser()

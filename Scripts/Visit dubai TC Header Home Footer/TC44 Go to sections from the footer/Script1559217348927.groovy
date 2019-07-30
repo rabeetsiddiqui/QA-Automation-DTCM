@@ -35,7 +35,7 @@ import org.apache.poi.hssf.record.PageBreakRecord.Break
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
-
+import com.kms.katalon.core.util.KeywordUtil
 
 
 WebUI.openBrowser('https://www.google.com/')
@@ -69,10 +69,10 @@ for(int i = 1 ; i<=ulLength ;i++)
 		{
 			println ("Passed")
 		}
-		else(Default == New).call(
+		else(Default == New)
 		{
-			println ("Failed")
-		})
+			KeywordUtil.markFailed("Failed")
+		}
 	}
 	
 }

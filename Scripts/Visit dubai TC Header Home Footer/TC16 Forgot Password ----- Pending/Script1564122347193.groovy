@@ -109,3 +109,4 @@ TestObject getElement(String selectorType, String locator) {
 	return newTestObject
 }
 
+WebUI.closeBrowser()

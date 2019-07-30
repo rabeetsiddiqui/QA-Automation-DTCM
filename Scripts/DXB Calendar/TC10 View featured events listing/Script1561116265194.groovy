@@ -35,6 +35,7 @@ import org.apache.poi.hssf.record.PageBreakRecord.Break
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -59,9 +60,9 @@ if(CurrentUrl != AfterClick)
 {
 	println ('Success')
 }
-else(CurrentUrl == AfterClick).call(
+else(CurrentUrl == AfterClick)(
 {
-		println ('Failed')
+		KeywordUtil.markFailed('Failed')
 })
 
 //Scroll to the page
@@ -85,10 +86,10 @@ if(BeforeClickBackgroundcolor != AfterClickBackgroundcolor)
 {
 	println ("-----Success-----")
 }
-else(BeforeClickBackgroundcolor == AfterClickBackgroundcolor).call(
+else(BeforeClickBackgroundcolor == AfterClickBackgroundcolor)(
 {
 
-	println ("------Failed-----")
+	KeywordUtil.markFailed('Failed')
 })
 
 
@@ -102,10 +103,11 @@ if(eventsinpagecount == FeaturedIcon)
 {
 	println ("The Featured event count is =" + FeaturedIcon + "-------Success-----")
 }
-else(eventsinpagecount != FeaturedIcon).call(
+else(eventsinpagecount != FeaturedIcon)(
 {
 
 	println ("It is also showing unfeatured events = " + FeaturedIcon + "  -------Failed-----")
+	KeywordUtil.markFailed('Failed')
 })
 
 

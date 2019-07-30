@@ -35,6 +35,7 @@ import org.apache.poi.hssf.record.PageBreakRecord.Break
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -57,9 +58,9 @@ if(CurrentUrl != AfterClick)
 {
 	println ('Success')
 }
-else(CurrentUrl == AfterClick).call(
+else(CurrentUrl == AfterClick)(
 {
-		println ('Failed')
+		KeywordUtil.markFailed('Failed')
 })
 
 String Current = WebUI.verifyElementPresent(getElement('css', '#event-calendar-banner-carousel > div > div > div > div.bx-viewport > ul > li:nth-child(1)'), 0)
@@ -77,3 +78,4 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+WebUI.closeBrowser()

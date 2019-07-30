@@ -39,6 +39,7 @@ import java.util.Calendar;
 import java.util.Date;
 import org.apache.commons.lang.time.DateUtils;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()

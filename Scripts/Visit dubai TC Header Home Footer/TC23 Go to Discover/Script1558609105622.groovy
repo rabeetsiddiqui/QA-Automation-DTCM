@@ -34,6 +34,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -52,9 +53,11 @@ String Colorcode  = driver.findElement(By.cssSelector('.homepage_section .mobile
 System.out.println(Colorcode);
 if(Colorcode == 'rgba(194, 44, 145, 1)')
 {
+	println ("Link is in pink when on the page")
 }
-else(Colorcode != 'rgba(194, 44, 145, 1)'){
-	System.out.println('Font color is not changed')
+else(Colorcode != 'rgba(194, 44, 145, 1)')
+{
+	KeywordUtil.markFailed('Link is not in pink when on the page')
 }
 
 TestObject getElement(String selectorType, String locator) {
@@ -64,3 +67,5 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+
+WebUI.closeBrowser()

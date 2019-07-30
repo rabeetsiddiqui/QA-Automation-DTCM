@@ -34,7 +34,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
-
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -55,8 +55,8 @@ if(Colorcode == BackgroundColorPink)
 {
 	System.out.println('Font color is Pink')
 }
-else(Colorcode != BackgroundColorPink).call({
-	System.out.println('Font color is not changed')
+else(Colorcode != BackgroundColorPink)({
+	KeywordUtil.markFailed('Font color is not changed')
 })
 
 WebUI.waitForPageLoad(20000)
@@ -65,16 +65,18 @@ Thread.sleep(500);
 WebUI.click(getElement("css",".modal-header .close.b-close"))
 WebUI.mouseOver(getElement('css', '.rs_preserve > div:nth-child(5) > div .dsf_shop_cat > a:nth-child(4)'))
 Thread.sleep(500);
-
+Thread.sleep(200)
 String Colorcode1  = driver.findElement(By.cssSelector('.rs_preserve > div:nth-child(5) > div .dsf_shop_cat > a:nth-child(4)')).getCssValue("background-color");
 System.out.println(Colorcode1);
+Thread.sleep(300)
 if(Colorcode1 == BackgroundColoronHover)
 {
 	System.out.println('Font color is blue')
 }
-else(Colorcode1 != BackgroundColoronHover).call({
-	System.out.println('Font color is not changed')
+else(Colorcode1 != BackgroundColoronHover)({
+	KeywordUtil.markFailed('Font color is not changed')
 })
+Thread.sleep(500)
 
 WebUI.click(getElement('css', '.rs_preserve > div:nth-child(5) > div .dsf_shop_cat > a:nth-child(4)'))
 
@@ -86,3 +88,4 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+WebUI.closeBrowser()

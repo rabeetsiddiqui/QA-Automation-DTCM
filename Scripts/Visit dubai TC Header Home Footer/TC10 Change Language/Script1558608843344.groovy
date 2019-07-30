@@ -34,25 +34,30 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize()
-//selenium.open("https://www.visitdubai.com/en")
 GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
+
 WebUI.click(getElement("xpath","//*[@id='literalLanguage']/div/div/div/div/a"))
 
 String Colorcode  = driver.findElement(By.xpath('//*[@id="literalLanguage"]/div/div/div/div/a')).getCssValue("color");
- System.out.println(Colorcode);
+
+System.out.println(Colorcode);
+ 
+Thread.sleep(600)
  if(Colorcode == 'rgba(194, 44, 145, 1)')
  {
 	 System.out.println('Font color is Pink')
  }
+ 
  else(Colorcode != 'rgba(194, 44, 145, 1)'){
-	 System.out.println('Font color is not changed')
+	 KeywordUtil.markFailed('Symbol & text is not highlighted in pink on expand')
  }
  
 
@@ -63,3 +68,5 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+
+WebUI.closeBrowser()

@@ -34,6 +34,7 @@ import org.openqa.selenium.By as By
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.Point;
+
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"

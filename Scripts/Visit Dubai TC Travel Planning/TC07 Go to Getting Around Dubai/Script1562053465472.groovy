@@ -34,7 +34,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
-
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -57,8 +57,8 @@ if(Default != New)
 {
 	println ("Passed -- New Url is: " + New)
 }
-else(Default == New).call({
-	println ("Failed")
+else(Default == New)({
+	KeywordUtil.markFailed('Failed')
 })
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')

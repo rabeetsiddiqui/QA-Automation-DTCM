@@ -33,7 +33,7 @@ import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
-
+import com.kms.katalon.core.util.KeywordUtil
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
@@ -57,10 +57,10 @@ if(CurrentUrl == Sitemap)
 	println("Success")
 }
 
-else(CurrentUrl != Sitemap).call(
+else(CurrentUrl != Sitemap)
 {
-	println("Failed")
-})
+	KeywordUtil.markFailed("Failed")
+}
 
 
 TestObject getElement(String selectorType, String locator) {

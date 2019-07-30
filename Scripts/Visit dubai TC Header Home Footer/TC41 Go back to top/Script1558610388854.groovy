@@ -37,7 +37,7 @@ import org.openqa.selenium.interactions.Action as Action
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.JavascriptExecutor;
 import com.test.GlobalVaribale
-
+import com.kms.katalon.core.util.KeywordUtil
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"

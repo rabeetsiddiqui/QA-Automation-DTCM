@@ -29,7 +29,7 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.interactions.Action as Action
 import org.openqa.selenium.interactions.Actions as Actions
 import com.test.GlobalVaribale
-
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -50,9 +50,9 @@ System.out.println(Colorcode)
 if (Colorcode == BackgroundColorPink) {
     System.out.println('Font color is Pink')
 } else {
-    Colorcode != BackgroundColorPink.call({ 
-            System.out.println('Font color is not changed')
-        })
+    Colorcode != BackgroundColorPink{ 
+            KeywordUtil.markFailed('Link IS NOT in pink when on the page')
+        }
 }
 
 

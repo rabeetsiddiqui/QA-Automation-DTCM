@@ -34,6 +34,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -53,9 +54,9 @@ if(Colorcode == 'rgba(36, 36, 36, 1)')
 {
 	System.out.println('Font color is black')
 }
-else(Colorcode != 'rgba(36, 36, 36, 1)').call({
-	System.out.println('Font color is not changed')
-})
+else(Colorcode != 'rgba(36, 36, 36, 1)'){
+	KeywordUtil.markFailed('Visit Dubai link is not in black on the header')
+}
 
 TestObject getElement(String selectorType, String locator) {
 	TestObject newTestObject = new TestObject('Grid')
@@ -64,3 +65,4 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+WebUI.closeBrowser()

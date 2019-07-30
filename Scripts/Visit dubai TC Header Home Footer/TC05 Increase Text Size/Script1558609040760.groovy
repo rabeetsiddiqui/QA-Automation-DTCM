@@ -15,6 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import java.lang.Integer as Integer
 import java.lang.Float as Float
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('')
 
@@ -61,6 +62,7 @@ if (getFloat(currentFontSize)  > getFloat(minFontSize)) {
 } 
 else {
 	println('Font size did not decrease')
+	
 	WebUI.callTestCase(findTestCase('1'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 Thread.sleep(1000)
@@ -77,4 +79,4 @@ TestObject getElement(String selectorType, String locator) {
 
     return newTestObject
 }
-
+WebUI.closeBrowser()

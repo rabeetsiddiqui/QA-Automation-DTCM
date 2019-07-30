@@ -26,6 +26,7 @@ import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 
@@ -43,19 +44,21 @@ WebUI.mouseOver(getElement("css",'.homepage_section .mobile_nav .main-nav .nav-s
 
 WebUI.waitForPageLoad(20000)
 
-WebUI.click(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2) > ul >li:nth-child(3)'))
+WebUI.click(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(2) > ul >li:nth-child(4)'))
 
 String AfterClickUrl= WebUI.getUrl();
 println (AfterClickUrl)
 String URL ="https://www.visitdubai.com/en/discover/sunshine-holidays#!#home";
+
 if(AfterClickUrl == URL )
 {
 	println ('success')
 }
-else(AfterClickUrl != URL).call(
+else(AfterClickUrl != URL)
 {
-	println ("Failed")
-})
+	KeywordUtil.markFailed('Failed to Land on the chosen links page')
+}
+
 TestObject getElement(String selectorType, String locator) {
     TestObject newTestObject = new TestObject('Grid')
 
@@ -63,4 +66,5 @@ TestObject getElement(String selectorType, String locator) {
 
     return newTestObject
 }
+WebUI.closeBrowser()
 

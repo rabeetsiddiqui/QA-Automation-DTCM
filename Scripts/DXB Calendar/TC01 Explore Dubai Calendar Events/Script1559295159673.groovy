@@ -35,6 +35,9 @@ import org.apache.poi.hssf.record.PageBreakRecord.Break
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.util.KeywordUtil
+
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -57,18 +60,6 @@ println (CurrentUrl)
 
 WebUI.click(getElement('css', '.calendar_button.icon_button'))
 String AfterClickColor = WebUI.getCSSValue(getElement('css', '.calendar_button.icon_button'), 'background-color')
-println (AfterClickColor)
-
-if(Color == AfterClickColor)
-{
-	println ('Success')
-}
-else(Color != AfterClickColor).call(
-	{
-		println ('Failed')
-	})
-
-
 String AfterClick = WebUI.getUrl()
 println (AfterClick)
 
@@ -76,12 +67,24 @@ if(CurrentUrl != AfterClick)
 {
 	println ('Success')
 }
-else(CurrentUrl == AfterClick).call(
+else(CurrentUrl == AfterClick)(
 	{
-		println ('Failed')
+		KeywordUtil.markFailed('Failed')
 	})
 
 WebUI.scrollToElement(getElement('css', '#events-top > div:nth-child(9) > div > div:nth-child(3) > a'), 10)
+println ('check here');
+println (Color)
+println (AfterClickColor)
+
+if(Color == AfterClickColor)
+{
+	println ('Success')
+}
+else
+{
+	KeywordUtil.markFailed('Icon is not highlighted in pink when on the navigation bar')	
+}
 
 
 TestObject getElement(String selectorType, String locator) {
@@ -91,3 +94,5 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+
+WebUI.closeBrowser()

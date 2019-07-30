@@ -131,15 +131,15 @@
       <testCaseId>Test Cases/DXB Calendar/TC20 Learn more about an event</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>65c9fdce-8f95-48e9-98ac-1d100b87c3a1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DXB Calendar/TC21 Buy Ticket Without Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>fbde29f9-2ed9-475f-9683-464159ac45d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/DXB Calendar/TC24 Add to Calendar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>65c9fdce-8f95-48e9-98ac-1d100b87c3a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DXB Calendar/TC21 Buy Ticket Without Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

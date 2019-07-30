@@ -36,6 +36,7 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -66,9 +67,9 @@ if(DXBhomepage !=  EventDetailPage)
 {
 	println ("Passed")
 }
-else(DXBhomepage ==  EventDetailPage).call(
+else(DXBhomepage ==  EventDetailPage)(
 {
-	println ("Failed")
+	KeywordUtil.markFailed('Failed')
 })
 
 WebUI.scrollToElement(getElement('css', '.content_box_body.tab_panels_wrap > div >div:nth-child(1) > div'), 15)
@@ -83,9 +84,9 @@ if(Overlay.contains("display: block;"))
 {
 	println ("Passed")
 }
-else(Overlay.contains("display: none;")).call(
+else(Overlay.contains("display: none;"))(
 {
-	println ("Failed")
+	KeywordUtil.markFailed('Failed')
 })
 
 TestObject getElement(String selectorType, String locator) {
