@@ -51,34 +51,38 @@ WebUI.waitForPageLoad(20000)
 
 String Colorcode  = driver.findElement(By.cssSelector('.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(5) > a')).getCssValue("color");
 System.out.println(Colorcode);
-if(Colorcode == BackgroundColorPink)
+if(Colorcode == BackgroundColorPink && Colorcode != BackgroundColorPink == false)
 {
 	System.out.println('Font color is Pink')
 }
-else(Colorcode != BackgroundColorPink)({
+else{
 	KeywordUtil.markFailed('Font color is not changed')
-})
+}
 
 WebUI.waitForPageLoad(20000)
-Thread.sleep(500);
+Thread.sleep(800);
 
 WebUI.click(getElement("css",".modal-header .close.b-close"))
+Thread.sleep(800);
 WebUI.mouseOver(getElement('css', '.rs_preserve > div:nth-child(5) > div .dsf_shop_cat > a:nth-child(4)'))
-Thread.sleep(500);
-Thread.sleep(200)
+Thread.sleep(1000);
+
 String Colorcode1  = driver.findElement(By.cssSelector('.rs_preserve > div:nth-child(5) > div .dsf_shop_cat > a:nth-child(4)')).getCssValue("background-color");
 System.out.println(Colorcode1);
-Thread.sleep(300)
-if(Colorcode1 == BackgroundColoronHover)
+Thread.sleep(800)
+WebUI.click(getElement('css', '.rs_preserve > div:nth-child(5) > div .dsf_shop_cat > a:nth-child(4)'))
+Thread.sleep(800)
+if(Colorcode1 == BackgroundColoronHover && Colorcode1 != BackgroundColoronHover == false)
 {
 	System.out.println('Font color is blue')
+	WebUI.closeBrowser()
 }
-else(Colorcode1 != BackgroundColoronHover)({
+else{
 	KeywordUtil.markFailed('Font color is not changed')
-})
+}
 Thread.sleep(500)
 
-WebUI.click(getElement('css', '.rs_preserve > div:nth-child(5) > div .dsf_shop_cat > a:nth-child(4)'))
+
 
  
 TestObject getElement(String selectorType, String locator) {
@@ -88,4 +92,3 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
-WebUI.closeBrowser()

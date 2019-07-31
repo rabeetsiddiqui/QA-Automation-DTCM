@@ -43,7 +43,7 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize()
 GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
-
+WebUI.waitForPageLoad(20000)
 String BackgroundColorPink = "rgba(194, 44, 145, 1)"
 
 selenium.click("css=.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(5)")
@@ -51,13 +51,13 @@ WebUI.waitForPageLoad(20000)
 
 String Colorcode  = driver.findElement(By.cssSelector('.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(5) > a')).getCssValue("color");
 System.out.println(Colorcode);
-if(Colorcode == BackgroundColorPink)
+if(Colorcode == BackgroundColorPink  && Colorcode != BackgroundColorPink == false)
 {
 	System.out.println('Font color is Pink')
 }
-else(Colorcode != BackgroundColorPink)({
+else{
 	KeywordUtil.markFailed('Font color is not changed')
-})
+}
 
 WebUI.waitForPageLoad(20000)
 Thread.sleep(500);
@@ -68,9 +68,9 @@ Thread.sleep(300);
 WebUI.click(getElement('css', '#dubaiessentials > div > div > div:nth-child(3) > a > div.article_image > h5'))
 WebUI.waitForPageLoad(20000)
 
-Thread.sleep(500);
+Thread.sleep(1500);
 WebUI.scrollToElement(getElement('css', '#rock_menu > ul > li:nth-child(13) > a'), 05)
-Thread.sleep(500);
+Thread.sleep(1500);
 WebUI.click(getElement('css', '#rock_menu > ul > li:nth-child(13) > a'))
 
 

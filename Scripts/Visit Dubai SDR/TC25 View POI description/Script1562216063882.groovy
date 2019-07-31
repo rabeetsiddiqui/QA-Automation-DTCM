@@ -36,7 +36,7 @@ import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
-
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -54,27 +54,28 @@ String DefaultUrl = WebUI.getUrl();
 println (DefaultUrl)
 
 //click/GetText on Articles
+
 String Default = WebUI.getText(getElement('css', '#Articles_categoryDataRoot > li:nth-child(1) > div > a > h4'))
 println (Default)
 Thread.sleep(1500)
 
 //Click on Experiences
 WebUI.click(getElement('css', '#dsf_shop_sub_cat_filters > dl > dd > div > a:nth-child(3)'))
-Thread.sleep(500)
+Thread.sleep(1000)
 String New= WebUI.getText(getElement('css', '#POIS_categoryDataRoot > li:nth-child(1) > div > a:nth-child(2) > h4'))
 println (New)
-
-if(Default != New)
+Thread.sleep(1000)
+if(Default != New && Default == New == false)
 {
 	println ("Success")
 }
-else(Default == New).call(
+else
 	{
-		println ("Failed")
-	})
+		KeywordUtil.markFailed('Failed')
+	}
 
 WebUI.click(getElement('css','#POIS_categoryDataRoot > li:nth-child(2) > div > a:nth-child(2)'))
-Thread.sleep(500)
+Thread.sleep(1000)
 
 String beforeclick = WebUI.getCSSValue(getElement('css', '#tabMenu'), 'background-color')
 println (beforeclick)
@@ -82,23 +83,25 @@ Thread.sleep(1000)
 
 WebUI.mouseOver(getElement('css', '#tabMenu> li'))
 WebUI.mouseOver(getElement('css', '#tabMenu > li.ratings'))
-Thread.sleep(500)
+Thread.sleep(1000)
 WebUI.click(getElement('css', '#tabMenu > li.ratings'))
-Thread.sleep(100)
+Thread.sleep(1500)
 WebUI.getCSSValue(getElement('css', '#tabMenu > li.ratings.active_tab'), 'background-color')
-Thread.sleep(500)
+Thread.sleep(1500)
 WebUI.click(getElement("css", "#tabMenu > li.overview.mouseout"))
+Thread.sleep(1600)
 String overviewBg = WebUI.getCSSValue(getElement('css', '#tabMenu > li.overview.mouseout'), 'background-color')
 println (overviewBg)
-
-if(overviewBg == "rgba(72, 72, 72, 1)")
+Thread.sleep(1000)
+if(overviewBg == "rgba(72, 72, 72, 1)" && overviewBg != "rgba(72, 72, 72, 1)" == false)
 {
 	println ("Passed")
+	WebUI.closeBrowser()
 }
-else(overviewBg != "rgba(72, 72, 72, 1)").call(
+else
 {
-	println ("Failed")
-})	
+	KeywordUtil.markFailed('Failed')
+}
 
 
 TestObject getElement(String selectorType, String locator) {
@@ -108,3 +111,5 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+
+

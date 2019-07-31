@@ -33,7 +33,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
-
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -54,20 +54,22 @@ String Default= WebUI.getUrl()
 println (Default)
 
 //Click on Detail Itineray
-Thread.sleep(500)
+Thread.sleep(1500)
 WebUI.mouseOver(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(2) .dsf_shop_cat_deals_info'))
+Thread.sleep(1000)
 WebUI.click(getElement('css', '.tab-content .tab-pane.active .dsf_shop_cat_deals > li:nth-child(2) .dsf_shop_cat_deals_info > a:nth-child(2)'))
+Thread.sleep(1000)
 String New= WebUI.getUrl()
 println (New)
 
-if(Default != New)
+if(Default != New && Default == New == false)
 {
 	println ("Success")
 }
-else(Default == New).call(
+else
 	{
-		println ("Failed")
-	})
+		KeywordUtil.markFailed('Failed')
+	}
 
 Thread.sleep(1000);
 WebUI.scrollToElement(getElement('css','#plhcontent_0_repeaterPanels_pnlCell2_0 > div > div.cms > div.chip_content'), 10)
@@ -90,3 +92,5 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+
+WebUI.closeBrowser()

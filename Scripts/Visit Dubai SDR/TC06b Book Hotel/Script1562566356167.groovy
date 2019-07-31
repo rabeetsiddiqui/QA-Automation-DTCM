@@ -67,22 +67,23 @@ WebUI.click(getElement('css', '#hotels > div > div.booking_from.active.in > div:
 
 WebUI.click(getElement('css', '#hotels .booking_dates > label:nth-child(1)'))
 
-
-
 public void datePickerTest() {
-	def drivers = DriverFactory.getWebDriver()
-	
+    def drivers = DriverFactory.getWebDriver()
+    
         //Get Today's number
         String today = getCurrentDay(1);
         System.out.println("Today's number: " + today + "\n");
-		
+        
         //Click and open the datepickers
-		drivers.findElement(By.cssSelector(".booking_dates > label:nth-child(1) .calendar_wrap"))
-		
+        drivers.findElement(By.cssSelector(".booking_dates > label:nth-child(1) .calendar_wrap"))
+        
         //This is from date picker table
-		Thread.sleep(700)
-		
-		WebElement dateWidgetFrom = drivers.findElement(By.cssSelector(".ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all .ui-datepicker-calendar > tbody"))
+        Thread.sleep(700)
+		if(Integer.parseInt(today) > 27){
+			WebUI.click(getElement('css',"#ui-datepicker-div > div > a.ui-datepicker-next.ui-corner-all"))
+			today=1
+		}
+        WebElement dateWidgetFrom = drivers.findElement(By.cssSelector(".ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all .ui-datepicker-calendar > tbody"))
         //This are the rows of the from date picker table
         //List<WebElement> rows = dateWidgetFrom.findElements(By.tagName("tr"));
  
@@ -109,95 +110,62 @@ public void datePickerTest() {
             e.printStackTrace();
         }
     }
-
-
 public void datePickerReturn() {
 def drivers = DriverFactory.getWebDriver()
-
-	//Get Today's number
-	String today = getCurrentDay(4);
-	System.out.println("Today's number: " + today + "\n");
-	
-	//Click and open the datepickers
-	drivers.findElement(By.cssSelector(".booking_dates > label:nth-child(1) .calendar_wrap"))
-	
-	//This is from date picker table
-	Thread.sleep(700)
-	WebElement dateWidgetFrom = drivers.findElement(By.cssSelector(".ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all .ui-datepicker-calendar > tbody"))
-	//This are the rows of the from date picker table
-	//List<WebElement> rows = dateWidgetFrom.findElements(By.tagName("tr"));
-
-	//This are the columns of the from date picker table
-	List<WebElement> columns = dateWidgetFrom.findElements(By.tagName("td"));
-
-	//DatePicker is a table. Thus we can navigate to each cell
-	//and if a cell matches with the current date then we will click it.
-	for (WebElement cell: columns) {
-		
-		//Select Today's Date
-		if (cell.getText().equals(today)) {
-			println (cell)
-			cell.click();
-			break;
-		}
+    //Get Today's number
+    String today = getCurrentDay(4);
+    System.out.println("Today's number: " + today + "\n");
+    
+    //Click and open the datepickers
+    drivers.findElement(By.cssSelector(".booking_dates > label:nth-child(1) .calendar_wrap"))
+    
+    //This is from date picker table
+    Thread.sleep(700)
+	if(Integer.parseInt(today) > 27){
+		//WebUI.click(getElement('css',"#ui-datepicker-div > div > a.ui-datepicker-next.ui-corner-all"))
+		today=Integer.parseInt(today)-27
 	}
-	try {
-		Thread.sleep(4000);
-	} catch (InterruptedException e) {
-		e.printStackTrace();
-	}
+    WebElement dateWidgetFrom = drivers.findElement(By.cssSelector(".ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all .ui-datepicker-calendar > tbody"))
+    //This are the rows of the from date picker table
+    //List<WebElement> rows = dateWidgetFrom.findElements(By.tagName("tr"));
+    //This are the columns of the from date picker table
+    List<WebElement> columns = dateWidgetFrom.findElements(By.tagName("td"));
+    //DatePicker is a table. Thus we can navigate to each cell
+    //and if a cell matches with the current date then we will click it.
+    for (WebElement cell: columns) {
+        
+        //Select Today's Date
+        if (cell.getText().equals(today)) {
+            println (cell)
+            cell.click();
+            break;
+        }
+    }
+    try {
+        Thread.sleep(4000);
+    } catch (InterruptedException e) {
+        e.printStackTrace();
+    }
 }
-
 datePickerTest();
 datePickerReturn()
-
 private String getCurrentDay (int day){
-	//Create a Calendar Object
-	Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
-
-	//Get Current Day as a number
-	int todayInt = calendar.get(Calendar.DAY_OF_MONTH);
-	todayInt += day;
-	System.out.println("Today Int: " + todayInt+"\n");
-
-	//Integer to String Conversion
-	String todayStr = Integer.toString(todayInt);
-	System.out.println("Today Str: " + todayStr + "\n");
-
-	return todayStr;
+    //Create a Calendar Object
+    Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
+    //Get Current Day as a number
+    int todayInt = calendar.get(Calendar.DAY_OF_MONTH);
+    todayInt += day;
+    System.out.println("Today Int: " + todayInt+"\n");
+    //Integer to String Conversion
+    String todayStr = Integer.toString(todayInt);
+    System.out.println("Today Str: " + todayStr + "\n");
+    return todayStr;
 }
-
-
 //Search Button
 Thread.sleep(1000)
 WebUI.click(getElement('css', '.booking_wrapper .tab-content.active .booking_button'));
-
-String textToCheck = "Search for cheap hotels in Dubai";
-
-ArrayList tabs = new ArrayList (driver.getWindowHandles());
-System.out.println(tabs.size());
-driver.switchTo().window(tabs.get(1));
-
-WebUI.verifyElementPresent(getElement('css', '.search-h-title'), 15)
-
-String text =WebUI.getText(getElement('css', '.search-h-title'))
-println (text)
-
-if(text == textToCheck)
-{
-	println ("Passed")
-}
-else(text != textToCheck).call(
-{
-	println ("Failed")
-})
-
-
 TestObject getElement(String selectorType, String locator) {
-	TestObject newTestObject = new TestObject('Grid')
-
-	newTestObject.addProperty(selectorType, ConditionType.EQUALS, locator)
-
-	return newTestObject
+    TestObject newTestObject = new TestObject('Grid')
+    newTestObject.addProperty(selectorType, ConditionType.EQUALS, locator)
+    return newTestObject
 }
-

@@ -27,6 +27,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.test.GlobalVaribale as GlobalVaribale
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -39,17 +40,19 @@ selenium.open(gv.getWebsitename())
 WebUI.mouseOver(getElement('css', '.homepage_section .mobile_nav .main-nav .nav-section > li:nth-child(3)'))
 String Default = WebUI.getUrl()
 WebUI.click(getElement('css', '.main-nav .nav-section .high-level.hover >ul >li:nth-child(4)'))
-WebUI.click(getElement('css', '.main-nav .nav-section .high-level.hover >ul >li:nth-child(4) > ul > li:nth-child(5)'))
+WebUI.click(getElement('css', '.main-nav .nav-section .high-level.hover >ul >li:nth-child(4) > ul > li:nth-child(4)'))
 String NewUrl = WebUI.getUrl()
 
-if(Default!=NewUrl)
+if(Default!=NewUrl && Default==NewUrl ==false)
 {
 	println ("Passed" + NewUrl)
+	WebUI.closeBrowser()
 }
-else(Default==NewUrl).call(
+else
 	{
-		println ("Failed")
-	})
+		KeywordUtil.markFailed('Failed')
+	}
+	
 TestObject getElement(String selectorType, String locator) {
     TestObject newTestObject = new TestObject('Grid')
 

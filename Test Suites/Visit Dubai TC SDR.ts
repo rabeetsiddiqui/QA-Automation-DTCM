@@ -29,12 +29,6 @@
       <testCaseId>Test Cases/Visit Dubai SDR/TC03 Go to a specific category tab</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>73bf753a-2924-484d-a7cf-f426b8d69494</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Visit Dubai SDR/TC04 Watch Featured Video</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8dc83252-5f9c-467d-98c2-25167916390e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

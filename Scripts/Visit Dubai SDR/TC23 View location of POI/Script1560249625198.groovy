@@ -36,7 +36,7 @@ import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
-
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
@@ -52,7 +52,7 @@ WebUI.click(getElement('css','#bussiness-newslettermodal > div.modal-header > bu
 WebUI.scrollToElement(getElement('css','#flights > div.booking_controls_wrap.active.in > div.booking_dates > label:nth-child(1) > div'), 10)
 String DefaultUrl = WebUI.getUrl();
 println (DefaultUrl)
-
+Thread.sleep(1000)
 //click/GetText on Articles
 String Default = WebUI.getText(getElement('css', '#Articles_categoryDataRoot > li:nth-child(1) > div > a > h4'))
 println (Default)
@@ -60,42 +60,43 @@ Thread.sleep(1500)
 
 //Click on Experiences
 WebUI.click(getElement('css', '#dsf_shop_sub_cat_filters > dl > dd > div > a:nth-child(3)'))
-Thread.sleep(500)
+Thread.sleep(1000)
 String New= WebUI.getText(getElement('css', '#POIS_categoryDataRoot > li:nth-child(1) > div > a:nth-child(2) > h4'))
 println (New)
-
-if(Default != New)
+Thread.sleep(1000)
+if(Default != New  && Default == New == false)
 {
 	println ("Success")
 }
-else(Default == New).call(
+else
 	{
-		println ("Failed")
-	})
+		KeywordUtil.markFailed('Failed')
+	}
 
 WebUI.click(getElement('css','#POIS_categoryDataRoot > li:nth-child(2) > div > a:nth-child(2)'))
-Thread.sleep(500)
+Thread.sleep(1000)
 
 String beforeclick = WebUI.getCSSValue(getElement('css', '#tabMenu'), 'background-color')
 println (beforeclick)
 Thread.sleep(1000)
 
 WebUI.mouseOver(getElement('css', '#tabMenu > li.location'))
-Thread.sleep(500);
+Thread.sleep(1000)
 WebUI.click(getElement('css', '#tabMenu > li.location'))
-Thread.sleep(500)
+Thread.sleep(1500)
 
 String Afterclick = WebUI.getCSSValue(getElement('css', '#tabMenu > li.location.active_tab.mouseout'), 'background-color')
 println (Afterclick)
-
-if(beforeclick != Afterclick)
+Thread.sleep(1000)
+if(beforeclick != Afterclick  && beforeclick == Afterclick == false)
 {
 	println ('Success ')
+	WebUI.closeBrowser()
 }
-else(beforeclick == Afterclick).call(
+else
 {			
-	println ('Failed ')
-})
+	KeywordUtil.markFailed('Failed')
+}
 
 
 TestObject getElement(String selectorType, String locator) {
@@ -105,3 +106,4 @@ TestObject getElement(String selectorType, String locator) {
 
 	return newTestObject
 }
+

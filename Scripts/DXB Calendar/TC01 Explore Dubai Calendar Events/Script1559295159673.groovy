@@ -36,7 +36,6 @@ import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.util.KeywordUtil
-import com.kms.katalon.core.util.KeywordUtil
 
 
 WebUI.openBrowser('https://www.google.com/')
