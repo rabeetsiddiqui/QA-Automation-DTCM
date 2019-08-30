@@ -46,12 +46,12 @@ GlobalVaribale gv = new GlobalVaribale()
 selenium.open(gv.getWebsitename())
 
 WebUI.waitForPageLoad(600)
-WebUI.mouseOver(getElement('css', '.calendar_button.icon_button'))
+WebUI.mouseOver(getElement('css', '#sectionHomePage > div.main_nav_container > div > div > ul > li:nth-child(3) > a .back-header-img.calendar-header-img'))
 String CurrentUrl = WebUI.getUrl()
 println (CurrentUrl)
 
 //CLick on Dubai Calendar Page
-WebUI.click(getElement('css', '.calendar_button.icon_button'))
+WebUI.click(getElement('css', '#sectionHomePage > div.main_nav_container > div > div > ul > li:nth-child(3) > a .back-header-img.calendar-header-img'))
 String AfterClick = WebUI.getUrl()
 println (AfterClick)
 

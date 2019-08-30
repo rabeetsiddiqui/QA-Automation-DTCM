@@ -43,6 +43,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 import org.openqa.selenium.JavascriptExecutor
 import com.kms.katalon.core.webui.driver.DriverFactory
+import com.test.GlobalVaribale
 
 WebUI.openBrowser('https://www.google.com/');
 
@@ -51,8 +52,10 @@ String base = driver.getWindowHandle();
 String StartPoint = "https://www.google.com/"
 String email = "muhammad.saad@ovrlod.com";
 selenium = new WebDriverBackedSelenium(driver, StartPoint)
+GlobalVaribale gv = new GlobalVaribale()
+selenium.open(gv.getWebsitename() + "/en/account/login")
 
-selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789");
+//selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789");
 Thread.sleep(5000);
 selenium.click("link=exact:Forgot login info?")
 selenium.click("id=txtResetPasswordEmail")
@@ -65,7 +68,7 @@ Thread.sleep(20000)
 // Open new tab and concatinantion of email in the URL
 JavascriptExecutor js = ((driver) as JavascriptExecutor)
 Thread.sleep(500);
-String CreateAccountUrl = 'https://qacd2.testvisitdubai.com/en/account/create-account?UT=' + email;
+String CreateAccountUrl = gv.getWebsitename() + '/en/account/create-account?UT=' + email;
 String command = "window.open('" + CreateAccountUrl + "');";
 System.out.println(command);
 js.executeScript(command)

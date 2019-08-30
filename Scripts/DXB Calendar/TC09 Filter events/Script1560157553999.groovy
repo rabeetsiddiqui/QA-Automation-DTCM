@@ -47,12 +47,12 @@ selenium.open(gv.getWebsitename())
 String Color = "rgba(248, 156, 27, 1)";
 
 WebUI.waitForPageLoad(600)
-WebUI.mouseOver(getElement('css', '#ctl16_hlEventsCalendar'))
+WebUI.mouseOver(getElement('css', '#sectionHomePage > div.main_nav_container > div > div > ul > li:nth-child(3) > a .back-header-img.calendar-header-img'))
 String CurrentUrl = WebUI.getUrl()
 println (CurrentUrl)
 
 //CLick on Dubai Calendar Page
-WebUI.click(getElement('css', '#ctl16_hlEventsCalendar'))
+WebUI.click(getElement('css', '#sectionHomePage > div.main_nav_container > div > div > ul > li:nth-child(3) > a .back-header-img.calendar-header-img'))
 String AfterClick = WebUI.getUrl()
 println (AfterClick)
 

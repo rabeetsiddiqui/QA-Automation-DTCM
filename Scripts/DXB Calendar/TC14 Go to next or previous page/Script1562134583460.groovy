@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.test.GlobalVaribale
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -40,13 +41,15 @@ import java.util.Date;
 import org.apache.commons.lang.time.DateUtils;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.util.KeywordUtil
-
+import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize()
-selenium.open("https://www.visitdubai.com/en/events#/?type=Leisure")
+GlobalVaribale gv = new GlobalVaribale()
+selenium.open(gv.getWebsitename()+ "/en/events#/?type=Leisure")
+//selenium.open("https://www.visitdubai.com/en/events#/?type=Leisure")
 WebUI.waitForPageLoad(200)
 WebUI.click(getElement('css','.events-dsf.ng-scope .heading .heading-link')) //click on view all events
 Thread.sleep(1500);

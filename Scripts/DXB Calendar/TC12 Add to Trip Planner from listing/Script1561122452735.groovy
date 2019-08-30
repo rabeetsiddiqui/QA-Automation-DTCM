@@ -36,7 +36,7 @@ import org.openqa.selenium.By as By
 import com.test.GlobalVaribale
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.util.KeywordUtil
-
+import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
@@ -48,7 +48,7 @@ selenium.open(gv.getWebsitename())
 WebUI.waitForPageLoad(600)
 
 //CLick on Dubai Calendar Page
-WebUI.click(getElement('css', '.calendar_button.icon_button'))
+WebUI.click(getElement('css', '#sectionHomePage > div.main_nav_container > div > div > ul > li:nth-child(3) > a .back-header-img.calendar-header-img'))
 
 //Scroll to the page
 WebUI.scrollToElement(getElement('css', '#event-calendar-banner-carousel > div > div > div > div.bx-controls.bx-has-pager.bx-has-controls-direction.bx-has-controls-auto > div.bx-controls-auto'),10)

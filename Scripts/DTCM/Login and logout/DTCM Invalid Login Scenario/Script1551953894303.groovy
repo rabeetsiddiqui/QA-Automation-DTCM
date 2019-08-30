@@ -27,17 +27,19 @@ import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium
 import static org.junit.Assert.*
 import java.util.regex.Pattern
 import static org.apache.commons.lang3.StringUtils.join
-
+import com.test.GlobalVaribale
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize();
-String CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789";
+String CurrentURL = "https://www.visitdubai.com/en/account/login";
 String username = "muhammad.saad@ovrlod.com"
 String password = "Qwerty##1244"
-selenium.open(CurrentURL)
+GlobalVaribale gv = new GlobalVaribale()
+selenium.open(gv.getWebsitename() + "/en/account/login")
+//selenium.open(CurrentURL)
 selenium.click("id=tbUsername")
 Thread.sleep(1500);
 selenium.type("id=tbUsername", username)

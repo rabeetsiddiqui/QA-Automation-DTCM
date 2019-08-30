@@ -68,13 +68,13 @@ WebUI.waitForPageLoad(200)
 
 WebUI.setText(getElement('css',"#identifierId" ), 'testovrlod123@gmail.com');
 WebUI.waitForPageLoad(200)
-driver.findElement(By.cssSelector("#identifierNext > span']")).click();
+driver.findElement(By.cssSelector("#identifierNext > span")).click();
 wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input[type=password]")));
 
 WebUI.setText(getElement('css',".Xb9hP .whsOnd.zHQkBf" ), 'ovrlod_321321');
 
 
-driver.findElement(By.cssSelector("#passwordNext > span > span']")).click();
+driver.findElement(By.cssSelector("#passwordNext > span > span")).click();
 
 WebUI.waitForPageLoad(200)
 Thread.sleep(1500)

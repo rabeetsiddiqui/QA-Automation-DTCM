@@ -30,12 +30,15 @@ import java.util.regex.Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
+import com.test.GlobalVaribale
 
 WebUI.openBrowser('https://www.visitdubai.com/en/account/login')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.visitdubai.com/en/account/login"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize();
+GlobalVaribale gv = new GlobalVaribale()
+selenium.open(gv.getWebsitename() + "/en/account/login")
 
 												// Empty Email Empty password
 

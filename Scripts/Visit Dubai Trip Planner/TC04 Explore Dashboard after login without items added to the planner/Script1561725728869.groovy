@@ -67,12 +67,12 @@ for(i=0; i<5; i++)
 }
 WebUI.waitForPageLoad(200)
 
-WebUI.setText(getElement('css',"#identifierId" ), 'rabeet.test@gmail.com');
+WebUI.setText(getElement('css',"#identifierId" ), 'dtcmtester@gmail.com');
 WebUI.waitForPageLoad(200)
 driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
 wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input[type=password]")));
 
-WebUI.setText(getElement('css',".Xb9hP .whsOnd.zHQkBf" ), 'Testing_12345');
+WebUI.setText(getElement('css',".Xb9hP .whsOnd.zHQkBf" ), 'testing@123');
 driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
 WebUI.waitForPageLoad(200)
 Thread.sleep(1500)

@@ -40,7 +40,6 @@ import java.util.concurrent.TimeUnit as TimeUnit
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 
-
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = 'https://www.google.com/'
@@ -48,6 +47,7 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize()
 selenium.open('https://www.visitdubai.com/en') //home page
 WebUI.waitForPageLoad(200)
+
 
 WebUI.click(getElement('css', '#tripPlannerIcon')) // click on trip planner icon on home page  
 WebUI.waitForPageLoad(200)
@@ -118,4 +118,4 @@ TestObject getElement(String selectorType, String locator) {
 }
 
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

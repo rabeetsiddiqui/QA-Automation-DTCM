@@ -41,13 +41,18 @@ import org.apache.commons.lang.time.DateUtils;
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.interactions.Actions
 import com.kms.katalon.core.util.KeywordUtil
+import com.test.GlobalVaribale
 
 WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize()
-selenium.open("https://www.visitdubai.com/en/events#/?type=Leisure")
+
+GlobalVaribale gv = new GlobalVaribale()
+selenium.open(gv.getWebsitename() + "/en/events#/?type=Leisure")
+
+//selenium.open("https://www.visitdubai.com/en/events#/?type=Leisure")
 WebUI.waitForPageLoad(200)
 Thread.sleep(500);
 JavascriptExecutor js = (JavascriptExecutor) driver;

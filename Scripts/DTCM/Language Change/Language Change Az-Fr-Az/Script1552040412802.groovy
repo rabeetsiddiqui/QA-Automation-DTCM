@@ -30,13 +30,17 @@ import static org.apache.commons.lang3.StringUtils.join
 import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
+import com.test.GlobalVaribale
 
 WebUI.openBrowser('https://www.google.com/');
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 driver.manage().window().maximize();
-selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789")
+GlobalVaribale gv = new GlobalVaribale()
+selenium.open(gv.getWebsitename() + "/en/account/login")
+
+//selenium.open("https://qacd2.testvisitdubai.com/en/account/login?v=78798789")
 driver.manage().window().maximize();
 String CurrentURL = "https://qacd2.testvisitdubai.com/en/account/login?v=78798789";
 String locationNow = selenium.location ;
